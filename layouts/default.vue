@@ -25,29 +25,14 @@
 </template>
 
 <script>
+import staticData from '@/data/layouts/default.json'
+
 export default {
+  staticData: () => staticData,
   data() {
     return {
       showBottomNav: true,
-      currentPage: 'dashboard',
-      pageButtons: Object.freeze([
-        {
-          title: 'Dashboard',
-          icon: 'dashboard'
-        },
-        {
-          title: 'Courses',
-          icon: 'library_books'
-        },
-        {
-          title: 'Exams',
-          icon: 'assessment'
-        },
-        {
-          title: 'Account',
-          icon: 'account_circle'
-        }
-      ])
+      currentPage: 'dashboard'
     }
   }
 }
