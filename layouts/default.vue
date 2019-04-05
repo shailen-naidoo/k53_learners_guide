@@ -10,13 +10,12 @@
       app
       fixed
       color="yellow"
-      :active.sync="page"
+      :active.sync="currentPage"
     >
       <v-btn
-        v-for="({ title, icon },i) in pages"
+        v-for="({ title, icon },i) in pageButtons"
         :key="i"
         :value="title.toLowerCase()"
-        :to="{ name: title }"
       >
         <span>{{ title }}</span>
         <v-icon>{{ icon }}</v-icon>
@@ -30,8 +29,8 @@ export default {
   data() {
     return {
       showBottomNav: true,
-      page: 'dashboard',
-      pages: [
+      currentPage: 'dashboard',
+      pageButtons: Object.freeze([
         {
           title: 'Dashboard',
           icon: 'dashboard'
@@ -48,7 +47,7 @@ export default {
           title: 'Account',
           icon: 'account_circle'
         }
-      ]
+      ])
     }
   }
 }
