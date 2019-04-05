@@ -16,6 +16,7 @@
         v-for="({ title, icon },i) in pageButtons"
         :key="i"
         :value="title.toLowerCase()"
+        :to="{ path: `/${title.toLowerCase()}` }"
       >
         <span>{{ title }}</span>
         <v-icon>{{ icon }}</v-icon>
