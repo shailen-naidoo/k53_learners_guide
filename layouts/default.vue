@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       showBottomNav: true,
-      currentPage: 'dashboard'
+      currentPage: this.$route.name
     }
   }
 }
