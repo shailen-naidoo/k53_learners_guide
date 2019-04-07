@@ -1,11 +1,11 @@
 <template>
   <v-container fill-height>
-    <v-layout align-center text-xs-center>
-      <v-flex>
+    <v-layout justify-center align-center text-xs-center text-sm-center text-md-center>
+      <v-flex md6>
         <h1 class="display-1">
           K53 learners guide
         </h1>
-        <img src="/icon.png" class="mt-5 mb-5" height="200px">
+        <v-img src="/icon.png" class="mt-5 mb-5" height="200px" contain />
         <v-btn color="yellow" :to="{ path: '/courses' }" round depressed>
           Check out app
         </v-btn>
