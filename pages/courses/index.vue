@@ -26,73 +26,13 @@
                   <v-card-text>
                     <v-subheader>Categories</v-subheader>
                     <v-list>
-                      <v-list-tile>
+                      <v-list-tile v-for="({ name, icon }, i) in roadSignCategories" :key="i">
                         <v-list-tile-content>
-                          Regulatory signs
+                          {{ name }}
                         </v-list-tile-content>
                         <v-list-tile-action>
                           <v-icon color="black">
-                            info
-                          </v-icon>
-                        </v-list-tile-action>
-                      </v-list-tile>
-                      <v-list-tile>
-                        <v-list-tile-content>
-                          Warning signs
-                        </v-list-tile-content>
-                        <v-list-tile-action>
-                          <v-icon color="black">
-                            warning
-                          </v-icon>
-                        </v-list-tile-action>
-                      </v-list-tile>
-                      <v-list-tile>
-                        <v-list-tile-content>
-                          Traffic signals
-                        </v-list-tile-content>
-                        <v-list-tile-action>
-                          <v-icon color="black">
-                            traffic
-                          </v-icon>
-                        </v-list-tile-action>
-                      </v-list-tile>
-                      <v-list-tile>
-                        <v-list-tile-content>
-                          Temporary signs
-                        </v-list-tile-content>
-                        <v-list-tile-action>
-                          <v-icon color="black">
-                            watch_later
-                          </v-icon>
-                        </v-list-tile-action>
-                      </v-list-tile>
-                      <v-list-tile>
-                        <v-list-tile-content>
-                          Road markings
-                        </v-list-tile-content>
-                        <v-list-tile-action>
-                          <v-icon color="black">
-                            directions_car
-                          </v-icon>
-                        </v-list-tile-action>
-                      </v-list-tile>
-                      <v-list-tile>
-                        <v-list-tile-content>
-                          Guidance signs
-                        </v-list-tile-content>
-                        <v-list-tile-action>
-                          <v-icon color="black">
-                            directions
-                          </v-icon>
-                        </v-list-tile-action>
-                      </v-list-tile>
-                      <v-list-tile>
-                        <v-list-tile-content>
-                          Information signs
-                        </v-list-tile-content>
-                        <v-list-tile-action>
-                          <v-icon color="black">
-                            info
+                            {{ icon }}
                           </v-icon>
                         </v-list-tile-action>
                       </v-list-tile>
@@ -143,6 +83,8 @@
 </template>
 
 <script>
+import staticData from '@/data/pages/courses/index.json'
+
 export default {
   head: {
     title: '📄 Courses | K53 Learners Guide',
@@ -166,6 +108,7 @@ export default {
       }
     ]
   },
+  staticData: () => staticData,
   data() {
     return {
       show: false

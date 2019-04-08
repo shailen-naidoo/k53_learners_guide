@@ -1,0 +1,32 @@
+{
+  "roadSignCategories": [
+    {
+      "name": "Regulatory signs",
+      "icon": "info"
+    },
+    {
+      "name": "Warning signs",
+      "icon": "warning"
+    },
+    {
+      "name": "Traffic signals",
+      "icon": "traffic"
+    },
+    {
+      "name": "Temporary signs",
+      "icon": "watch_later"
+    },
+    {
+      "name": "Road markings",
+      "icon": "directions_car"
+    },
+    {
+      "name": "Guidance signs",
+      "icon": "directions"
+    },
+    {
+      "name": "Information signs",
+      "icon": "info"
+    }
+  ]
+}
