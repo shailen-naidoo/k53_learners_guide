@@ -2,31 +2,38 @@
   "roadSignCategories": [
     {
       "name": "Regulatory signs",
-      "icon": "info"
+      "icon": "info",
+      "color": "red"
     },
     {
       "name": "Warning signs",
-      "icon": "warning"
+      "icon": "warning",
+      "color": "orange"
     },
     {
       "name": "Traffic signals",
-      "icon": "traffic"
+      "icon": "traffic",
+      "color": "green"
     },
     {
       "name": "Temporary signs",
-      "icon": "watch_later"
+      "icon": "watch_later",
+      "color": "yellow"
     },
     {
       "name": "Road markings",
-      "icon": "directions_car"
+      "icon": "directions_car",
+      "color": "blue"
     },
     {
       "name": "Guidance signs",
-      "icon": "directions"
+      "icon": "directions",
+      "color": "blue lighten-3"
     },
     {
       "name": "Information signs",
-      "icon": "info"
+      "icon": "info",
+      "color": "green"
     }
   ]
 }

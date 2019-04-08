@@ -26,12 +26,12 @@
                   <v-card-text>
                     <v-subheader>Categories</v-subheader>
                     <v-list>
-                      <v-list-tile v-for="({ name, icon }, i) in roadSignCategories" :key="i">
+                      <v-list-tile v-for="({ name, icon, color }, i) in roadSignCategories" :key="i">
                         <v-list-tile-content>
                           {{ name }}
                         </v-list-tile-content>
                         <v-list-tile-action>
-                          <v-icon>
+                          <v-icon :color="color">
                             {{ icon }}
                           </v-icon>
                         </v-list-tile-action>
