@@ -9,7 +9,13 @@
         <p class="px-5 mt-3 body-2 font-weight-light">
           An online K53 learners guide that looks modern and is fully accessible offline
         </p>
-        <v-btn color="yellow" :to="{ path: '/courses' }" round depressed>
+        <v-btn
+          color="yellow"
+          depressed
+          round
+          :to="{ path: '/courses' }"
+          @click="checkFirstTimeUsage"
+        >
           Check out app
         </v-btn>
       </v-flex>
@@ -28,6 +34,26 @@ export default {
         content: 'An online K53 learners guide that looks modern and is fully accessible offline'
       }
     ]
+  },
+  methods: {
+    checkFirstTimeUsage() {
+      localStorage.setItem('k53-learners-guide-app', JSON.stringify({
+        usedApp: true
+      }))
+    }
+  },
+  beforeRouteEnter(to, from, next) {
+    if (process.browser) {
+      const { usedApp } = localStorage.getItem('k53-learners-guide-app') ? JSON.parse(localStorage.getItem('k53-learners-guide-app')) : { usedApp: false }
+
+      if (usedApp) {
+        next('/courses')
+      } else {
+        next()
+      }
+    } else {
+      next()
+    }
   }
 }
 </script>
