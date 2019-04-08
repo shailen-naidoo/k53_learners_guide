@@ -11,8 +11,8 @@
               Available
             </h1>
             <v-divider class="mb-3" />
-            <v-card class="border-radius" @click="show = !show">
-              <v-card-text>
+            <v-card class="border-radius">
+              <v-card-text @click="show = !show">
                 <h1 class="title mt-3">
                   ⛔ Road signs
                 </h1>
@@ -22,81 +22,89 @@
               </v-card-text>
               <v-divider />
               <v-slide-y-transition hide-on-leave>
-                <v-card-text v-show="show">
-                  <v-subheader>Categories</v-subheader>
-                  <v-list>
-                    <v-list-tile>
-                      <v-list-tile-content>
-                        Regulatory signs
-                      </v-list-tile-content>
-                      <v-list-tile-action>
-                        <v-icon color="black">
-                          info
-                        </v-icon>
-                      </v-list-tile-action>
-                    </v-list-tile>
-                    <v-list-tile>
-                      <v-list-tile-content>
-                        Warning signs
-                      </v-list-tile-content>
-                      <v-list-tile-action>
-                        <v-icon color="black">
-                          warning
-                        </v-icon>
-                      </v-list-tile-action>
-                    </v-list-tile>
-                    <v-list-tile>
-                      <v-list-tile-content>
-                        Traffic signals
-                      </v-list-tile-content>
-                      <v-list-tile-action>
-                        <v-icon color="black">
-                          traffic
-                        </v-icon>
-                      </v-list-tile-action>
-                    </v-list-tile>
-                    <v-list-tile>
-                      <v-list-tile-content>
-                        Temporary signs
-                      </v-list-tile-content>
-                      <v-list-tile-action>
-                        <v-icon color="black">
-                          watch_later
-                        </v-icon>
-                      </v-list-tile-action>
-                    </v-list-tile>
-                    <v-list-tile>
-                      <v-list-tile-content>
-                        Road markings
-                      </v-list-tile-content>
-                      <v-list-tile-action>
-                        <v-icon color="black">
-                          directions_car
-                        </v-icon>
-                      </v-list-tile-action>
-                    </v-list-tile>
-                    <v-list-tile>
-                      <v-list-tile-content>
-                        Guidance signs
-                      </v-list-tile-content>
-                      <v-list-tile-action>
-                        <v-icon color="black">
-                          directions
-                        </v-icon>
-                      </v-list-tile-action>
-                    </v-list-tile>
-                    <v-list-tile>
-                      <v-list-tile-content>
-                        Information signs
-                      </v-list-tile-content>
-                      <v-list-tile-action>
-                        <v-icon color="black">
-                          info
-                        </v-icon>
-                      </v-list-tile-action>
-                    </v-list-tile>
-                  </v-list>
-                </v-card-text>
+                <div v-show="show">
+                  <v-card-text>
+                    <v-subheader>Categories</v-subheader>
+                    <v-list>
+                      <v-list-tile>
+                        <v-list-tile-content>
+                          Regulatory signs
+                        </v-list-tile-content>
+                        <v-list-tile-action>
+                          <v-icon color="black">
+                            info
+                          </v-icon>
+                        </v-list-tile-action>
+                      </v-list-tile>
+                      <v-list-tile>
+                        <v-list-tile-content>
+                          Warning signs
+                        </v-list-tile-content>
+                        <v-list-tile-action>
+                          <v-icon color="black">
+                            warning
+                          </v-icon>
+                        </v-list-tile-action>
+                      </v-list-tile>
+                      <v-list-tile>
+                        <v-list-tile-content>
+                          Traffic signals
+                        </v-list-tile-content>
+                        <v-list-tile-action>
+                          <v-icon color="black">
+                            traffic
+                          </v-icon>
+                        </v-list-tile-action>
+                      </v-list-tile>
+                      <v-list-tile>
+                        <v-list-tile-content>
+                          Temporary signs
+                        </v-list-tile-content>
+                        <v-list-tile-action>
+                          <v-icon color="black">
+                            watch_later
+                          </v-icon>
+                        </v-list-tile-action>
+                      </v-list-tile>
+                      <v-list-tile>
+                        <v-list-tile-content>
+                          Road markings
+                        </v-list-tile-content>
+                        <v-list-tile-action>
+                          <v-icon color="black">
+                            directions_car
+                          </v-icon>
+                        </v-list-tile-action>
+                      </v-list-tile>
+                      <v-list-tile>
+                        <v-list-tile-content>
+                          Guidance signs
+                        </v-list-tile-content>
+                        <v-list-tile-action>
+                          <v-icon color="black">
+                            directions
+                          </v-icon>
+                        </v-list-tile-action>
+                      </v-list-tile>
+                      <v-list-tile>
+                        <v-list-tile-content>
+                          Information signs
+                        </v-list-tile-content>
+                        <v-list-tile-action>
+                          <v-icon color="black">
+                            info
+                          </v-icon>
+                        </v-list-tile-action>
+                      </v-list-tile>
+                    </v-list>
+                  </v-card-text>
+                  <v-card-actions>
+                    <v-spacer />
+                    <v-btn flat small class="border-radius-btn">
+                      View Course
+                    </v-btn>
+                  </v-card-actions>
+                </div>
               </v-slide-y-transition>
             </v-card>
           </v-flex>
@@ -150,5 +158,9 @@ export default {
 <style scoped>
 .border-radius {
   border-radius: 5px;
+}
+
+.border-radius-btn {
+  border-radius: 2px;
 }
 </style>
