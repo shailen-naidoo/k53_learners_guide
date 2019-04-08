@@ -11,7 +11,7 @@
               Available
             </h1>
             <v-divider class="mb-3" />
-            <v-card hover class="border-radius" @click="show = !show">
+            <v-card class="border-radius" @click="show = !show">
               <v-card-text>
                 <h1 class="title mt-3">
                   ⛔ Road signs
@@ -23,30 +23,79 @@
               <v-divider />
               <v-slide-y-transition hide-on-leave>
                 <v-card-text v-show="show">
-                  <p class="caption ml-1">
-                    Topics covered
-                  </p>
-                  <v-chip small>
-                    Regulatory signs
-                  </v-chip>
-                  <v-chip small>
-                    Warning signs
-                  </v-chip>
-                  <v-chip small>
-                    Traffic signals
-                  </v-chip>
-                  <v-chip small>
-                    Temporary signs
-                  </v-chip>
-                  <v-chip small>
-                    Road markings
-                  </v-chip>
-                  <v-chip small>
-                    Guidance signs
-                  </v-chip>
-                  <v-chip small>
-                    Information signs
-                  </v-chip>
+                  <v-subheader>Categories</v-subheader>
+                  <v-list>
+                    <v-list-tile>
+                      <v-list-tile-content>
+                        Regulatory signs
+                      </v-list-tile-content>
+                      <v-list-tile-action>
+                        <v-icon color="black">
+                          info
+                        </v-icon>
+                      </v-list-tile-action>
+                    </v-list-tile>
+                    <v-list-tile>
+                      <v-list-tile-content>
+                        Warning signs
+                      </v-list-tile-content>
+                      <v-list-tile-action>
+                        <v-icon color="black">
+                          warning
+                        </v-icon>
+                      </v-list-tile-action>
+                    </v-list-tile>
+                    <v-list-tile>
+                      <v-list-tile-content>
+                        Traffic signals
+                      </v-list-tile-content>
+                      <v-list-tile-action>
+                        <v-icon color="black">
+                          traffic
+                        </v-icon>
+                      </v-list-tile-action>
+                    </v-list-tile>
+                    <v-list-tile>
+                      <v-list-tile-content>
+                        Temporary signs
+                      </v-list-tile-content>
+                      <v-list-tile-action>
+                        <v-icon color="black">
+                          watch_later
+                        </v-icon>
+                      </v-list-tile-action>
+                    </v-list-tile>
+                    <v-list-tile>
+                      <v-list-tile-content>
+                        Road markings
+                      </v-list-tile-content>
+                      <v-list-tile-action>
+                        <v-icon color="black">
+                          directions_car
+                        </v-icon>
+                      </v-list-tile-action>
+                    </v-list-tile>
+                    <v-list-tile>
+                      <v-list-tile-content>
+                        Guidance signs
+                      </v-list-tile-content>
+                      <v-list-tile-action>
+                        <v-icon color="black">
+                          directions
+                        </v-icon>
+                      </v-list-tile-action>
+                    </v-list-tile>
+                    <v-list-tile>
+                      <v-list-tile-content>
+                        Information signs
+                      </v-list-tile-content>
+                      <v-list-tile-action>
+                        <v-icon color="black">
+                          info
+                        </v-icon>
+                      </v-list-tile-action>
+                    </v-list-tile>
+                  </v-list>
                 </v-card-text>
               </v-slide-y-transition>
             </v-card>
@@ -74,7 +123,7 @@
                   🚗 Controls
                 </h1>
                 <p class="mt-3">
-                  Rules of the road is the rules that everyone should know when driving on the road
+                  Controls are the things you should be familiar with when driving a car
                 </p>
               </v-card-text>
             </v-card>
