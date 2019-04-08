@@ -145,7 +145,20 @@
 <script>
 export default {
   head: {
-    title: '📄 Courses | K53 Learners Guide'
+    title: '📄 Courses | K53 Learners Guide',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Check out all the courses that is offered by the K53 PWA 👀'
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        property: 'og:description',
+        content: 'Check out all the courses that is offered by the K53 PWA 👀'
+      }
+    ]
   },
   data() {
     return {
