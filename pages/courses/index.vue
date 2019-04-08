@@ -3,7 +3,7 @@
     fill-height
     grid-list-lg
   >
-    <v-layout justify-center align-center text-xs-center text-md-left>
+    <v-layout justify-center align-center text-xs-left text-md-left>
       <v-flex md6 sm8>
         <v-layout column>
           <v-flex xs12 md12>
@@ -21,16 +21,32 @@
                 </p>
               </v-card-text>
               <v-divider />
-              <v-slide-y-transition>
+              <v-slide-y-transition hide-on-leave>
                 <v-card-text v-show="show">
-                  <p class="caption ml-1">Topics covered</p>
-                  <v-chip small>Regulatory signs</v-chip>
-                  <v-chip small>Warning signs</v-chip>
-                  <v-chip small>Traffic signals</v-chip>
-                  <v-chip small>Temporary signs</v-chip>
-                  <v-chip small>Road markings</v-chip>
-                  <v-chip small>Guidance signs</v-chip>
-                  <v-chip small>Information signs</v-chip>
+                  <p class="caption ml-1">
+                    Topics covered
+                  </p>
+                  <v-chip small>
+                    Regulatory signs
+                  </v-chip>
+                  <v-chip small>
+                    Warning signs
+                  </v-chip>
+                  <v-chip small>
+                    Traffic signals
+                  </v-chip>
+                  <v-chip small>
+                    Temporary signs
+                  </v-chip>
+                  <v-chip small>
+                    Road markings
+                  </v-chip>
+                  <v-chip small>
+                    Guidance signs
+                  </v-chip>
+                  <v-chip small>
+                    Information signs
+                  </v-chip>
                 </v-card-text>
               </v-slide-y-transition>
             </v-card>
