@@ -1,0 +1,61 @@
+<template>
+  <v-container
+    fill-height
+    grid-list-lg
+  >
+    <v-layout
+      row
+      wrap
+      justify-center
+      align-center
+    >
+      <v-flex md5>
+        <h1 class="body-2 mb-2">
+          Road signs categories
+        </h1>
+        <v-divider class="mb-3" />
+        <v-layout column>
+          <v-flex v-for="({ name, icon, desc }, i) in roadSignCategories" :key="i">
+            <v-card class="border-radius">
+              <v-card-title class="title font-weight-light">
+                <v-icon class="mr-2">
+                  {{ icon }}
+                </v-icon>
+                <span>{{ name }}</span>
+                <v-spacer />
+              </v-card-title>
+              <v-divider />
+              <v-card-text>
+                {{ desc }}
+              </v-card-text>
+              <v-card-actions>
+                <v-spacer />
+                <v-btn flat small>
+                  view
+                </v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-flex>
+        </v-layout>
+      </v-flex>
+    </v-layout>
+  </v-container>
+</template>
+
+<script>
+import staticData from '@/data/pages/courses/overview.json'
+
+export default {
+  staticData: () => staticData
+}
+</script>
+
+<style scoped>
+.border-radius {
+  border-radius: 5px;
+}
+
+.border-radius-btn {
+  border-radius: 2px;
+}
+</style>

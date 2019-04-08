@@ -1,0 +1,39 @@
+{
+  "roadSignCategories": [
+    {
+      "name": "Regulatory signs",
+      "icon": "info",
+      "desc": "Signs that control traffic"
+    },
+    {
+      "name": "Warning signs",
+      "icon": "warning",
+      "desc": "Signs that warn you of danger"
+    },
+    {
+      "name": "Traffic signals",
+      "icon": "traffic",
+      "desc": "Traffic signals are used to control traffic"
+    },
+    {
+      "name": "Temporary signs",
+      "icon": "watch_later",
+      "desc": "These are signs that are usually found at construction zones"
+    },
+    {
+      "name": "Road markings",
+      "icon": "directions_car",
+      "desc": "This are signs that are painting onto the road"
+    },
+    {
+      "name": "Guidance signs",
+      "icon": "directions",
+      "desc": "These are signs that help guide drivers on the road"
+    },
+    {
+      "name": "Information signs",
+      "icon": "info",
+      "desc": "These are signs that provide you with information regarding upcoming roads etc..."
+    }
+  ]
+}

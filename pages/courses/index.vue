@@ -31,7 +31,7 @@
                           {{ name }}
                         </v-list-tile-content>
                         <v-list-tile-action>
-                          <v-icon color="black">
+                          <v-icon>
                             {{ icon }}
                           </v-icon>
                         </v-list-tile-action>
@@ -40,7 +40,7 @@
                   </v-card-text>
                   <v-card-actions>
                     <v-spacer />
-                    <v-btn flat small class="border-radius-btn">
+                    <v-btn flat small :to="{ name: 'courses-overview' }" class="border-radius-btn">
                       View Course
                     </v-btn>
                   </v-card-actions>
