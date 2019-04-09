@@ -43,9 +43,12 @@
 </template>
 
 <script>
-import staticData from '@/data/pages/courses/overview.json'
+import staticData from '@/data/pages/courses/road-signs/overview/index.json'
 
 export default {
+  head: {
+    title: '📃 Road Sign Categories | K53 Learners Guide'
+  },
   staticData: () => staticData
 }
 </script>

@@ -40,7 +40,7 @@
                   </v-card-text>
                   <v-card-actions>
                     <v-spacer />
-                    <v-btn flat small :to="{ name: 'courses-overview' }" class="border-radius-btn">
+                    <v-btn flat small :to="{ name: 'courses-road-signs-overview' }" class="border-radius-btn">
                       View Course
                     </v-btn>
                   </v-card-actions>

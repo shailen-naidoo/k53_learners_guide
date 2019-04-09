@@ -5,49 +5,49 @@
       "icon": "info",
       "desc": "Signs that control traffic",
       "color": "red",
-      "path": "/courses/view/regulatory-signs"
+      "path": "/courses/road-signs/topic/regulatory-signs"
     },
     {
       "name": "Warning signs",
       "icon": "warning",
       "desc": "Signs that warn you of danger",
       "color": "orange",
-      "path": "/courses/view/warning-signs"
+      "path": "/courses/road-signs/topic/warning-signs"
     },
     {
       "name": "Traffic signals",
       "icon": "traffic",
       "desc": "Traffic signals are used to control traffic",
       "color": "green",
-      "path": "/courses/view/traffic-signals"
+      "path": "/courses/road-signs/topic/traffic-signals"
     },
     {
       "name": "Temporary signs",
       "icon": "watch_later",
       "desc": "These are signs that are usually found at construction zones",
       "color": "yellow",
-      "path": "/courses/view/temporary-signs"
+      "path": "/courses/road-signs/topic/temporary-signs"
     },
     {
       "name": "Road markings",
       "icon": "directions_car",
       "desc": "This are signs that are painting onto the road",
       "color": "blue",
-      "path": "/courses/view/road-markings"
+      "path": "/courses/road-signs/topic/road-markings"
     },
     {
       "name": "Guidance signs",
       "icon": "directions",
       "desc": "These are signs that help guide drivers on the road",
       "color": "blue lighten-3",
-      "path": "/courses/view/guidance-signs"
+      "path": "/courses/road-signs/topic/guidance-signs"
     },
     {
       "name": "Information signs",
       "icon": "info",
       "desc": "These are signs that provide you with information regarding upcoming roads etc...",
       "color": "green",
-      "path": "/courses/view/information-signs"
+      "path": "/courses/road-signs/topic/information-signs"
     }
   ]
 }
