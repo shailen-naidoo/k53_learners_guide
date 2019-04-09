@@ -85,5 +85,8 @@ module.exports = {
     name: 'K53 Learners Guide',
     short_name: 'K53',
     start_url: '/'
+  },
+  generate: {
+    routes: ['/courses/road-signs/topic/regulatory-signs']
   }
 }
