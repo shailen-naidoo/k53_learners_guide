@@ -47,7 +47,20 @@ import staticData from '@/data/pages/courses/road-signs/overview/index.json'
 
 export default {
   head: {
-    title: '📃 Road Sign Categories | K53 Learners Guide'
+    title: '📃 Road Sign Categories | K53 Learners Guide',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Road signs are divided into many topics, such as, regulatory signs, traffic signals and so forth. This is a complete overview of these topics'
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        property: 'og:description',
+        content: 'Road signs are divided into many topics, such as, regulatory signs, traffic signals and so forth. This is a complete overview of these topics'
+      }
+    ]
   },
   staticData: () => staticData
 }

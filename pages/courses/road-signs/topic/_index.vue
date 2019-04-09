@@ -46,6 +46,32 @@
   </v-container>
 </template>
 
+<script>
+export default {
+  head() {
+    const [,,,, roadSignTopic] = this.$route.path.split('/')
+    const formatTopicName = roadSignTopic.split('-').map(([a, ...rest]) => `${a.toUpperCase()}${rest.join('')}`).join(' ')
+
+    return {
+      title: `🛑 ${formatTopicName} | K53 Learners Guide`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Regulatory signs are signs that control traffic, they are generally red in color and are found at intersections. Think of a stop sign!'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          property: 'og:description',
+          content: 'Regulatory signs are signs that control traffic, they are generally red in color and are found at intersections. Think of a stop sign!'
+        }
+      ]
+    }
+  }
+}
+</script>
+
 <style scoped>
 .border-radius {
   border-radius: 5px;
