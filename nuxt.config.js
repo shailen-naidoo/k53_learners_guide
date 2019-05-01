@@ -1,4 +1,5 @@
 const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
+const { before } = require('./json-generate');
 
 module.exports = {
   mode: 'universal',
@@ -19,7 +20,11 @@ module.exports = {
       }
     ]
   },
-
+  hooks: {
+    generate: {
+      before
+    }
+  },
   /*
   ** Customize the progress-bar color
   */
