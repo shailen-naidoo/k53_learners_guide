@@ -9,7 +9,7 @@
       justify-center
       align-center
     >
-      <v-flex md5 text-md-center>
+      <v-flex md5 text-md-center text-sm-center text-xs-center>
         <v-card flat color="grey lighten-5" class="border-radius">
           <v-card-text class="title">
             Don't worry, something cool will happen here pretty soon 😝
