@@ -26,28 +26,21 @@
 <script>
 export default {
   layout: 'home',
-  head() {
-    return {
-      title: `${this.name} | K53 Learners Guide`,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'An online K53 learners guide that looks modern and is fully accessible offline'
-        },
-        {
-          hid: 'og:description',
-          name: 'og:description',
-          property: 'og:description',
-          content: 'An online K53 learners guide that looks modern and is fully accessible offline'
-        }
-      ]
-    }
-  },
-  asyncData() {
-    return {
-      name: 'Guide'
-    }
+  head: {
+    title: 'K53 Learners Guide',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'An online K53 learners guide that looks modern and is fully accessible offline'
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        property: 'og:description',
+        content: 'An online K53 learners guide that looks modern and is fully accessible offline'
+      }
+    ]
   },
   methods: {
     checkFirstTimeUsage() {
