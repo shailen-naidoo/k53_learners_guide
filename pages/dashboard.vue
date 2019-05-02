@@ -24,7 +24,24 @@
 <script>
 export default {
   head: {
-    title: '📱 Dashboard | K53 Learner\'s Guide'
+    title: '📱 Dashboard | K53 Learner\'s Guide',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Don\'t worry, something cool will happen here pretty soon 😝'
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: 'Don\'t worry, something cool will happen here pretty soon 😝'
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: 'https://media0.giphy.com/media/l0HlKrB02QY0f1mbm/giphy.gif?cid=790b76115ccaf10250457771671b1a79&rid=giphy.gif'
+      }
+    ]
   }
 }
 </script>
