@@ -16,7 +16,13 @@
         <v-divider class="mb-3" />
         <v-layout column>
           <v-flex v-for="({ name, icon, desc, color, path }, i) in roadSignCategories" :key="i">
-            <v-card class="border-radius">
+            <p v-if="!(i > 0)" class="body-1">
+              Available
+            </p>
+            <p v-if="i == 1" class="body-1">
+              Coming soon
+            </p>
+            <v-card class="border-radius" :flat="i > 0" :color="i > 0 ? 'grey lighten-3' : ''">
               <v-card-title class="title font-weight-light">
                 <v-icon class="mr-2" :color="color">
                   {{ icon }}
@@ -30,7 +36,7 @@
               </v-card-text>
               <v-card-actions>
                 <v-spacer />
-                <v-btn flat small :to="{ path }">
+                <v-btn v-if="!(i > 0)" flat small :to="{ path }">
                   view
                 </v-btn>
               </v-card-actions>

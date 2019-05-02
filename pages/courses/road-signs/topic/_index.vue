@@ -18,10 +18,14 @@
         </h1>
         <v-divider class="mb-3" />
         <v-layout column>
-          <v-flex v-for="({ image, name, description }, i) in signs" :key="i">
+          <v-flex v-for="({ image, name, description, type }, i) in signs" :key="i">
             <v-card class="border-radius">
               <v-card-title class="title">
                 {{ name }}
+                <v-spacer />
+                <v-chip label small color="grey lighten-4" class="border-radius">
+                  {{ type }}
+                </v-chip>
               </v-card-title>
               <v-img :src="image" class="ma-2" contain height="200px" />
               <v-card-text>
@@ -58,8 +62,8 @@ export default {
       ]
     }
   },
-  async asyncData() {
-    const { default: signs } = await import('@/data/pages/courses/road-signs/topic/regulatory-signs.json')
+  async asyncData({ params: { index } }) {
+    const { default: signs } = await import(`@/data/pages/courses/road-signs/topic/${index}.json`)
     return {
       signs
     }
