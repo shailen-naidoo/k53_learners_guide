@@ -21,6 +21,14 @@
   </v-container>
 </template>
 
+<script>
+export default {
+  head: {
+    title: '📱 Dashboard | K53 Learner\'s Guide'
+  }
+}
+</script>
+
 <style scoped>
 .border-radius {
   border-radius: 5px;
