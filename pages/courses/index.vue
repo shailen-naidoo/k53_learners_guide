@@ -95,16 +95,16 @@ export default {
         content: 'Check out all the courses that is offered by the K53 PWA 👀'
       },
       {
-        hid: 'og:description',
-        name: 'og:description',
-        property: 'og:description',
-        content: 'Check out all the courses that is offered by the K53 PWA 👀'
-      },
-      {
         hid: 'og:title',
         name: 'og:title',
         property: 'og:title',
         content: '📄 Courses | K53 Learners Guide'
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        property: 'og:description',
+        content: 'Check out all the courses that is offered by the K53 PWA 👀'
       }
     ]
   },

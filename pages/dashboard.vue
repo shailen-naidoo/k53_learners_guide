@@ -32,6 +32,11 @@ export default {
         content: 'Don\'t worry, something cool will happen here pretty soon 😝'
       },
       {
+        hid: 'og:title',
+        name: 'og:title',
+        content: '📱 Dashboard | K53 Learner\'s Guide'
+      },
+      {
         hid: 'og:description',
         name: 'og:description',
         content: 'Don\'t worry, something cool will happen here pretty soon 😝'

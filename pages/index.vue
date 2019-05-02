@@ -35,6 +35,11 @@ export default {
         content: 'An online K53 learners guide that looks modern and is fully accessible offline'
       },
       {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'K53 Learners Guide'
+      },
+      {
         hid: 'og:description',
         name: 'og:description',
         property: 'og:description',

@@ -61,6 +61,11 @@ export default {
         content: 'Road signs are divided into many topics, such as, regulatory signs, traffic signals and so forth. This is a complete overview of these topics'
       },
       {
+        hid: 'og:title',
+        name: 'og:title',
+        content: '📃 Road Sign Categories | K53 Learners Guide'
+      },
+      {
         hid: 'og:description',
         name: 'og:description',
         property: 'og:description',

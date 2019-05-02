@@ -54,6 +54,11 @@ export default {
           content: 'Regulatory signs are signs that control traffic, they are generally red in color and are found at intersections. Think of a stop sign!'
         },
         {
+          hid: 'og:title',
+          name: 'og:title',
+          content: `🛑 ${formatTopicName} | K53 Learners Guide`
+        },
+        {
           hid: 'og:description',
           name: 'og:description',
           property: 'og:description',
