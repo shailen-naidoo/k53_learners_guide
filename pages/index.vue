@@ -44,6 +44,11 @@ export default {
         name: 'og:description',
         property: 'og:description',
         content: 'An online K53 learners guide that looks modern and is fully accessible offline'
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: 'https://media2.giphy.com/media/CLvo7qdosBBHG/giphy.gif?cid=790b76115ccafe3b35537a426b97bcd7&rid=giphy.gif'
       }
     ]
   },
