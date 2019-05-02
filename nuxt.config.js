@@ -1,5 +1,4 @@
 const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
-const { before } = require('./json-generate');
 
 module.exports = {
   mode: 'universal',
@@ -19,11 +18,6 @@ module.exports = {
         href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
       }
     ]
-  },
-  hooks: {
-    generate: {
-      before
-    }
   },
   /*
   ** Customize the progress-bar color
