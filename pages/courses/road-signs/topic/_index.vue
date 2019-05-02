@@ -18,25 +18,14 @@
         </h1>
         <v-divider class="mb-3" />
         <v-layout column>
-          <v-flex>
+          <v-flex v-for="({ image, name, description }, i) in signs" :key="i">
             <v-card class="border-radius">
               <v-card-title class="title">
-                Stop sign
+                {{ name }}
               </v-card-title>
-              <v-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Vienna_Convention_road_sign_B2a.svg/180px-Vienna_Convention_road_sign_B2a.svg.png" class="ma-2" contain height="200px" />
+              <v-img :src="image" class="ma-2" contain height="200px" />
               <v-card-text>
-                This sign is usually found at an intersection, it means you should stop
-              </v-card-text>
-            </v-card>
-          </v-flex>
-          <v-flex>
-            <v-card class="border-radius">
-              <v-card-title class="title">
-                Yield sign
-              </v-card-title>
-              <v-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ireland_road_sign_RUS_026_%28English%29.svg/180px-Ireland_road_sign_RUS_026_%28English%29.svg.png" class="ma-2" contain height="200px" />
-              <v-card-text>
-                This sign is usually found at an intersection, it means you should stop
+                {{ description }}
               </v-card-text>
             </v-card>
           </v-flex>
@@ -67,6 +56,12 @@ export default {
           content: 'Regulatory signs are signs that control traffic, they are generally red in color and are found at intersections. Think of a stop sign!'
         }
       ]
+    }
+  },
+  async asyncData() {
+    const { default: signs } = await import('@/data/pages/courses/road-signs/topic/regulatory-signs.json')
+    return {
+      signs
     }
   }
 }
