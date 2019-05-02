@@ -20,7 +20,7 @@
         <v-layout column>
           <v-flex v-for="({ image, name, description, type }, i) in signs" :key="i">
             <v-card class="border-radius">
-              <v-card-title class="title">
+              <v-card-title class="subheading">
                 {{ name }}
                 <v-spacer />
                 <v-chip label small color="grey lighten-4" class="border-radius">
