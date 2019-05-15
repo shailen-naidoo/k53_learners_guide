@@ -92,28 +92,28 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Check out all the courses that is offered by the K53 PWA 👀'
+        content: 'Check out all the courses that is offered by the K53 PWA 👀',
       },
       {
         hid: 'og:title',
         name: 'og:title',
         property: 'og:title',
-        content: '📄 Courses | K53 Learners Guide'
+        content: '📄 Courses | K53 Learners Guide',
       },
       {
         hid: 'og:description',
         name: 'og:description',
         property: 'og:description',
-        content: 'Check out all the courses that is offered by the K53 PWA 👀'
-      }
-    ]
+        content: 'Check out all the courses that is offered by the K53 PWA 👀',
+      },
+    ],
   },
   staticData: () => staticData,
   data() {
     return {
-      show: false
+      show: false,
     }
-  }
+  },
 }
 </script>
 

@@ -31,8 +31,8 @@ export default {
   data() {
     return {
       showBottomNav: true,
-      currentPage: this.$route.name
+      currentPage: this.$route.name,
     }
-  }
+  },
 }
 </script>

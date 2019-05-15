@@ -32,36 +32,36 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'An online K53 learners guide that looks modern and is fully accessible offline'
+        content: 'An online K53 learners guide that looks modern and is fully accessible offline',
       },
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'K53 Learners Guide'
+        content: 'K53 Learners Guide',
       },
       {
         hid: 'og:description',
         name: 'og:description',
         property: 'og:description',
-        content: 'An online K53 learners guide that looks modern and is fully accessible offline'
+        content: 'An online K53 learners guide that looks modern and is fully accessible offline',
       },
       {
         hid: 'og:image',
         name: 'og:image',
-        content: 'https://media2.giphy.com/media/CLvo7qdosBBHG/giphy.gif?cid=790b76115ccafe3b35537a426b97bcd7&rid=giphy.gif'
-      }
-    ]
+        content: 'https://media2.giphy.com/media/CLvo7qdosBBHG/giphy.gif?cid=790b76115ccafe3b35537a426b97bcd7&rid=giphy.gif',
+      },
+    ],
   },
   methods: {
     checkFirstTimeUsage() {
       localStorage.setItem('k53-learners-guide-app', JSON.stringify({
-        usedApp: true
+        usedApp: true,
       }))
-    }
+    },
   },
   beforeRouteEnter(to, from, next) {
     if (process.browser) {
-      const { usedApp } = localStorage.getItem('k53-learners-guide-app') ? JSON.parse(localStorage.getItem('k53-learners-guide-app')) : { usedApp: false }
+      const { usedApp, } = localStorage.getItem('k53-learners-guide-app') ? JSON.parse(localStorage.getItem('k53-learners-guide-app')) : { usedApp: false, }
 
       if (usedApp) {
         next('/courses')
@@ -71,6 +71,6 @@ export default {
     } else {
       next()
     }
-  }
+  },
 }
 </script>

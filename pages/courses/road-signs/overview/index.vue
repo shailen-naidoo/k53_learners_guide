@@ -58,22 +58,22 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Road signs are divided into many topics, such as, regulatory signs, traffic signals and so forth. This is a complete overview of these topics'
+        content: 'Road signs are divided into many topics, such as, regulatory signs, traffic signals and so forth. This is a complete overview of these topics',
       },
       {
         hid: 'og:title',
         name: 'og:title',
-        content: '📃 Road Sign Categories | K53 Learners Guide'
+        content: '📃 Road Sign Categories | K53 Learners Guide',
       },
       {
         hid: 'og:description',
         name: 'og:description',
         property: 'og:description',
-        content: 'Road signs are divided into many topics, such as, regulatory signs, traffic signals and so forth. This is a complete overview of these topics'
-      }
-    ]
+        content: 'Road signs are divided into many topics, such as, regulatory signs, traffic signals and so forth. This is a complete overview of these topics',
+      },
+    ],
   },
-  staticData: () => staticData
+  staticData: () => staticData,
 }
 </script>
 
