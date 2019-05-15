@@ -4,7 +4,7 @@
     grid-list-lg
   >
     <v-layout justify-center align-center text-xs-left text-md-left>
-      <v-flex md6 sm8>
+      <v-flex md5 sm8>
         <v-layout column>
           <v-flex xs12 md12>
             <h1 class="body-2 mb-2">
