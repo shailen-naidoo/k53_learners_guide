@@ -3,7 +3,7 @@
     {
       "name": "Regulatory signs",
       "icon": "info",
-      "desc": "Road signs that you will find around Cape Town",
+      "desc": "Signs that control traffic",
       "color": "red",
       "path": "/courses/road-signs/topic/regulatory-signs"
     },
