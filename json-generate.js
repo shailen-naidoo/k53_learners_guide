@@ -7,17 +7,16 @@ const ROAD_SIGNS_DIR = `${ROOT_DIR}/road-signs`
 const getDirectories = path => fs.readdir(`${__dirname}/static/${path}`, 'utf-8')
 
 const createObject = files => files.map(file => ({
-  image: `https://k53-learners-guide.netlify.com/images/road-signs/regulatory-signs/control-signs/${file}`,
-  type: 'Control sign'
+  image: `/images/road-signs/regulatory-signs/command-signs/${file}`,
+  type: 'Command sign',
 }))
 
-const saveJSONToFile = data => fs.writeFile('./data/pages/courses/road-signs/topic/regulatory-signs.json', JSON.stringify(data, null, 2))
+const main = async () => {
+  const saveJSONToFile = data => fs.writeFile('./data/pages/courses/road-signs/topic/command-signs.json', JSON.stringify(data, null, 2))
+  const roadSignsFolders = await getDirectories(`${ROAD_SIGNS_DIR}/regulatory-signs/command-signs`)
+  const JSONData = createObject(roadSignsFolders)
 
-module.exports = {
-  async before() {
-    const roadSignsFolders = await getDirectories(`${ROAD_SIGNS_DIR}/regulatory-signs/control-signs`)
-    const JSONData = createObject(roadSignsFolders)
-
-    await saveJSONToFile(JSONData)
-  }
+  await saveJSONToFile(JSONData)
 }
+
+main()

@@ -111,5 +111,5 @@ module.exports = {
     routes: [
       '/courses/road-signs/topic/regulatory-signs',
     ],
-  }
+  },
 }

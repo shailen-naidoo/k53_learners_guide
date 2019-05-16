@@ -43,6 +43,7 @@
       top
       right
       small
+      color="white"
     >
       <v-icon>filter_list</v-icon>
     </v-btn>
