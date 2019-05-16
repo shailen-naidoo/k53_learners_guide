@@ -88,5 +88,227 @@
     "image": "/images/road-signs/regulatory-signs/control-signs/6.0.jpg",
     "type": "Control sign",
     "description": "To indicate that there is a single carriageway ahead for use by by vehicle from both directions"
+  },
+  {
+    "name": "Minimum speed sign",
+    "image": "/images/road-signs/regulatory-signs/command-signs/101.jpg",
+    "type": "Command sign",
+    "description": "To regulate the minimum speed of traffic"
+  },
+  {
+    "name": "Vehicles exceeding mass only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/102.jpg",
+    "type": "Command sign",
+    "description": "To compel drivers of certain heavy vehicles to use the road or part of the road indicated by this road traffic sign"
+  },
+  {
+    "name": "Keep left",
+    "image": "/images/road-signs/regulatory-signs/command-signs/103.jpg",
+    "type": "Command sign",
+    "description": "To indicate that you must drive to the left or right of an obstruction where the sign is displayed"
+  },
+  {
+    "name": "Keep right",
+    "image": "/images/road-signs/regulatory-signs/command-signs/104.jpg",
+    "type": "Command sign",
+    "description": "To indicate that you must drive to the left or right of an obstruction where the sign is displayed"
+  },
+  {
+    "name": "Proceed left only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/105.jpg",
+    "type": "Command sign",
+    "description": "To indicate the direction in which you must proceed"
+  },
+  {
+    "name": "Proceed right only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/106.jpg",
+    "type": "Command sign",
+    "description": "To indicate the direction in which you must proceed"
+  },
+  {
+    "name": "Proceed straight only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/107.jpg",
+    "type": "Command sign",
+    "description": "To indicate the direction in which you must proceed"
+  },
+  {
+    "name": "Turn left only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/108.jpg",
+    "type": "Command sign",
+    "description": "To indicate to drivers the direction in which they must turn at the intersection ahead"
+  },
+  {
+    "name": "Turn right only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/109.jpg",
+    "type": "Command sign",
+    "description": "To indicate to drivers the direction in which they must turn at the intersection ahead"
+  },
+  {
+    "name": "Pedestrians only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/110.jpg",
+    "type": "Command sign",
+    "description": "To indicate that the road or part of the road may be used by pedestrians only"
+  },
+  {
+    "name": "Cyclists only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/111.jpg",
+    "type": "Command sign",
+    "description": "To indicate that the road or part of the road may be used by cyclists only"
+  },
+  {
+    "name": "Cyclists and pedestrians only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/112.jpg",
+    "type": "Command sign",
+    "description": "To indicate to cyclists and pedestrians which part of a road they must use"
+  },
+  {
+    "name": "Cyclists and pedestrians only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/113.jpg",
+    "type": "Command sign",
+    "description": "To indicate that part of the road is divided and that part may be used by cyclists and pedestrians only"
+  },
+  {
+    "name": "Cyclists and pedestrians only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/114.jpg",
+    "type": "Command sign",
+    "description": "To indicate to cyclists and pedestrians which part of a road they must use"
+  },
+  {
+    "name": "Cyclists and pedestrians only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/115.jpg",
+    "type": "Command sign",
+    "description": "To indicate that part of the road is divided and that part may be used by cyclists and pedestrians only"
+  },
+  {
+    "name": "Motorcycles only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/116.jpg",
+    "type": "Command sign",
+    "description": "Indicate that a road or part of a road may be used by motorcyclists only"
+  },
+  {
+    "name": "Motor cars only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/117.jpg",
+    "type": "Command sign",
+    "description": "Indicate that a road or part of a road may be used by motorcars only"
+  },
+  {
+    "name": "Taxis only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/118.jpg",
+    "type": "Command sign",
+    "description": "To indicate that the road or portion of the road is set aside for use by taxis"
+  },
+  {
+    "name": "Minibuses only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/119.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or a portion of the road is set aside for use by minibuses"
+  },
+  {
+    "name": "Midi buses only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/120.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or a portion of the road is set aside for use by midibuses"
+  },
+  {
+    "name": "Buses only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/121.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or a portion of the road is set aside for use by buses"
+  },
+  {
+    "name": "Delivery vehicles only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/122.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or a portion of the road is set aside for use by delivery vehicles only"
+  },
+  {
+    "name": "Goods vehicles only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/123.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or portion of the road is set aside for use by goods vehicles"
+  },
+  {
+    "name": "Goods vehicles exceeding an indicated GVM",
+    "image": "/images/road-signs/regulatory-signs/command-signs/124.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or a portion of the road is set aside for use by goods vehicles with a gross vehicle mass (GVM) or a gross combination mass (GCM) exceeding the mass indicated in tonnes by means of a number on such sign"
+  },
+  {
+    "name": "Construction vehicles only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/125.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or a portion of the road is set aside for use by construction vehicles"
+  },
+  {
+    "name": "Vehicles transporting dangerous substances only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/126.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or a portion of the road is set aside for use by vehicles conveying dangerous goods"
+  },
+  {
+    "name": "Abnormal vehicles only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/127.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or a portion of the road is set aside for use by abnormal vehicles"
+  },
+  {
+    "name": "Rickshaws only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/128.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or a portion of the road is set aside for use by rickshaws"
+  },
+  {
+    "name": "Tour buses only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/129.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or a portion of the road is set aside for use by tour buses"
+  },
+  {
+    "name": "Agricultural vehicles only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/130.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or a portion of the road is set aside for use by agricultural vehicles"
+  },
+  {
+    "name": "Animal-drawn vehicles only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/131.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or a portion of the road is set aside for use by animal-drawn vehicles"
+  },
+  {
+    "name": "Pay toll",
+    "image": "/images/road-signs/regulatory-signs/command-signs/132.jpg",
+    "type": "Command sign",
+    "description": "To give you a last opportunity to follow an alternative route, or to proceed on the route and pay toll fees"
+  },
+  {
+    "name": "Switch headlamps on",
+    "image": "/images/road-signs/regulatory-signs/command-signs/133.jpg",
+    "type": "Command sign",
+    "description": "To indicate that you must switch on your headlights in order to see and be seen"
+  },
+  {
+    "name": "Buses and minibuses only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/134.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or portion of the road is set aside for use by buses and minibuses"
+  },
+  {
+    "name": "Buses and midi buses only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/135.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or portion of the road is set aside for use by buses and midibuses"
+  },
+  {
+    "name": "Buses, midi buses and minibuses only",
+    "image": "/images/road-signs/regulatory-signs/command-signs/136.jpg",
+    "type": "Command sign",
+    "description": "Indicates that the road or portion of the road is set aside for use by buses, midibuses and minibuses"
+  },
+  {
+    "name": "Roundabout",
+    "image": "/images/road-signs/regulatory-signs/command-signs/137.jpg",
+    "type": "Command sign",
+    "description": "To indicate that you must move in a clockwise direction at the junction"
   }
 ]

@@ -36,6 +36,17 @@
         </v-layout>
       </v-flex>
     </v-layout>
+    <v-btn
+      slot="activator"
+      fab
+      fixed
+      top
+      right
+      small
+      color="white"
+    >
+      <v-icon>filter_list</v-icon>
+    </v-btn>
   </v-container>
 </template>
 
