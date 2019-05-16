@@ -36,7 +36,7 @@
         </v-layout>
       </v-flex>
     </v-layout>
-    <v-btn
+    <!-- <v-btn
       slot="activator"
       fab
       fixed
@@ -46,7 +46,7 @@
       color="white"
     >
       <v-icon>filter_list</v-icon>
-    </v-btn>
+    </v-btn> -->
   </v-container>
 </template>
 
