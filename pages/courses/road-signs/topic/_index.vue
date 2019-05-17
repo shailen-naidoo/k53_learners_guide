@@ -18,7 +18,7 @@
         </h1>
         <v-divider class="mb-3" />
         <v-layout column>
-          <v-flex v-for="({ image, name, description, type }, i) in signs" :key="i">
+          <v-flex v-for="({ image, name, description, type }, i) in filterSigns" :key="i">
             <v-card class="border-radius">
               <v-card-title class="subheading">
                 {{ name }}
@@ -36,17 +36,33 @@
         </v-layout>
       </v-flex>
     </v-layout>
-    <!-- <v-btn
+    <v-btn
       slot="activator"
       fab
       fixed
       top
       right
       small
-      color="white"
+      :color="signFilters.length ? 'yellow' : 'white'"
+      @click="showFilter = true"
     >
       <v-icon>filter_list</v-icon>
-    </v-btn> -->
+    </v-btn>
+    <v-dialog v-model="showFilter" max-width="300px">
+      <v-card>
+        <v-card-title>Select filters</v-card-title>
+        <v-card-text>
+          <v-checkbox
+            v-for="(sign, i) in typeOfSigns"
+            :key="i"
+            v-model="signFilters"
+            :value="sign"
+            :label="sign"
+            class="mt-0 pt-0"
+          />
+        </v-card-text>
+      </v-card>
+    </v-dialog>
   </v-container>
 </template>
 
@@ -80,6 +96,26 @@ export default {
         },
       ],
     }
+  },
+  data() {
+    return {
+      showFilter: false,
+      signFilters: [],
+    }
+  },
+  computed: {
+    typeOfSigns() {
+      return [
+        ...new Set(this.signs.map(({ type, }) => type)),
+      ]
+    },
+    filterSigns() {
+      if (this.signFilters.length) {
+        return this.signs.filter(({ type, }) => this.signFilters.includes(type))
+      } else {
+        return this.signs
+      }
+    },
   },
   async asyncData({ params: { index, }, $axios, },) {
     const { default: signs, } = await import(`@/data/pages/courses/road-signs/topic/${index}.json`)
