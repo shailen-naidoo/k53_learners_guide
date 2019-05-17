@@ -114,6 +114,13 @@ export default {
       show: false,
     }
   },
+  async asyncData({ $axios, }) {
+    const { data, } = await $axios.get('/data/pages/courses/index.json')
+
+    return {
+      ...data,
+    }
+  },
 }
 </script>
 
