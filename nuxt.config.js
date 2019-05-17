@@ -1,9 +1,16 @@
 const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
 
-// eslint-disable-next-line no-console
-
 module.exports = {
   mode: 'universal',
+  env: {
+    API_KEY: process.env.API_KEY,
+    APP_ID: process.env.APP_ID,
+    AUTH_DOMAIN: process.env.AUTH_DOMAIN,
+    DATABASE_URL: process.env.DATABASE_URL,
+    MESSAGING_ID: process.env.MESSAGING_ID,
+    PROJECT_ID: process.env.PROJECT_ID,
+    STORAGE_BUCKET: process.env.STORAGE_BUCKET,
+  },
 
   /*
   ** Headers of the page
@@ -52,6 +59,7 @@ module.exports = {
   plugins: [
     '@/plugins/vuetify',
     '@/plugins/staticData',
+    { src: '@/plugins/firebase', ssr: false, },
   ],
 
   /*
