@@ -1,0 +1,16 @@
+{
+  "pageButtons": [
+    {
+      "title": "Dashboard",
+      "icon": "dashboard"
+    },
+    {
+      "title": "Courses",
+      "icon": "library_books"
+    },
+    {
+      "title": "Account",
+      "icon": "account_circle"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
 
+// eslint-disable-next-line no-console
+
 module.exports = {
   mode: 'universal',
 

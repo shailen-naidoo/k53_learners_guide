@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import staticData from '@/data/layouts/default.json'
+import staticData from '@/static/data/layouts/default.json'
 
 export default {
   staticData: () => staticData,
