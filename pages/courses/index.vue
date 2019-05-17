@@ -83,8 +83,6 @@
 </template>
 
 <script>
-import staticData from '@/data/pages/courses/index.json'
-
 export default {
   head: {
     title: '📄 Courses | K53 Learners Guide',
@@ -108,7 +106,6 @@ export default {
       },
     ],
   },
-  staticData: () => staticData,
   data() {
     return {
       show: false,
