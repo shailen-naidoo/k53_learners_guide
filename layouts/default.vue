@@ -24,19 +24,14 @@
 </template>
 
 <script>
-import axios from '@nuxtjs/axios'
+import staticData from '@/static/data/layouts/default.json'
 
 export default {
+  staticData: () => staticData,
   data() {
     return {
       showBottomNav: true,
       currentPage: this.$route.name,
-    }
-  },
-  async asyncData() {
-    const { data, } = await axios.get('/data/layouts/default.json')
-    return {
-      data,
     }
   },
 }
