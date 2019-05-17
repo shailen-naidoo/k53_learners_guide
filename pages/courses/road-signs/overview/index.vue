@@ -72,7 +72,7 @@ export default {
     ],
   },
   async asyncData({ $axios, }) {
-    const { data, } = await $axios.get('/data/pages/courses/road-signs/overview/index.json')
+    const { default: data, } = await import('@/data/pages/courses/road-signs/overview/index.json')
 
     return {
       ...data,
