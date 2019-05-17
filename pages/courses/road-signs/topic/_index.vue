@@ -57,7 +57,7 @@
             :key="i"
             v-model="signFilters"
             :value="sign"
-            :label="sign"
+            :label="`${sign}s`"
             class="mt-0 pt-0"
           />
         </v-card-text>
