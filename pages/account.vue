@@ -9,7 +9,14 @@
       justify-center
       align-center
     >
-      <v-flex md5 xs10 text-md-center text-sm-center text-xs-center>
+      <v-flex
+        v-if="!user"
+        md5
+        xs10
+        text-md-center
+        text-sm-center
+        text-xs-center
+      >
         <v-avatar size="80px" class="mb-4">
           <img src="https://image.flaticon.com/icons/svg/1738/1738691.svg">
         </v-avatar>
@@ -20,24 +27,56 @@
           Create account
         </v-btn>
       </v-flex>
+      <v-flex v-else md5 sm6>
+        <no-ssr>
+          <v-card class="border-radius">
+            <v-card-title>
+              User account
+            </v-card-title>
+            <v-divider />
+            <v-card-text>
+              <div class="text-md-center text-sm-center text-xs-center">
+                <v-avatar size="120px" class="mb-3 mt-3">
+                  <img :src="user.photoURL" alt="">
+                </v-avatar>
+                <p class="subheading">
+                  {{ user.displayName }}
+                </p>
+              </div>
+              <div :class="{ 'pl-3': $vuetify.breakpoint.mdAndUp }">
+                <v-subheader class="pl-0">
+                  Settings
+                </v-subheader>
+                <v-checkbox label="Receive emails from our newsletter" class="pt-0" />
+                <v-checkbox label="Receive mobile/desktop notifications" class="pt-0 mt-0" />
+              </div>
+            </v-card-text>
+          </v-card>
+        </no-ssr>
+      </v-flex>
     </v-layout>
     <v-dialog v-model="showAccounts" max-width="500px">
       <v-card class="border-radius">
         <v-card-title>Create K53 Guide account</v-card-title>
         <v-divider />
-        <v-card-text class="text-md-center pb-4">
+        <v-card-text class="text-md-center text-sm-center text-xs-center pb-4">
           <v-btn fab depressed color="#DB4437" dark @click="signInWithGoogle">
             <v-icon>fab fa-google</v-icon>
           </v-btn>
           <v-btn fab depressed color="#38A1F3" dark>
             <v-icon>fab fa-twitter</v-icon>
           </v-btn>
-          <v-btn fab depressed color="#3C5A99" dark>
+          <v-btn fab depressed color="#3C5A99" dark @click="signInWithFacebook">
             <v-icon>fab fa-facebook</v-icon>
           </v-btn>
         </v-card-text>
       </v-card>
     </v-dialog>
+    <no-ssr>
+      <v-snackbar v-model="showError" top right :timeout="10000" :multi-line="$vuetify.breakpoint.smAndDown">
+        <span class="caption">Ooops! Email already exists, maybe you used one of the other sign-in options 😊</span>
+      </v-snackbar>
+    </no-ssr>
   </v-container>
 </template>
 
@@ -45,6 +84,7 @@
 import {
   auth,
   googleProvider,
+  facebookProvider,
 } from '@/plugins/firebase.js'
 
 export default {
@@ -76,12 +116,33 @@ export default {
   data() {
     return {
       showAccounts: false,
+      showError: false,
+      user: null,
     }
+  },
+  mounted() {
+    auth.onAuthStateChanged((user) => {
+      // eslint-disable-next-line no-console
+      console.log(user)
+      this.user = user
+    })
   },
   methods: {
     async signInWithGoogle() {
-      await auth.signInWithPopup(googleProvider)
-      this.showAccounts = false
+      try {
+        await auth.signInWithPopup(googleProvider)
+        this.showAccounts = false
+      } catch (e) {
+        this.showError = true
+      }
+    },
+    async signInWithFacebook() {
+      try {
+        await auth.signInWithPopup(facebookProvider)
+        this.showAccounts = false
+      } catch (e) {
+        this.showError = true
+      }
     },
   },
 }
