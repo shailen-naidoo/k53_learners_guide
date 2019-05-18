@@ -26,9 +26,12 @@
         <v-btn color="grey lighten-3" round @click="showAccounts = true">
           Login / Signup
         </v-btn>
-        <div class="text-md-center mt-5">
+        <div class="text-md-center text-sm-center text-xs-center mt-5">
           <p class="caption">
-            Interested in the people who made this project possible? <nuxt-link :to="{ name: 'courses' }">Find out more</nuxt-link> ❤
+            Interested in the people who made this project possible?
+            <nuxt-link :to="{ name: 'courses' }">
+              Find out more
+            </nuxt-link> ❤
           </p>
         </div>
       </v-flex>
@@ -65,9 +68,12 @@
               </div>
             </v-card-text>
           </v-card>
-          <div class="text-md-center mt-5">
+          <div class="text-md-center text-sm-center text-xs-center mt-5">
             <p class="caption">
-              Want to help make this project even better? <nuxt-link :to="{ name: 'courses' }">Find out more</nuxt-link> ❤
+              Want to help make this project even better?
+              <nuxt-link :to="{ name: 'courses' }">
+                Find out more
+              </nuxt-link> ❤
             </p>
           </div>
         </no-ssr>
