@@ -107,6 +107,7 @@
 <script>
 import {
   auth,
+  firestore,
   googleProvider,
   facebookProvider,
   twitterProvider,
@@ -148,6 +149,7 @@ export default {
   mounted() {
     auth.onAuthStateChanged((user) => {
       this.user = user
+      this.createUserAccount()
     })
   },
   methods: {
@@ -177,6 +179,22 @@ export default {
     },
     signOut() {
       auth.signOut()
+    },
+    async createUserAccount() {
+      if (!this.user) {
+        return false
+      }
+
+      if (!(this.user.metadata.creationTime === this.user.metadata.lastSignInTime)) {
+        return false
+      }
+
+      await firestore.collection('users').doc(this.user.uid).set({
+        name: this.user.displayName,
+        photoURL: this.user.photoURL,
+        email: this.user.email,
+        emailUpdates: false,
+      })
     },
   },
 }

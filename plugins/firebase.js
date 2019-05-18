@@ -1,5 +1,6 @@
 import * as firebase from 'firebase/app'
 import 'firebase/auth'
+import 'firebase/firestore'
 
 // eslint-disable-next-line no-console
 console.log('Firebase loaded')
@@ -17,6 +18,7 @@ if (!firebase.apps.length) {
 }
 
 export const auth = firebase.auth()
+export const firestore = firebase.firestore()
 export const googleProvider = new firebase.auth.GoogleAuthProvider()
 export const facebookProvider = new firebase.auth.FacebookAuthProvider()
 export const twitterProvider = new firebase.auth.TwitterAuthProvider()
