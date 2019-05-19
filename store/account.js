@@ -9,6 +9,7 @@ const signInWithGoogle = async (commit) => {
   try {
     const { user: { displayName, email, photoURL, }, } = await auth.signInWithPopup(googleProvider);
     commit('SET_USER', { displayName, email, photoURL, });
+    commit('SET_SHOW_LOGIN_METHODS');
   } catch (e) {
     commit('SET_USER_ACCOUNT_ALREADY_EXISTS', true);
   }
@@ -18,6 +19,7 @@ const signInWithTwitter = async (commit) => {
   try {
     const { user: { displayName, email, photoURL, }, } = await auth.signInWithPopup(twitterProvider);
     commit('SET_USER', { displayName, email, photoURL, });
+    commit('SET_SHOW_LOGIN_METHODS');
   } catch (e) {
     commit('SET_USER_ACCOUNT_ALREADY_EXISTS', true);
   }
@@ -27,6 +29,7 @@ const signInWithFacebook = async (commit) => {
   try {
     const { user: { displayName, email, photoURL, }, } = await auth.signInWithPopup(facebookProvider);
     commit('SET_USER', { displayName, email, photoURL, });
+    commit('SET_SHOW_LOGIN_METHODS');
   } catch (e) {
     commit('SET_USER_ACCOUNT_ALREADY_EXISTS', true);
   }
