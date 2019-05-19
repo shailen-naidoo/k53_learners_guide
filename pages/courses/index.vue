@@ -109,16 +109,16 @@ export default {
   data() {
     return {
       show: false,
-    }
+    };
   },
   async asyncData({ $axios, }) {
-    const { default: data, } = await import('@/data/pages/courses/index.json')
+    const { default: data, } = await import('@/data/pages/courses/index.json');
 
     return {
       ...data,
-    }
+    };
   },
-}
+};
 </script>
 
 <style scoped>

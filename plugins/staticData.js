@@ -1,4 +1,4 @@
-import Vue from 'vue'
-import VueStaticData from 'vue-static-data'
+import Vue from 'vue';
+import VueStaticData from 'vue-static-data';
 
-Vue.use(VueStaticData)
+Vue.use(VueStaticData);

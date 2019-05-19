@@ -56,21 +56,21 @@ export default {
     checkFirstTimeUsage() {
       localStorage.setItem('k53-learners-guide-app', JSON.stringify({
         usedApp: true,
-      }))
+      }));
     },
   },
   beforeRouteEnter(to, from, next) {
     if (process.browser) {
-      const { usedApp, } = localStorage.getItem('k53-learners-guide-app') ? JSON.parse(localStorage.getItem('k53-learners-guide-app')) : { usedApp: false, }
+      const { usedApp, } = localStorage.getItem('k53-learners-guide-app') ? JSON.parse(localStorage.getItem('k53-learners-guide-app')) : { usedApp: false, };
 
       if (usedApp) {
-        next('/courses')
+        next('/courses');
       } else {
-        next()
+        next();
       }
     } else {
-      next()
+      next();
     }
   },
-}
+};
 </script>

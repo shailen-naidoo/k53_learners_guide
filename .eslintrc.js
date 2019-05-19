@@ -15,5 +15,6 @@ module.exports = {
   rules: {
     'nuxt/no-cjs-in-config': 'off',
     "comma-dangle": ["error", "always"],
+    semi: ["error", "always"]
   }
 }

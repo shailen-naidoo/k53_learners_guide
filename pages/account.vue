@@ -127,7 +127,7 @@ import {
   googleProvider,
   facebookProvider,
   twitterProvider,
-} from '@/plugins/firebase.js'
+} from '@/plugins/firebase.js';
 
 export default {
   head: {
@@ -161,50 +161,50 @@ export default {
       showError: false,
       user: null,
       emailUpdates: false,
-    }
+    };
   },
   mounted() {
     auth.onAuthStateChanged((user) => {
       if (!user) {
-        return false
+        return false;
       }
 
-      this.user = user
-      this.createUserAccount()
-      this.getEmailUpdates()
-    })
+      this.user = user;
+      this.createUserAccount();
+      this.getEmailUpdates();
+    });
   },
   methods: {
     async signInWithGoogle() {
       try {
-        await auth.signInWithPopup(googleProvider)
-        this.showAccounts = false
+        await auth.signInWithPopup(googleProvider);
+        this.showAccounts = false;
       } catch (e) {
-        this.showError = true
+        this.showError = true;
       }
     },
     async signInWithTwitter() {
       try {
-        await auth.signInWithPopup(twitterProvider)
-        this.showAccounts = false
+        await auth.signInWithPopup(twitterProvider);
+        this.showAccounts = false;
       } catch (e) {
-        this.showError = true
+        this.showError = true;
       }
     },
     async signInWithFacebook() {
       try {
-        await auth.signInWithPopup(facebookProvider)
-        this.showAccounts = false
+        await auth.signInWithPopup(facebookProvider);
+        this.showAccounts = false;
       } catch (e) {
-        this.showError = true
+        this.showError = true;
       }
     },
     signOut() {
-      auth.signOut()
+      auth.signOut();
     },
     async createUserAccount() {
       if (!(this.user.metadata.creationTime === this.user.metadata.lastSignInTime)) {
-        return false
+        return false;
       }
 
       await firestore.collection('users').doc(this.user.uid).set({
@@ -212,22 +212,22 @@ export default {
         photoURL: this.user.photoURL,
         email: this.user.email,
         emailUpdates: false,
-      })
+      });
     },
     async setEmailUpdates(value) {
       await firestore.collection('users').doc(this.user.uid).update({
         emailUpdates: value,
-      })
+      });
     },
     async getEmailUpdates() {
-      const user = await firestore.collection('users').doc(this.user.uid).get()
+      const user = await firestore.collection('users').doc(this.user.uid).get();
 
-      const { emailUpdates, } = user.data()
+      const { emailUpdates, } = user.data();
 
-      this.emailUpdates = emailUpdates
+      this.emailUpdates = emailUpdates;
     },
   },
-}
+};
 </script>
 
 <style scoped>

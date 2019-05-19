@@ -1,9 +1,9 @@
-import * as firebase from 'firebase/app'
-import 'firebase/auth'
-import 'firebase/firestore'
+import * as firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/firestore';
 
 // eslint-disable-next-line no-console
-console.log('Firebase loaded')
+console.log('Firebase loaded');
 
 if (!firebase.apps.length) {
   firebase.initializeApp({
@@ -14,11 +14,11 @@ if (!firebase.apps.length) {
     storageBucket: process.env.STORAGE_BUCKET,
     messagingSenderId: process.env.MESSAGING_ID,
     appId: process.env.APP_ID,
-  })
+  });
 }
 
-export const auth = firebase.auth()
-export const firestore = firebase.firestore()
-export const googleProvider = new firebase.auth.GoogleAuthProvider()
-export const facebookProvider = new firebase.auth.FacebookAuthProvider()
-export const twitterProvider = new firebase.auth.TwitterAuthProvider()
+export const auth = firebase.auth();
+export const firestore = firebase.firestore();
+export const googleProvider = new firebase.auth.GoogleAuthProvider();
+export const facebookProvider = new firebase.auth.FacebookAuthProvider();
+export const twitterProvider = new firebase.auth.TwitterAuthProvider();
