@@ -72,7 +72,7 @@
                 <v-subheader class="pl-0">
                   Settings
                 </v-subheader>
-                <v-checkbox label="Receive email updates about the K53 Guide project" class="pt-0 mt-0" @change="setEmailUpdates" />
+                <v-checkbox v-model="emailUpdates" label="Receive email updates about the K53 Guide project" class="pt-0 mt-0" @change="setEmailUpdates" />
               </div>
             </v-card-text>
           </v-card>
@@ -160,12 +160,18 @@ export default {
       showAccounts: false,
       showError: false,
       user: null,
+      emailUpdates: false,
     }
   },
   mounted() {
     auth.onAuthStateChanged((user) => {
+      if (!user) {
+        return false
+      }
+
       this.user = user
       this.createUserAccount()
+      this.getEmailUpdates()
     })
   },
   methods: {
@@ -197,10 +203,6 @@ export default {
       auth.signOut()
     },
     async createUserAccount() {
-      if (!this.user) {
-        return false
-      }
-
       if (!(this.user.metadata.creationTime === this.user.metadata.lastSignInTime)) {
         return false
       }
@@ -216,6 +218,13 @@ export default {
       await firestore.collection('users').doc(this.user.uid).update({
         emailUpdates: value,
       })
+    },
+    async getEmailUpdates() {
+      const user = await firestore.collection('users').doc(this.user.uid).get()
+
+      const { emailUpdates, } = user.data()
+
+      this.emailUpdates = emailUpdates
     },
   },
 }
