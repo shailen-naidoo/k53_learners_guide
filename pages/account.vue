@@ -23,7 +23,7 @@
         <p class="body-2">
           Create an account to get access to some cool features
         </p>
-        <v-btn color="grey lighten-3" round @click="showAccounts = true">
+        <v-btn color="grey lighten-3" round @click="showLoginMethods = true">
           Login / Signup
         </v-btn>
         <v-divider class="my-4" />
@@ -54,7 +54,7 @@
                 outline
                 round
                 color="black"
-                @click="signOut"
+                @click="signOutUser"
               >
                 Sign out
               </v-btn>
@@ -95,25 +95,25 @@
         </no-ssr>
       </v-flex>
     </v-layout>
-    <v-dialog v-model="showAccounts" max-width="500px">
+    <v-dialog v-model="showLoginMethods" max-width="500px">
       <v-card class="border-radius">
         <v-card-title>Create / Login K53 Guide account</v-card-title>
         <v-divider />
         <v-card-text class="text-md-center text-sm-center text-xs-center pb-4">
-          <v-btn fab depressed color="#DB4437" dark @click="signInWithGoogle">
+          <v-btn fab depressed color="#DB4437" dark @click="signInUserWith('google')">
             <v-icon>fab fa-google</v-icon>
           </v-btn>
-          <v-btn fab depressed color="#38A1F3" dark @click="signInWithTwitter">
+          <v-btn fab depressed color="#38A1F3" dark @click="signInUserWith('twitter')">
             <v-icon>fab fa-twitter</v-icon>
           </v-btn>
-          <v-btn fab depressed color="#3C5A99" dark @click="signInWithFacebook">
+          <v-btn fab depressed color="#3C5A99" dark @click="signInUserWith('facebook')">
             <v-icon>fab fa-facebook</v-icon>
           </v-btn>
         </v-card-text>
       </v-card>
     </v-dialog>
     <no-ssr>
-      <v-snackbar v-model="showError" top right :timeout="10000" :multi-line="$vuetify.breakpoint.smAndDown">
+      <v-snackbar v-model="userAccountAlreadyExists" top right :timeout="10000" :multi-line="$vuetify.breakpoint.smAndDown">
         <span class="caption">Ooops! Email already exists, maybe you used one of the other sign-in options 😊</span>
       </v-snackbar>
     </no-ssr>
@@ -124,10 +124,12 @@
 import {
   auth,
   firestore,
-  googleProvider,
-  facebookProvider,
-  twitterProvider,
 } from '@/plugins/firebase.js';
+
+import {
+  mapActions,
+  mapMutations,
+} from 'vuex';
 
 export default {
   head: {
@@ -163,6 +165,24 @@ export default {
       emailUpdates: false,
     };
   },
+  computed: {
+    userAccountAlreadyExists: {
+      get() {
+        return this.$store.state.account.userAccountAlreadyExists;
+      },
+      set(value) {
+        this.setUserAccountAlreadyExists(value);
+      },
+    },
+    showLoginMethods: {
+      get() {
+        return this.$store.state.account.showLoginMethods;
+      },
+      set() {
+        this.setShowLoginMethods();
+      },
+    },
+  },
   mounted() {
     auth.onAuthStateChanged((user) => {
       if (!user) {
@@ -175,33 +195,14 @@ export default {
     });
   },
   methods: {
-    async signInWithGoogle() {
-      try {
-        await auth.signInWithPopup(googleProvider);
-        this.showAccounts = false;
-      } catch (e) {
-        this.showError = true;
-      }
-    },
-    async signInWithTwitter() {
-      try {
-        await auth.signInWithPopup(twitterProvider);
-        this.showAccounts = false;
-      } catch (e) {
-        this.showError = true;
-      }
-    },
-    async signInWithFacebook() {
-      try {
-        await auth.signInWithPopup(facebookProvider);
-        this.showAccounts = false;
-      } catch (e) {
-        this.showError = true;
-      }
-    },
-    signOut() {
-      auth.signOut();
-    },
+    ...mapActions({
+      signInUserWith: 'account/SIGNIN_USER_WITH',
+      signOutUser: 'account/SIGNOUT_USER',
+    }),
+    ...mapMutations({
+      setUserAccountAlreadyExists: 'account/SET_USER_ACCOUNT_ALREADY_EXISTS',
+      setShowLoginMethods: 'account/SET_SHOW_LOGIN_METHODS',
+    }),
     async createUserAccount() {
       if (!(this.user.metadata.creationTime === this.user.metadata.lastSignInTime)) {
         return false;
