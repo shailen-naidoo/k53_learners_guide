@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import staticData from '@/static/data/layouts/default.json'
+import staticData from '@/static/data/layouts/default.json';
 
 export default {
   staticData: () => staticData,
@@ -32,7 +32,7 @@ export default {
     return {
       showBottomNav: true,
       currentPage: this.$route.name,
-    }
+    };
   },
-}
+};
 </script>
