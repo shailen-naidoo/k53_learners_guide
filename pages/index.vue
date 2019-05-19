@@ -2,7 +2,7 @@
   <v-container fill-height>
     <v-layout justify-center align-center text-xs-center text-sm-center text-md-center>
       <v-flex md5>
-        <v-img src="/icon.png" class="mt-5 mb-5" height="200px" contain />
+        <v-img src="/icon.png" class="mt-5 mb-5" height="120px" contain />
         <h1 class="display-1">
           K53 learners guide
         </h1>
@@ -27,7 +27,7 @@
 export default {
   layout: 'home',
   head: {
-    title: 'K53 Learners Guide',
+    title: 'K53 Learners Guide: Modern and Accessible',
     meta: [
       {
         hid: 'description',
@@ -37,7 +37,7 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'K53 Learners Guide',
+        content: 'K53 Learners Guide: Modern and Accessible',
       },
       {
         hid: 'og:description',

@@ -1,0 +1,32 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://www.k53guide.co.za/</loc>
+    <lastmod>2019-05-19T09:15:06+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.k53guide.co.za/courses/</loc>
+    <lastmod>2019-05-19T09:15:06+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.k53guide.co.za/courses/road-signs/overview/</loc>
+    <lastmod>2019-05-19T09:15:06+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.k53guide.co.za/dashboard/</loc>
+    <lastmod>2019-05-19T09:15:06+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.k53guide.co.za/account/</loc>
+    <lastmod>2019-05-19T09:15:06+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.k53guide.co.za/courses/road-signs/topic/regulatory-signs/</loc>
+    <lastmod>2019-05-19T09:15:06+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+</urlset>
