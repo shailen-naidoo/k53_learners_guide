@@ -26,13 +26,21 @@
         <v-btn color="grey lighten-3" round @click="showAccounts = true">
           Login / Signup
         </v-btn>
-        <div class="text-md-center text-sm-center text-xs-center mt-5">
-          <p class="caption">
-            Interested in the people who made this project possible?
-            <nuxt-link :to="{ name: 'courses' }">
-              Find out more
-            </nuxt-link> ❤
+        <v-divider class="my-4" />
+        <div class="text-md-center text-sm-center text-xs-center">
+          <p class="caption mb-1">
+            Find out more on:
           </p>
+          <v-btn icon href="https://github.com/ShailenNaidoo/k53_learners_guide" target="_blank">
+            <v-icon color="#333">
+              fab fa-github
+            </v-icon>
+          </v-btn>
+          <v-btn icon href="https://www.facebook.com/K53-Guide-364293277764189/" target="_blank">
+            <v-icon color="#3b5998">
+              fab fa-facebook
+            </v-icon>
+          </v-btn>
         </div>
       </v-flex>
       <v-flex v-else md5 sm6>
@@ -64,17 +72,25 @@
                 <v-subheader class="pl-0">
                   Settings
                 </v-subheader>
-                <v-checkbox label="Receive email updates about the K53 Guide project" class="pt-0 mt-0" />
+                <v-checkbox label="Receive email updates about the K53 Guide project" class="pt-0 mt-0" @change="setEmailUpdates" />
               </div>
             </v-card-text>
           </v-card>
-          <div class="text-md-center text-sm-center text-xs-center mt-5">
-            <p class="caption">
-              Want to help make this project even better?
-              <nuxt-link :to="{ name: 'courses' }">
-                Find out more
-              </nuxt-link> ❤
+          <v-divider class="my-4" />
+          <div class="text-md-center text-sm-center text-xs-center">
+            <p class="caption mb-1">
+              Find out more on:
             </p>
+            <v-btn icon href="https://github.com/ShailenNaidoo/k53_learners_guide" target="_blank">
+              <v-icon color="#333">
+                fab fa-github
+              </v-icon>
+            </v-btn>
+            <v-btn icon href="https://www.facebook.com/K53-Guide-364293277764189/" target="_blank">
+              <v-icon color="#3b5998">
+                fab fa-facebook
+              </v-icon>
+            </v-btn>
           </div>
         </no-ssr>
       </v-flex>
@@ -194,6 +210,11 @@ export default {
         photoURL: this.user.photoURL,
         email: this.user.email,
         emailUpdates: false,
+      })
+    },
+    async setEmailUpdates(value) {
+      await firestore.collection('users').doc(this.user.uid).update({
+        emailUpdates: value,
       })
     },
   },
