@@ -110,6 +110,17 @@ module.exports = {
           ],
         },
       },
+      {
+        urlPattern: '/images/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        cacheableResponse: {
+          statuses: [
+            0,
+            200,
+          ],
+        },
+      },
     ],
   },
   /*
