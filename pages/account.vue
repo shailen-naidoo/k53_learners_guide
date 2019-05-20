@@ -134,7 +134,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Don\'t worry, something cool will happen here pretty soon 😝',
+        content: 'Login or create a K53 guide account so you can get access to some cool features',
       },
       {
         hid: 'og:title',
@@ -144,7 +144,7 @@ export default {
       {
         hid: 'og:description',
         name: 'og:description',
-        content: 'Don\'t worry, something cool will happen here pretty soon 😝',
+        content: 'Login or create a K53 guide account so you can get access to some cool features',
       },
       {
         hid: 'og:image',

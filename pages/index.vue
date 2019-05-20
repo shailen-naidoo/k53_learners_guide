@@ -27,23 +27,23 @@
 export default {
   layout: 'home',
   head: {
-    title: 'K53 Learners Guide: Modern and Accessible',
+    title: 'K53 Learners Guide: Modern, Accessible and works Offline',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'An online K53 learners guide that looks modern and is fully accessible offline',
+        content: 'An online K53 learners guide that looks modern and is fully accessible offline. No more boring books and wasting money on purchasing a k53 book again',
       },
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'K53 Learners Guide: Modern and Accessible',
+        content: 'K53 Learners Guide: Modern, Accessible and works Offline',
       },
       {
         hid: 'og:description',
         name: 'og:description',
         property: 'og:description',
-        content: 'An online K53 learners guide that looks modern and is fully accessible offline',
+        content: 'An online K53 learners guide that looks modern and is fully accessible offline. No more boring books and wasting money on purchasing a k53 book again',
       },
       {
         hid: 'og:image',
