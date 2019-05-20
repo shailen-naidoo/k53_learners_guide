@@ -25,6 +25,9 @@
       <v-snackbar v-model="offline" top :multi-line="$vuetify.breakpoint.smAndDown" :timeout="10000">
         You are offline ❌ No stress, you can still use the app
       </v-snackbar>
+      <v-snackbar v-model="backOnline" top :timeout="10000">
+        Woohoo! You are back online 🙌
+      </v-snackbar>
     </no-ssr>
   </v-app>
 </template>
@@ -38,6 +41,7 @@ export default {
     return {
       showBottomNav: true,
       currentPage: this.$route.name,
+      backOnline: false,
     };
   },
   computed: {
@@ -46,6 +50,15 @@ export default {
         return this.$store.state.offline;
       },
       set() {},
+    },
+  },
+  watch: {
+    offline(n) {
+      if (n) {
+        return false;
+      }
+
+      this.backOnline = true;
     },
   },
 };
