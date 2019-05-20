@@ -5,9 +5,3 @@
     </v-content>
   </v-app>
 </template>
-
-<style>
-body {
-  overscroll-behavior: contain;
-}
-</style>

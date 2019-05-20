@@ -37,9 +37,3 @@ export default {
   },
 };
 </script>
-
-<style>
-body {
-  overscroll-behavior: contain;
-}
-</style>
