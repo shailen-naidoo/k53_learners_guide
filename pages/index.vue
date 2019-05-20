@@ -17,7 +17,8 @@
           nuxt
           @click="checkFirstTimeUsage"
         >
-          Check out app
+          <span v-if="redirecting">Redirecting you to app <v-progress-circular class="ml-2" :size="15" width="1" indeterminate /></span>
+          <span v-else>Check out app</span>
         </v-btn>
       </v-flex>
     </v-layout>
@@ -53,25 +54,29 @@ export default {
       },
     ],
   },
+  data() {
+    return {
+      redirecting: false,
+    };
+  },
+  mounted() {
+    const { usedApp, } = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
+
+    if (!usedApp) {
+      return false;
+    }
+
+    this.redirecting = true;
+    setTimeout(() => {
+      this.$router.replace('/courses');
+    }, 2000);
+  },
   methods: {
     checkFirstTimeUsage() {
       localStorage.setItem('k53-learners-guide-app', JSON.stringify({
         usedApp: true,
       }));
     },
-  },
-  beforeRouteEnter(to, from, next) {
-    if (process.browser) {
-      const { usedApp, } = localStorage.getItem('k53-learners-guide-app') ? JSON.parse(localStorage.getItem('k53-learners-guide-app')) : { usedApp: false, };
-
-      if (usedApp) {
-        next('/courses');
-      } else {
-        next();
-      }
-    } else {
-      next();
-    }
   },
 };
 </script>
