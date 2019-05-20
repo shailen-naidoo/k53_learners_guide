@@ -3,12 +3,10 @@ export default ({ app, }) => {
   console.log('Offline/online pluging loaded');
 
   window.addEventListener('offline', () => {
-    // eslint-disable-next-line no-console
-    console.log('offline');
+    app.store.commit('SET_OFFLINE', true);
   });
 
   window.addEventListener('online', () => {
-    // eslint-disable-next-line no-console
-    console.log('online');
+    app.store.commit('SET_OFFLINE', false);
   });
 };
