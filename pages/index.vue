@@ -14,9 +14,11 @@
           depressed
           round
           :to="{ path: '/courses' }"
+          nuxt
           @click="checkFirstTimeUsage"
         >
-          Check out app
+          <span v-if="redirecting">Redirecting you to app <v-progress-circular class="ml-2" :size="15" width="1" indeterminate /></span>
+          <span v-else>Check out app</span>
         </v-btn>
       </v-flex>
     </v-layout>
@@ -27,23 +29,23 @@
 export default {
   layout: 'home',
   head: {
-    title: 'K53 Learners Guide: Modern and Accessible',
+    title: 'K53 Learners Guide: Modern, Accessible and works Offline',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'An online K53 learners guide that looks modern and is fully accessible offline',
+        content: 'An online K53 learners guide that looks modern and is fully accessible offline. No more boring books and wasting money on purchasing a k53 book again',
       },
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'K53 Learners Guide: Modern and Accessible',
+        content: 'K53 Learners Guide: Modern, Accessible and works Offline',
       },
       {
         hid: 'og:description',
         name: 'og:description',
         property: 'og:description',
-        content: 'An online K53 learners guide that looks modern and is fully accessible offline',
+        content: 'An online K53 learners guide that looks modern and is fully accessible offline. No more boring books and wasting money on purchasing a k53 book again',
       },
       {
         hid: 'og:image',
@@ -52,25 +54,29 @@ export default {
       },
     ],
   },
+  data() {
+    return {
+      redirecting: false,
+    };
+  },
+  mounted() {
+    const { usedApp, } = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
+
+    if (!usedApp) {
+      return false;
+    }
+
+    this.redirecting = true;
+    setTimeout(() => {
+      this.$router.replace('/courses');
+    }, 2000);
+  },
   methods: {
     checkFirstTimeUsage() {
       localStorage.setItem('k53-learners-guide-app', JSON.stringify({
         usedApp: true,
       }));
     },
-  },
-  beforeRouteEnter(to, from, next) {
-    if (process.browser) {
-      const { usedApp, } = localStorage.getItem('k53-learners-guide-app') ? JSON.parse(localStorage.getItem('k53-learners-guide-app')) : { usedApp: false, };
-
-      if (usedApp) {
-        next('/courses');
-      } else {
-        next();
-      }
-    } else {
-      next();
-    }
   },
 };
 </script>

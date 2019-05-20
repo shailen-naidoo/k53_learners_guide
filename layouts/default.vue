@@ -15,6 +15,7 @@
         :key="i"
         :value="title.toLowerCase()"
         :to="{ path: `/${title.toLowerCase()}` }"
+        nuxt
       >
         <span>{{ title }}</span>
         <v-icon>{{ icon }}</v-icon>
