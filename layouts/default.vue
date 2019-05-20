@@ -7,7 +7,8 @@
       v-model="showBottomNav"
       app
       fixed
-      color="yellow"
+      :color="offline ? 'black' : 'yellow'"
+      :dark="offline"
       :active.sync="currentPage"
     >
       <v-btn
