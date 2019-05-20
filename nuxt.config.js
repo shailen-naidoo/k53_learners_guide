@@ -86,7 +86,32 @@ module.exports = {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
-
+  workbox: {
+    runtimeCaching: [
+      {
+        urlPattern: 'https://fonts.googleapis.com/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        cacheableResponse: {
+          statuses: [
+            0,
+            200,
+          ],
+        },
+      },
+      {
+        urlPattern: 'https://use.fontawesome.com/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        cacheableResponse: {
+          statuses: [
+            0,
+            200,
+          ],
+        },
+      },
+    ],
+  },
   /*
   ** Build configuration
   */
