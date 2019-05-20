@@ -86,6 +86,14 @@ module.exports = {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
+  workbox: {
+    offlineAnalytics: true,
+    runtimeCaching: [
+      {
+        urlPattern: new RegExp('.+\\.jpg$'),
+      },
+    ],
+  },
 
   /*
   ** Build configuration
