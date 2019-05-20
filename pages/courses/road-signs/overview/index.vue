@@ -36,7 +36,7 @@
               </v-card-text>
               <v-card-actions>
                 <v-spacer />
-                <v-btn v-if="!(i > 0)" flat small :to="{ path }">
+                <v-btn v-if="!(i > 0)" flat small :to="{ path }" nuxt>
                   view
                 </v-btn>
               </v-card-actions>

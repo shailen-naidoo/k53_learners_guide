@@ -14,6 +14,7 @@
           depressed
           round
           :to="{ path: '/courses' }"
+          nuxt
           @click="checkFirstTimeUsage"
         >
           Check out app
