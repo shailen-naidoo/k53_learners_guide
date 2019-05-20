@@ -15,6 +15,8 @@ if (!firebase.apps.length) {
     messagingSenderId: process.env.MESSAGING_ID,
     appId: process.env.APP_ID,
   });
+  // eslint-disable-next-line no-console
+  firebase.firestore().enablePersistence().then(value => console.info(value));
 }
 
 export const auth = firebase.auth();

@@ -1,4 +1,4 @@
-const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
+const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin');
 
 module.exports = {
   mode: 'universal',
@@ -86,7 +86,43 @@ module.exports = {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
-
+  workbox: {
+    runtimeCaching: [
+      {
+        urlPattern: 'https://fonts.googleapis.com/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        cacheableResponse: {
+          statuses: [
+            0,
+            200,
+          ],
+        },
+      },
+      {
+        urlPattern: 'https://use.fontawesome.com/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        cacheableResponse: {
+          statuses: [
+            0,
+            200,
+          ],
+        },
+      },
+      {
+        urlPattern: '/images/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        cacheableResponse: {
+          statuses: [
+            0,
+            200,
+          ],
+        },
+      },
+    ],
+  },
   /*
   ** Build configuration
   */
@@ -115,7 +151,7 @@ module.exports = {
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
           exclude: /(node_modules)/,
-        })
+        });
       }
     },
   },
@@ -129,4 +165,4 @@ module.exports = {
       '/courses/road-signs/topic/regulatory-signs',
     ],
   },
-}
+};

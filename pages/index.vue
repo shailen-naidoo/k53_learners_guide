@@ -60,16 +60,20 @@ export default {
     };
   },
   mounted() {
-    const { usedApp, } = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
+    try {
+      const { usedApp = null, } = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
 
-    if (!usedApp) {
-      return false;
+      if (!usedApp) {
+        return false;
+      }
+
+      this.redirecting = true;
+      setTimeout(() => {
+        this.$router.replace('/courses');
+      }, 2000);
+    } catch (e) {
+
     }
-
-    this.redirecting = true;
-    setTimeout(() => {
-      this.$router.replace('/courses');
-    }, 2000);
   },
   methods: {
     checkFirstTimeUsage() {
