@@ -16,7 +16,7 @@ if (!firebase.apps.length) {
     appId: process.env.APP_ID,
   });
   // eslint-disable-next-line no-console
-  firebase.firestore().enablePersistence().then(value => console.info(value));
+  // firebase.firestore().enablePersistence().then(value => console.info(value));
 }
 
 export const auth = firebase.auth();
