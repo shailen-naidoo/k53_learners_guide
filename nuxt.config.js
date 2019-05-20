@@ -90,7 +90,7 @@ module.exports = {
     runtimeCaching: [
       {
         urlPattern: 'https://fonts.googleapis.com/.*',
-        handler: 'cacheFirst',
+        handler: 'networkFirst',
         method: 'GET',
         cacheableResponse: {
           statuses: [
@@ -101,7 +101,7 @@ module.exports = {
       },
       {
         urlPattern: 'https://use.fontawesome.com/.*',
-        handler: 'cacheFirst',
+        handler: 'networkFirst',
         method: 'GET',
         cacheableResponse: {
           statuses: [
