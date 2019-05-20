@@ -21,6 +21,11 @@
         <v-icon>{{ icon }}</v-icon>
       </v-btn>
     </v-bottom-nav>
+    <no-ssr>
+      <v-snackbar v-model="offline" top :multi-line="$vuetify.breakpoint.smAndDown" :timeout="10000">
+        You are offline ❌ No stress, you can still use the app
+      </v-snackbar>
+    </no-ssr>
   </v-app>
 </template>
 
@@ -34,6 +39,14 @@ export default {
       showBottomNav: true,
       currentPage: this.$route.name,
     };
+  },
+  computed: {
+    offline: {
+      get() {
+        return this.$store.state.offline;
+      },
+      set() {},
+    },
   },
 };
 </script>
