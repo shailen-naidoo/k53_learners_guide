@@ -23,7 +23,7 @@
         <p class="body-2">
           Create an account to get access to some cool features
         </p>
-        <v-btn color="grey lighten-3" round @click="showAccounts = true">
+        <v-btn color="grey lighten-3" round @click="showLoginMethods = true">
           Login / Signup
         </v-btn>
         <v-divider class="my-4" />
@@ -54,7 +54,7 @@
                 outline
                 round
                 color="black"
-                @click="signOut"
+                @click="signOutUser"
               >
                 Sign out
               </v-btn>
@@ -72,7 +72,7 @@
                 <v-subheader class="pl-0">
                   Settings
                 </v-subheader>
-                <v-checkbox v-model="emailUpdates" label="Receive email updates about the K53 Guide project" class="pt-0 mt-0" @change="setEmailUpdates" />
+                <v-checkbox v-model="emailUpdates" label="Receive email updates about the K53 Guide project" class="pt-0 mt-0" />
               </div>
             </v-card-text>
           </v-card>
@@ -95,25 +95,25 @@
         </no-ssr>
       </v-flex>
     </v-layout>
-    <v-dialog v-model="showAccounts" max-width="500px">
+    <v-dialog v-model="showLoginMethods" max-width="500px">
       <v-card class="border-radius">
         <v-card-title>Create / Login K53 Guide account</v-card-title>
         <v-divider />
         <v-card-text class="text-md-center text-sm-center text-xs-center pb-4">
-          <v-btn fab depressed color="#DB4437" dark @click="signInWithGoogle">
+          <v-btn fab depressed color="#DB4437" dark @click="signInUserWith('google')">
             <v-icon>fab fa-google</v-icon>
           </v-btn>
-          <v-btn fab depressed color="#38A1F3" dark @click="signInWithTwitter">
+          <v-btn fab depressed color="#38A1F3" dark @click="signInUserWith('twitter')">
             <v-icon>fab fa-twitter</v-icon>
           </v-btn>
-          <v-btn fab depressed color="#3C5A99" dark @click="signInWithFacebook">
+          <v-btn fab depressed color="#3C5A99" dark @click="signInUserWith('facebook')">
             <v-icon>fab fa-facebook</v-icon>
           </v-btn>
         </v-card-text>
       </v-card>
     </v-dialog>
     <no-ssr>
-      <v-snackbar v-model="showError" top right :timeout="10000" :multi-line="$vuetify.breakpoint.smAndDown">
+      <v-snackbar v-model="userAccountAlreadyExists" top right :timeout="10000" :multi-line="$vuetify.breakpoint.smAndDown">
         <span class="caption">Ooops! Email already exists, maybe you used one of the other sign-in options 😊</span>
       </v-snackbar>
     </no-ssr>
@@ -122,12 +122,10 @@
 
 <script>
 import {
-  auth,
-  firestore,
-  googleProvider,
-  facebookProvider,
-  twitterProvider,
-} from '@/plugins/firebase.js'
+  mapActions,
+  mapMutations,
+  mapState,
+} from 'vuex';
 
 export default {
   head: {
@@ -157,77 +155,49 @@ export default {
   },
   data() {
     return {
-      showAccounts: false,
-      showError: false,
-      user: null,
-      emailUpdates: false,
-    }
+    };
   },
-  mounted() {
-    auth.onAuthStateChanged((user) => {
-      if (!user) {
-        return false
-      }
-
-      this.user = user
-      this.createUserAccount()
-      this.getEmailUpdates()
-    })
+  computed: {
+    ...mapState({
+      user: ({ account, }) => account.user,
+    }),
+    userAccountAlreadyExists: {
+      get() {
+        return this.$store.state.account.userAccountAlreadyExists;
+      },
+      set(value) {
+        this.setUserAccountAlreadyExists(value);
+      },
+    },
+    showLoginMethods: {
+      get() {
+        return this.$store.state.account.showLoginMethods;
+      },
+      set() {
+        this.setShowLoginMethods();
+      },
+    },
+    emailUpdates: {
+      get() {
+        return this.$store.state.account.emailUpdates;
+      },
+      set(value) {
+        this.setUserEmailUpdates(value);
+      },
+    },
   },
   methods: {
-    async signInWithGoogle() {
-      try {
-        await auth.signInWithPopup(googleProvider)
-        this.showAccounts = false
-      } catch (e) {
-        this.showError = true
-      }
-    },
-    async signInWithTwitter() {
-      try {
-        await auth.signInWithPopup(twitterProvider)
-        this.showAccounts = false
-      } catch (e) {
-        this.showError = true
-      }
-    },
-    async signInWithFacebook() {
-      try {
-        await auth.signInWithPopup(facebookProvider)
-        this.showAccounts = false
-      } catch (e) {
-        this.showError = true
-      }
-    },
-    signOut() {
-      auth.signOut()
-    },
-    async createUserAccount() {
-      if (!(this.user.metadata.creationTime === this.user.metadata.lastSignInTime)) {
-        return false
-      }
-
-      await firestore.collection('users').doc(this.user.uid).set({
-        name: this.user.displayName,
-        photoURL: this.user.photoURL,
-        email: this.user.email,
-        emailUpdates: false,
-      })
-    },
-    async setEmailUpdates(value) {
-      await firestore.collection('users').doc(this.user.uid).update({
-        emailUpdates: value,
-      })
-    },
-    async getEmailUpdates() {
-      const user = await firestore.collection('users').doc(this.user.uid).get()
-
-      const { emailUpdates, } = user.data()
-
-      this.emailUpdates = emailUpdates
-    },
+    ...mapActions({
+      signInUserWith: 'account/SIGNIN_USER_WITH',
+      signOutUser: 'account/SIGNOUT_USER',
+      setUserEmailUpdates: 'account/SET_USER_EMAIL_UPDATES',
+    }),
+    ...mapMutations({
+      setUserAccountAlreadyExists: 'account/SET_USER_ACCOUNT_ALREADY_EXISTS',
+      setShowLoginMethods: 'account/SET_SHOW_LOGIN_METHODS',
+    }),
   },
-}
+};
 </script>
 
 <style scoped>

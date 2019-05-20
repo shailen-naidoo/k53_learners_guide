@@ -66,6 +66,7 @@ module.exports = {
     '@/plugins/vuetify',
     '@/plugins/staticData',
     { src: '@/plugins/firebase', ssr: false, },
+    { src: '@/plugins/init', ssr: false, },
   ],
 
   /*

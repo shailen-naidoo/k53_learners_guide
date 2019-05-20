@@ -72,8 +72,8 @@ export default {
     const [
       ,,,,
       roadSignTopic,
-    ] = this.$route.path.split('/')
-    const formatTopicName = roadSignTopic.split('-').map(([a, ...rest]) => `${a.toUpperCase()}${rest.join('')}`).join(' ')
+    ] = this.$route.path.split('/');
+    const formatTopicName = roadSignTopic.split('-').map(([a, ...rest]) => `${a.toUpperCase()}${rest.join('')}`).join(' ');
 
     return {
       title: `🛑 ${formatTopicName} | K53 Learners Guide`,
@@ -95,35 +95,35 @@ export default {
           content: 'Regulatory signs are signs that control traffic, they are generally red in color and are found at intersections. Think of a stop sign!',
         },
       ],
-    }
+    };
   },
   data() {
     return {
       showFilter: false,
       signFilters: [],
-    }
+    };
   },
   computed: {
     typeOfSigns() {
       return [
         ...new Set(this.signs.map(({ type, }) => type)),
-      ]
+      ];
     },
     filterSigns() {
       if (this.signFilters.length) {
-        return this.signs.filter(({ type, }) => this.signFilters.includes(type))
+        return this.signs.filter(({ type, }) => this.signFilters.includes(type));
       } else {
-        return this.signs
+        return this.signs;
       }
     },
   },
   async asyncData({ params: { index, }, $axios, },) {
-    const { default: signs, } = await import(`@/data/pages/courses/road-signs/topic/${index}.json`)
+    const { default: signs, } = await import(`@/data/pages/courses/road-signs/topic/${index}.json`);
     return {
       signs,
-    }
+    };
   },
-}
+};
 </script>
 
 <style scoped>
