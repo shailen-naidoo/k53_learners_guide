@@ -7,7 +7,8 @@
       v-model="showBottomNav"
       app
       fixed
-      color="yellow"
+      :color="offline ? 'black' : 'yellow'"
+      :dark="offline"
       :active.sync="currentPage"
     >
       <v-btn
@@ -24,6 +25,9 @@
     <no-ssr>
       <v-snackbar v-model="offline" top :multi-line="$vuetify.breakpoint.smAndDown" :timeout="10000">
         You are currently offline ❌ No stress, you can still use the app ⚡
+      </v-snackbar>
+      <v-snackbar v-model="backOnline" top :timeout="10000">
+        Woohoo! You are back online! 🙌
       </v-snackbar>
     </no-ssr>
   </v-app>
@@ -42,6 +46,7 @@ export default {
     return {
       showBottomNav: true,
       currentPage: this.$route.name,
+      backOnline: false,
     };
   },
   computed: {
@@ -55,6 +60,15 @@ export default {
       set(value) {
 
       },
+    },
+  },
+  watch: {
+    offline(n) {
+      if (n) {
+        return false;
+      }
+
+      this.backOnline = true;
     },
   },
 };
