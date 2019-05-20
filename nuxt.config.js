@@ -1,4 +1,4 @@
-const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
+const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin');
 
 module.exports = {
   mode: 'universal',
@@ -86,14 +86,6 @@ module.exports = {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
-  workbox: {
-    offlineAnalytics: true,
-    runtimeCaching: [
-      {
-        urlPattern: new RegExp('.+\\.jpg$'),
-      },
-    ],
-  },
 
   /*
   ** Build configuration
@@ -123,7 +115,7 @@ module.exports = {
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
           exclude: /(node_modules)/,
-        })
+        });
       }
     },
   },
@@ -137,4 +129,4 @@ module.exports = {
       '/courses/road-signs/topic/regulatory-signs',
     ],
   },
-}
+};
