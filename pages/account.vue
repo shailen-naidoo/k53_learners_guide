@@ -72,7 +72,7 @@
                 <v-subheader class="pl-0">
                   Settings
                 </v-subheader>
-                <v-checkbox v-model="emailUpdates" label="Receive email updates about the K53 Guide project" class="pt-0 mt-0" @change="setEmailUpdates" />
+                <v-checkbox label="Receive email updates about the K53 Guide project" class="pt-0 mt-0" />
               </div>
             </v-card-text>
           </v-card>
@@ -122,13 +122,9 @@
 
 <script>
 import {
-  auth,
-  firestore,
-} from '@/plugins/firebase.js';
-
-import {
   mapActions,
   mapMutations,
+  mapState,
 } from 'vuex';
 
 export default {
@@ -159,13 +155,12 @@ export default {
   },
   data() {
     return {
-      showAccounts: false,
-      showError: false,
-      user: null,
-      emailUpdates: false,
     };
   },
   computed: {
+    ...mapState({
+      user: ({ account, }) => account.user,
+    }),
     userAccountAlreadyExists: {
       get() {
         return this.$store.state.account.userAccountAlreadyExists;
@@ -183,17 +178,6 @@ export default {
       },
     },
   },
-  mounted() {
-    auth.onAuthStateChanged((user) => {
-      if (!user) {
-        return false;
-      }
-
-      this.user = user;
-      this.createUserAccount();
-      this.getEmailUpdates();
-    });
-  },
   methods: {
     ...mapActions({
       signInUserWith: 'account/SIGNIN_USER_WITH',
@@ -203,30 +187,6 @@ export default {
       setUserAccountAlreadyExists: 'account/SET_USER_ACCOUNT_ALREADY_EXISTS',
       setShowLoginMethods: 'account/SET_SHOW_LOGIN_METHODS',
     }),
-    async createUserAccount() {
-      if (!(this.user.metadata.creationTime === this.user.metadata.lastSignInTime)) {
-        return false;
-      }
-
-      await firestore.collection('users').doc(this.user.uid).set({
-        name: this.user.displayName,
-        photoURL: this.user.photoURL,
-        email: this.user.email,
-        emailUpdates: false,
-      });
-    },
-    async setEmailUpdates(value) {
-      await firestore.collection('users').doc(this.user.uid).update({
-        emailUpdates: value,
-      });
-    },
-    async getEmailUpdates() {
-      const user = await firestore.collection('users').doc(this.user.uid).get();
-
-      const { emailUpdates, } = user.data();
-
-      this.emailUpdates = emailUpdates;
-    },
   },
 };
 </script>
