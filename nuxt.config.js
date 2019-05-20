@@ -67,6 +67,7 @@ module.exports = {
     '@/plugins/staticData',
     { src: '@/plugins/firebase', ssr: false, },
     { src: '@/plugins/init', ssr: false, },
+    { src: '@/plugins/offline', ssr: false, },
   ],
 
   /*
