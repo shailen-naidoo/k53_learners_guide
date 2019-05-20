@@ -1,5 +1,6 @@
 import {
   auth,
+  firestore,
   googleProvider,
   twitterProvider,
   facebookProvider,
@@ -39,6 +40,7 @@ export const state = () => ({
   user: null,
   userAccountAlreadyExists: false,
   showLoginMethods: false,
+  emailUpdates: false,
 });
 
 export const mutations = {
@@ -50,6 +52,9 @@ export const mutations = {
   },
   SET_SHOW_LOGIN_METHODS(state) {
     state.showLoginMethods = !state.showLoginMethods;
+  },
+  SET_EMAIL_UPDATES(state, value) {
+    state.emailUpdates = value;
   },
 };
 
@@ -67,5 +72,11 @@ export const actions = {
   async SIGNOUT_USER({ commit, }) {
     await auth.signOut();
     commit('SET_USER', null);
+  },
+  async SET_USER_EMAIL_UPDATES({ commit, }, value) {
+    await firestore.collection('users').doc(auth.currentUser.uid).update({
+      emailUpdates: value,
+    });
+    commit('SET_EMAIL_UPDATES', value);
   },
 };

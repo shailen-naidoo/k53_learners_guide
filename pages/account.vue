@@ -72,7 +72,7 @@
                 <v-subheader class="pl-0">
                   Settings
                 </v-subheader>
-                <v-checkbox label="Receive email updates about the K53 Guide project" class="pt-0 mt-0" />
+                <v-checkbox v-model="emailUpdates" label="Receive email updates about the K53 Guide project" class="pt-0 mt-0" />
               </div>
             </v-card-text>
           </v-card>
@@ -177,11 +177,20 @@ export default {
         this.setShowLoginMethods();
       },
     },
+    emailUpdates: {
+      get() {
+        return this.$store.state.account.emailUpdates;
+      },
+      set(value) {
+        this.setUserEmailUpdates(value);
+      },
+    },
   },
   methods: {
     ...mapActions({
       signInUserWith: 'account/SIGNIN_USER_WITH',
       signOutUser: 'account/SIGNOUT_USER',
+      setUserEmailUpdates: 'account/SET_USER_EMAIL_UPDATES',
     }),
     ...mapMutations({
       setUserAccountAlreadyExists: 'account/SET_USER_ACCOUNT_ALREADY_EXISTS',

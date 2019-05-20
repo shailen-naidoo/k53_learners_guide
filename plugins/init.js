@@ -15,6 +15,12 @@ const createAccount = async (user) => {
   });
 };
 
+const setUserEmailUpdates = async (commit, user) => {
+  const res = await firestore.collection('users').doc(user.uid).get();
+
+  commit('account/SET_EMAIL_UPDATES', res.data().emailUpdates);
+};
+
 export default ({ app, }) => {
   auth.onAuthStateChanged(async (user) => {
     if (!user) {
@@ -25,5 +31,6 @@ export default ({ app, }) => {
 
     app.store.commit('account/SET_USER', { displayName, email, photoURL, });
     await createAccount({ uid, metadata, });
+    await setUserEmailUpdates(app.store.commit, user);
   });
 };
