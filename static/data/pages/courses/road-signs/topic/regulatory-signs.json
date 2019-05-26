@@ -898,5 +898,23 @@
     "image": "/images/road-signs/regulatory-signs/reservation-signs/335.jpg",
     "type": "Reservation sign",
     "description": ""
+  },
+  {
+    "name": "Dual-carriageway freeway begins",
+    "image": "/images/road-signs/regulatory-signs/comprehensive-signs/401.jpg",
+    "type": "Comprehensive sign",
+    "description": "To indicate that a freeway begins at the sign and that the rules that apply to freeways are effective from here"
+  },
+  {
+    "name": "Single-carriageway freeway begins",
+    "image": "/images/road-signs/regulatory-signs/comprehensive-signs/402.jpg",
+    "type": "Comprehensive sign",
+    "description": "To indicate that a single-carriageway freeway begins at the sign and that all rules that apply to freeways are effective from here"
+  },
+  {
+    "name": "Woonerf",
+    "image": "/images/road-signs/regulatory-signs/comprehensive-signs/403.jpg",
+    "type": "Comprehensive sign",
+    "description": "To prohibit the entry of all vehicles with a mass exceeding 3 500 kg, or vehicles, which have more than 10 seats, except for local access or delivery"
   }
 ]
