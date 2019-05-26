@@ -550,5 +550,353 @@
     "image": "/images/road-signs/regulatory-signs/prohibition-signs/241.jpg",
     "type": "Prohibition sign",
     "description": "To prohibit hawkers in this area during any time of the day or night"
+  },
+  {
+    "name": "Bus reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/301-p.jpg",
+    "type": "Reservation sign",
+    "description": "To indicate that the road or part of the carriageway is reserved for buses only"
+  },
+  {
+    "name": "Bus parking reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/301.jpg",
+    "type": "Reservation sign",
+    "description": "To indicate that the road or part of the carriageway is reserved for buses to park only"
+  },
+  {
+    "name": "Bus lane reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/302.jpg",
+    "type": "Reservation sign",
+    "description": "To indicate that no other class of vehicle may use that part of the road"
+  },
+  {
+    "name": "Begin bus lane reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/303.jpg",
+    "type": "Reservation sign",
+    "description": "To indicate where the reserved traffic lane which only buses may enter, starts"
+  },
+  {
+    "name": "Pedal cycle lane reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/304-p.jpg",
+    "type": "Reservation sign",
+    "description": "To inform you that a parking area is reserved for bicycles only"
+  },
+  {
+    "name": "Pedal cycle parking reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/304.jpg",
+    "type": "Reservation sign",
+    "description": "To inform you that a parking area is reserved for bicycles only"
+  },
+  {
+    "name": "Parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/305-p.jpg",
+    "type": "Reservation sign",
+    "description": "To indicates a parking area for vehicles with a GVM of less than 3 500 kg where no time limit applies but a fee must be paid"
+  },
+  {
+    "name": "Limited parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/306-p.jpg",
+    "type": "Reservation sign",
+    "description": "To indicates a parking area that may be used free of charge or at a fee and the maximum time allowed for a vehicle to be parked, is displayed"
+  },
+  {
+    "name": "Motorcycle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/307-p.jpg",
+    "type": "Reservation sign",
+    "description": "To reserve a portion of a road or a parking area for use by motorcycles only"
+  },
+  {
+    "name": "Motor cycle parking reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/307.jpg",
+    "type": "Reservation sign",
+    "description": "To reserve a portion of a road or a parking area for use by motorcycles only"
+  },
+  {
+    "name": "Motor car reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/308-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Motor car parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/308.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Taxi reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/309-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Taxi parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/309.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Minibus reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/310-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Minibus parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/310.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Midibus reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/311-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Midibus parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/311.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Delivery vehicle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/312-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Delivery vehicle parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/312.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Goods vehicle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/313-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Goods vehicle parking", 
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/313.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Goods vehicles over the indicated gross vehicle mass reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/314-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Goods vehicles over the indicated gross vehicle mass parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/314.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Construction vehicle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/315-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Construction vehicle parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/315.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Vehicles conveying hazardous substances reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/316-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Vehicles conveying hazardous substances parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/316.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Abnormal vehicle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/317-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Abnormal vehicle parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/317.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Rickshaw reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/318-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Rickshaw parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/318.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Tour bus reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/319-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Tour bus parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/319.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "High occupancy vehicle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/320-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "High occupancy vehicle parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/320.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Emergency vehicle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/321-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Emergency vehicle parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/321.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/322-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/322.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Disabled persons vehicle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/323-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Disabled persons vehicle parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/323.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Authorised vehicle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/324-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Authorised vehicle parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/324.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Bus Stop Reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/325.jpg",
+    "type": "Reservation sign",
+    "description": "To allow minibuses to take up and drop passengers off. Such a vehicle must display an appropriate emblem, logo or any other indication that they are minibuses"
+  },
+  {
+    "name": "Minibus stop reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/326.jpg",
+    "type": "Reservation sign",
+    "description": "To allow minibuses to take up and drop passengers off. Such a vehicle must display an appropriate emblem, logo or any other indication that they are minibuses"
+  },
+  {
+    "name": "Bus and minibus reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/327-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Bus and minibus parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/327.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Bus and minibus lane reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/328.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Bus and minibus lane reservation begins",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/329.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Bus and midi bus reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/330-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Bus and midi bus parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/330.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Bus and midi bus lane reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/331.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Bus and midi bus lane reservation begins",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/332.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Bus, midi bus and minibus reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/333-p.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Bus, midi bus and minibus parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/333.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Bus, midi bus and minibus lane reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/334.jpg",
+    "type": "Reservation sign",
+    "description": ""
+  },
+  {
+    "name": "Bus, midi bus and minibus lane reservation begins",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/335.jpg",
+    "type": "Reservation sign",
+    "description": ""
   }
 ]
