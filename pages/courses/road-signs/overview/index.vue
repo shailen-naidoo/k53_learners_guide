@@ -50,6 +50,7 @@
 
 <script>
 export default {
+  layout: 'toolbar',
   head: {
     title: '📃 Road Sign Categories | K53 Learners Guide',
     meta: [
