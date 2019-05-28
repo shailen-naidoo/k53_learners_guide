@@ -68,6 +68,7 @@ module.exports = {
     { src: '@/plugins/firebase', ssr: false, },
     { src: '@/plugins/init', ssr: false, },
     { src: '@plugins/offline', ssr: false, },
+    { src: '@/plugins/scroll', ssr: false, },
   ],
 
   /*

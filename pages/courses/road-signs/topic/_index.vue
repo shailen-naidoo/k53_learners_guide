@@ -19,7 +19,7 @@
         <v-divider class="mb-3" />
         <v-layout column>
           <v-flex v-for="({ image, name, description, type }, i) in filterSigns" :key="i">
-            <v-card class="border-radius">
+            <v-card :id="`${type.toLowerCase().replace(' ','-')}-${i}`" class="border-radius">
               <v-card-title class="subheading">
                 {{ name }}
                 <v-spacer />
