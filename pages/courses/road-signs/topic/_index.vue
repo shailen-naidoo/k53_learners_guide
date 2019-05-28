@@ -11,9 +11,6 @@
     >
       <v-flex md5>
         <h1 class="body-2 mb-2">
-          <v-icon color="red" small>
-            info
-          </v-icon>
           <span>Regulatory signs</span>
         </h1>
         <v-divider class="mb-3" />

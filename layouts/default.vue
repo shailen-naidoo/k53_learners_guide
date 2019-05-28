@@ -1,5 +1,17 @@
 <template>
   <v-app>
+    <v-toolbar
+      v-if="$route.path"
+      dense
+      flat
+      color="grey lighten-5"
+      fixed
+      app
+    >
+      <v-btn icon @click="$router.go(-1)">
+        <v-icon>arrow_back</v-icon>
+      </v-btn>
+    </v-toolbar>
     <v-content>
       <nuxt />
     </v-content>
