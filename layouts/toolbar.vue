@@ -34,10 +34,13 @@
       </v-btn>
     </v-bottom-nav>
     <no-ssr>
-      <v-snackbar v-model="offline" top :multi-line="$vuetify.breakpoint.smAndDown" :timeout="10000">
+      <v-snackbar :value="offline && !dismiss" top :multi-line="$vuetify.breakpoint.smAndDown" :timeout="5000">
         You are offline ❌ No stress, you can still use the app
+        <v-btn class="ml-1" flat color="yellow" @click="dismiss = true">
+          dismiss
+        </v-btn>
       </v-snackbar>
-      <v-snackbar v-model="backOnline" top :timeout="10000">
+      <v-snackbar v-model="backOnline" top :timeout="5000">
         Woohoo! You are back online 🙌
       </v-snackbar>
     </no-ssr>
@@ -61,7 +64,17 @@ export default {
       get() {
         return this.$store.state.offline;
       },
-      set() {},
+      set() {
+        this.$store.commit('SET_DISMISS', true);
+      },
+    },
+    dismiss: {
+      get() {
+        return this.$store.state.dismiss;
+      },
+      set(value) {
+        this.$store.commit('SET_DISMISS', value);
+      },
     },
   },
   watch: {
