@@ -37,7 +37,7 @@ module.exports = {
       },
       {
         rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css',
+        href: 'https://cdn.jsdelivr.net/npm/vuetify@1.x/dist/vuetify.min.css',
       },
       {
         rel: 'stylesheet',
