@@ -35,10 +35,10 @@ module.exports = {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Material+Icons',
       },
-      // {
-      //   rel: 'stylesheet',
-      //   href: 'https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css',
-      // },
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/npm/vuetify@1.x/dist/vuetify.min.css',
+      },
       {
         rel: 'stylesheet',
         href: 'https://use.fontawesome.com/releases/v5.8.2/css/all.css',
