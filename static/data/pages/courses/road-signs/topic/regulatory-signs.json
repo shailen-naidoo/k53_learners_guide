@@ -375,13 +375,13 @@
     "name": "Left turn prohibited",
     "image": "/images/road-signs/regulatory-signs/prohibition-signs/211.jpg",
     "type": "Prohibition sign",
-    "description": ""
+    "description": "To prohibit traffic from turning left"
   },
   {
     "name": "Right turn",
     "image": "/images/road-signs/regulatory-signs/prohibition-signs/212.jpg",
     "type": "Prohibition sign",
-    "description": "To prohibit traffic from turning left or right"
+    "description": "To prohibit traffic from turning right"
   },
   {
     "name": "U-turn prohibited",
@@ -615,19 +615,19 @@
     "name": "Motor car reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/308-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for motor cars to use"
   },
   {
     "name": "Motor car parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/308.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for motor cars to park"
   },
   {
     "name": "Taxi reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/309-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for taxi's to use"
   },
   {
     "name": "Taxi parking",
@@ -636,122 +636,122 @@
     "description": ""
   },
   {
-    "name": "Minibus reservation",
+    "name": "Minibus parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/310-p.jpg",
     "type": "Reservation sign",
     "description": ""
   },
   {
-    "name": "Minibus parking",
+    "name": "Minibus reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/310.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Minibus to use"
   },
   {
-    "name": "Midibus reservation",
+    "name": "Midibus parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/311-p.jpg",
     "type": "Reservation sign",
     "description": ""
   },
   {
-    "name": "Midibus parking",
+    "name": "Midibus reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/311.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Midibus to use"
   },
   {
     "name": "Delivery vehicle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/312.jpg",
+    "type": "Reservation sign",
+    "description": "The areas concerned are reserved for Delivery vehicles to use"
+  },
+  {
+    "name": "Delivery vehicle parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/312-p.jpg",
     "type": "Reservation sign",
     "description": ""
   },
   {
-    "name": "Delivery vehicle parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/312.jpg",
+    "name": "Goods vehicle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/313.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Goods vehicles to use"
   },
   {
-    "name": "Goods vehicle reservation",
+    "name": "Goods vehicle parking", 
     "image": "/images/road-signs/regulatory-signs/reservation-signs/313-p.jpg",
     "type": "Reservation sign",
     "description": ""
   },
   {
-    "name": "Goods vehicle parking", 
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/313.jpg",
+    "name": "Goods vehicles over the indicated gross vehicle mass reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/314.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Goods vehicles over the indicated gross vehicle mass to use"
   },
   {
-    "name": "Goods vehicles over the indicated gross vehicle mass reservation",
+    "name": "Goods vehicles over the indicated gross vehicle mass parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/314-p.jpg",
     "type": "Reservation sign",
     "description": ""
   },
   {
-    "name": "Goods vehicles over the indicated gross vehicle mass parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/314.jpg",
+    "name": "Construction vehicle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/315.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Construction vehicles to use"
   },
   {
-    "name": "Construction vehicle reservation",
+    "name": "Construction vehicle parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/315-p.jpg",
     "type": "Reservation sign",
     "description": ""
   },
   {
-    "name": "Construction vehicle parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/315.jpg",
+    "name": "Vehicles conveying hazardous substances reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/316.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Vehicles conveying hazardous substances to use"
   },
   {
-    "name": "Vehicles conveying hazardous substances reservation",
+    "name": "Vehicles conveying hazardous substances parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/316-p.jpg",
     "type": "Reservation sign",
     "description": ""
   },
   {
-    "name": "Vehicles conveying hazardous substances parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/316.jpg",
+    "name": "Abnormal vehicle reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/317.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Abnormal vehicles to use"
   },
   {
-    "name": "Abnormal vehicle reservation",
+    "name": "Abnormal vehicle parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/317-p.jpg",
     "type": "Reservation sign",
     "description": ""
   },
   {
-    "name": "Abnormal vehicle parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/317.jpg",
+    "name": "Rickshaw reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/318.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Rickshaws to use"
   },
   {
-    "name": "Rickshaw reservation",
+    "name": "Rickshaw parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/318-p.jpg",
     "type": "Reservation sign",
     "description": ""
   },
   {
-    "name": "Rickshaw parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/318.jpg",
-    "type": "Reservation sign",
-    "description": ""
-  },
-  {
     "name": "Tour bus reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/319-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/319.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Tour busses to use"
   },
   {
     "name": "Tour bus parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/319.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/319-p.jpg",
     "type": "Reservation sign",
     "description": ""
   },
