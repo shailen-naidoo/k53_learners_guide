@@ -1,0 +1,542 @@
+[33mcommit 86772abf0e73461d68026bf0208f24f9e73f3f4c[m[33m ([m[1;36mHEAD -> [m[1;32mAdding_in_more_signs[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Jonathan <jbaspeling@gmail.com>
+Date:   Sat Sep 7 22:13:47 2019 +0200
+
+    WIP
+
+[33mcommit f39c8bef2cfe13773eec4527f7693f98bf1247da[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jonathan <jbaspeling@gmail.com>
+Date:   Sat Sep 7 19:04:00 2019 +0200
+
+    Finished adding Warning Sign Assets.
+
+[33mcommit 5832010e2aeaf21202fdde022cd1969061fada4a[m
+Author: Jonathan <jbaspeling@gmail.com>
+Date:   Sun Sep 1 00:26:09 2019 +0200
+
+    Add More Signes = Warning Sign & Added K53 Sign Manual
+
+[33mcommit ec989fa955b3e9b7e99df50383c44047a97315a5[m
+Merge: f6f0ca2 9c50fe7
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Sat Aug 17 14:26:29 2019 +0200
+
+    Merge pull request #23 from ShailenNaidoo/update
+    
+    Updated packages
+
+[33mcommit 9c50fe7b7ec860ac1f63c87989a72a5ce8bb834f[m[33m ([m[1;31morigin/update[m[33m)[m
+Author: shailen <shailen@lumkani.com>
+Date:   Sat Aug 17 14:22:44 2019 +0200
+
+    Added Vuetify css
+
+[33mcommit f7c21f5b6a5ca645ffe82c24ed6f785c9dd8e0fa[m
+Author: shailen <shailen@lumkani.com>
+Date:   Sat Aug 17 14:15:54 2019 +0200
+
+    Updated packages
+
+[33mcommit f6f0ca27960ae79f19566c30ac99b3d6368f6596[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Sun Jun 2 19:35:51 2019 +0200
+
+    Added better handling of offline/online notifications
+
+[33mcommit d8c5330dd7de03ba8a4778c0f520f5ef69c7d6f2[m
+Merge: 6912647 8b25f86
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Sat Jun 1 11:49:15 2019 +0200
+
+    Merge pull request #18 from ShailenNaidoo/dependabot/npm_and_yarn/axios-0.18.1
+    
+    Bump axios from 0.18.0 to 0.18.1
+
+[33mcommit 8b25f86454d515d1d5dd2af28a95bc708f7c38dd[m
+Author: dependabot[bot] <dependabot[bot]@users.noreply.github.com>
+Date:   Sat Jun 1 09:45:52 2019 +0000
+
+    Bump axios from 0.18.0 to 0.18.1
+    
+    Bumps [axios](https://github.com/axios/axios) from 0.18.0 to 0.18.1.
+    - [Release notes](https://github.com/axios/axios/releases)
+    - [Changelog](https://github.com/axios/axios/blob/v0.18.1/CHANGELOG.md)
+    - [Commits](https://github.com/axios/axios/compare/v0.18.0...v0.18.1)
+
+[33mcommit 691264705ecf173c77314dba94ec5496364c9db1[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Tue May 28 15:55:14 2019 +0200
+
+    Created a toolbar layout
+
+[33mcommit d70afe32dfaba5c1a571a5631a757e1cc8897d74[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Tue May 28 15:44:20 2019 +0200
+
+    Removed data folder
+
+[33mcommit 4393efb1569462fb2226652a65da432ec846ba58[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Tue May 28 15:36:39 2019 +0200
+
+    Added a back button on certain routes
+
+[33mcommit 56cbe3e99cc8fd75f651ef3ba762f9a0ff9bd371[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Tue May 28 09:53:05 2019 +0200
+
+    Added hash scroll feature
+
+[33mcommit dd99fca3ea0a68cda13b232b7a240b7d41775468[m
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Mon May 27 20:30:08 2019 +0200
+
+    Create CONTRIBUTING.md
+
+[33mcommit 39c857f79cfed8454e7a17693da0134af781bcd1[m
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Mon May 27 19:59:23 2019 +0200
+
+    Create CODE_OF_CONDUCT.md
+
+[33mcommit 94ecb28c123c14d1f97980e6da80c975e366314d[m
+Merge: 8c3748a f33c8e1
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Sun May 26 16:51:46 2019 +0200
+
+    Merge pull request #17 from ShailenNaidoo/feature/comprehensive-signs
+    
+    Added comprehensive signs
+
+[33mcommit f33c8e1131f0e5ae6e0c006b1d2cf19ea1d71b65[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Sun May 26 16:40:29 2019 +0200
+
+    Added comprehensive signs
+
+[33mcommit 8c3748ae65a2c7c2a443162782c86ad2355a879d[m
+Merge: 984304f 503ca4b
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Sun May 26 14:26:05 2019 +0200
+
+    Merge pull request #16 from ShailenNaidoo/feature/reservation-signs
+    
+    Added reservation signs
+
+[33mcommit 503ca4bcd330117cd38471cfaf9bbebf0cf54419[m[33m ([m[1;31morigin/feature/reservation-signs[m[33m)[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Sun May 26 14:14:52 2019 +0200
+
+    Added reservation signs
+
+[33mcommit 984304ff737cf3c89daf834c6aef0ae9924a2e27[m
+Merge: 7bc09b8 9fea8f7
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Tue May 21 00:17:32 2019 +0200
+
+    Merge pull request #14 from ShailenNaidoo/feature/offline-notification
+    
+    Added online/offline handlers
+
+[33mcommit 9fea8f7171aabff71cb508fe656c5a970046ff91[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Tue May 21 00:11:23 2019 +0200
+
+    Bottom nav now changes color when offline
+
+[33mcommit 544f446c92d962819dd81406200f30990662140b[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Tue May 21 00:00:45 2019 +0200
+
+    Added offline init state logic
+
+[33mcommit 6457d203a29c26b491c7b55c8867d4b3808a4826[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 23:52:06 2019 +0200
+
+    Added online notification
+
+[33mcommit c4283ad9248261e152da6412d2832b4dbd5d894e[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 23:43:21 2019 +0200
+
+    Added snackbar notification
+
+[33mcommit 64d6bd81aa571eedee98f6f2f51d4f2b8d2c1234[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 23:35:19 2019 +0200
+
+    Added vuex to handle offline state
+
+[33mcommit 771d18bd63126ee5aae4738880067c894fd08129[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 23:24:09 2019 +0200
+
+    Added online/offline handlers
+
+[33mcommit 7bc09b8332de3d7a1fb533c43751fdef471b75c4[m
+Merge: 25ce0e0 86bfd1d
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Mon May 20 21:49:28 2019 +0200
+
+    Merge pull request #12 from ShailenNaidoo/feature/pwa-update
+    
+    Feature/pwa update
+
+[33mcommit 86bfd1d1ef10590a47944bb5b37a5649929d0aa9[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 21:43:55 2019 +0200
+
+    Removed previous commit changes
+
+[33mcommit 875d1fed3b9a36704dee966415442659abed9858[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 21:38:45 2019 +0200
+
+    Test if pull-to-refresh is disabled
+
+[33mcommit c7f83b4c5aa27a42c5b94da1202ad05c5f908ac1[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 21:30:39 2019 +0200
+
+    Added firestore persistence
+
+[33mcommit 8a7e05d11913252e0f5ed8ef8879c050cdeb719f[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 21:22:26 2019 +0200
+
+    Made changes to runtimeCaching
+
+[33mcommit 005801b422a40125a5f2449d13462d18b0fe876c[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 21:20:34 2019 +0200
+
+    Removed firestore persistence
+
+[33mcommit 25ce0e008a8e330dbe4fdc39e4dcb521d69c9a8c[m
+Merge: 49c28f9 0c825fd
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Mon May 20 18:46:23 2019 +0200
+
+    Merge pull request #11 from ShailenNaidoo/feature/pwa-update
+    
+    Added runtime caching of images
+
+[33mcommit 0c825fd7fb10ab3dcea6104ea225f650a51b08a3[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 18:26:59 2019 +0200
+
+    Enabled firestore caching
+
+[33mcommit 1d792b5d1b8f88429122c57e88290309ebb8c931[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 18:09:15 2019 +0200
+
+    Added cache for images
+
+[33mcommit 42baa75939fc2a51baecfd005bb4c6c52eb4e73b[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 17:57:45 2019 +0200
+
+    Added a cache for fonts
+
+[33mcommit 33ce39778fa800f2fd9fd3dcae40beb3f54cd149[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 17:11:41 2019 +0200
+
+    Removed custom workbox config
+
+[33mcommit 2d48a6bcce5861a25c20c0ca7dbb35e32ec3ba30[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 14:45:16 2019 +0200
+
+    Added runtime caching of images
+
+[33mcommit 49c28f9f1da01c053127eb613cce6c5f4127ee05[m
+Merge: 2c6dbf0 b337721
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Mon May 20 13:57:37 2019 +0200
+
+    Merge pull request #10 from ShailenNaidoo/feature/update-meta-info
+    
+    Updated some meta info
+
+[33mcommit b33772105d2913b51b66e6e7b5fdad95b0f3e4a8[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 13:48:27 2019 +0200
+
+    Fixed issue with redirects
+
+[33mcommit 502c1a4c7a552e38b479e22d32829acd02fc3f7c[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 11:35:01 2019 +0200
+
+    Added nuxt prop to v-btn
+
+[33mcommit 16c8a39f205a9c3732ea637710de164a572cd5f5[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 11:28:25 2019 +0200
+
+    Updated some meta info
+
+[33mcommit 2c6dbf0f5699ef7a96ca75973594742e067d9456[m
+Merge: a62704d 2fbddf7
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Mon May 20 10:46:34 2019 +0200
+
+    Merge pull request #9 from ShailenNaidoo/feature/move-user-details-into-vuex
+    
+    Feature/move user details into vuex
+
+[33mcommit 2fbddf7de28d8730f61e4587d8001c6191ff9ea6[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 10:38:44 2019 +0200
+
+    Added logic for user to set email updates
+
+[33mcommit 4593c5220c2381bbb04b7fdf0f7508383336f833[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Mon May 20 10:04:55 2019 +0200
+
+    Added account creation logic on user signup
+
+[33mcommit e7bccfd600d18ac641be72b9a5719e8855603644[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Sun May 19 20:51:18 2019 +0200
+
+    login methods dialog now disappears when user signs in
+
+[33mcommit 6155a33d119b63885d00bc9047c2535b2b34596c[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Sun May 19 20:43:35 2019 +0200
+
+    Moved alot of auth logic into vuex
+
+[33mcommit 2af9593fcf7db2faa0fb6436f81b14a37f8eb588[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Sun May 19 19:29:50 2019 +0200
+
+    Fixed liniting issues
+
+[33mcommit b9db7619daeb5dabe38e39e1ca2e93588216b7e8[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Sun May 19 19:29:08 2019 +0200
+
+    Added semi to all
+
+[33mcommit a62704df1d8081c8550e426e293ff7ee3c53aa9f[m
+Merge: 975280f 7902632
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Sun May 19 11:37:53 2019 +0200
+
+    Merge pull request #8 from ShailenNaidoo/feature/setup-auth
+    
+    Feature/setup auth
+
+[33mcommit 7902632e34c102c85448d83032ac1c90f1a7c379[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Sun May 19 11:33:44 2019 +0200
+
+    Added state logic for email updates checkbox
+
+[33mcommit 21b5e8c26b72134ced2aec3341867d4f2612e36d[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Sun May 19 11:17:49 2019 +0200
+
+    Added robots.txt and sitemap.xml
+
+[33mcommit 098489df80a915f5f94285d3e6ee6b7e287b8229[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Sun May 19 10:58:54 2019 +0200
+
+    Added Github and Facebook link
+
+[33mcommit ee109c32b93c4023f6bca12726c8cd0250a15ac3[m
+Author: Shailen <naidooshailen648@gmail.com>
+Date:   Sat May 18 12:37:42 2019 +0200
+
+    Created firestore account creation logic
+
+[33mcommit 82b052b827d73ee4afa806cf3ca967cea242e429[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Sat May 18 11:05:31 2019 +0200
+
+    Minor changes
+
+[33mcommit 8a0e040b13a7b25703d78d868d2dfeac9726cd28[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Sat May 18 10:51:43 2019 +0200
+
+    Setup auth for most major providers
+
+[33mcommit 49c1da73c355ae5a8e304b09df6156cd05077a3c[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Sat May 18 10:10:54 2019 +0200
+
+    Added Facebook login and handled errors
+
+[33mcommit a63008be93934d448757174eb07b37940baa7bee[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 22:51:15 2019 +0200
+
+    Created sign in with Google
+
+[33mcommit 34d136f13e2cf51580955b13da647dc8c5d3d0cf[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 22:11:44 2019 +0200
+
+    Added some markup for account
+
+[33mcommit 972db94bf029330a77b91de6e5b4a10734f8d4b2[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 21:54:28 2019 +0200
+
+    Setup Firebase
+
+[33mcommit 975280f9fd592582367df8f6c4bdb5581c75fea4[m
+Merge: 136be0c e7f4be6
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Fri May 17 20:15:00 2019 +0200
+
+    Merge pull request #7 from ShailenNaidoo/feature/move-json-to-static-folder
+    
+    Minor change
+
+[33mcommit e7f4be6908ba34b47e4a46e9a33965db2c8e5b8a[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 16:55:51 2019 +0200
+
+    Minor change
+
+[33mcommit 136be0c7ffcd53d0c86e11453573969c5356198b[m
+Merge: 27abba9 3ed5a5d
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Fri May 17 16:10:52 2019 +0200
+
+    Merge pull request #6 from ShailenNaidoo/feature/move-json-to-static-folder
+    
+    Added basic filter
+
+[33mcommit 3ed5a5d118d181f6fad75bf1eb65ba1ca3995aea[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 16:08:31 2019 +0200
+
+    Added basic filter
+
+[33mcommit 27abba92701bb871f6e60d4b28907aafa2a8439d[m
+Merge: 48a181d 2d77080
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Fri May 17 15:14:54 2019 +0200
+
+    Merge pull request #5 from ShailenNaidoo/feature/move-json-to-static-folder
+    
+    Feature/move json to static folder
+
+[33mcommit 2d770808b9882e48b1766a352e9589dc2aeece3c[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 15:07:18 2019 +0200
+
+    Moved back to import static data as modules
+
+[33mcommit ac61a5978bd1419824db04ce8d7a19757b231f27[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 14:36:49 2019 +0200
+
+    Test whether fix works
+
+[33mcommit 1bdaf06f21ed2210d7674a58e212f0f62af10fc8[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 14:27:49 2019 +0200
+
+    Minor change
+
+[33mcommit 4193dd1936736fc71ae481613ed3e7cc1675afa0[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 14:21:01 2019 +0200
+
+    Using asyncData to get static json
+
+[33mcommit f821a3577c41de7d324bcb746babba78b277e6b2[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 14:04:38 2019 +0200
+
+    Back to staticData import
+
+[33mcommit 17c2498cd2a9d4b06b17c1e927e101b6c5ce495f[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 13:25:19 2019 +0200
+
+    default layout now using asyncData
+
+[33mcommit 48a181d05108d62e0ede7e7f201a4e0fff00d617[m
+Merge: 002d4c5 aecaa0a
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Fri May 17 13:09:32 2019 +0200
+
+    Merge pull request #4 from ShailenNaidoo/feature/filter-fab
+    
+    Feature/filter fab
+
+[33mcommit aecaa0a263d89ba36e46481d934936df2255fe0e[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 13:08:49 2019 +0200
+
+    Added prohibition signs to app
+
+[33mcommit 4416bae898f6a2b78a86bb067847288d142cd88e[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Fri May 17 12:43:51 2019 +0200
+
+    Added prohibition signs
+
+[33mcommit 002d4c5238ab616cfa44aff840bf23379f6ba1b4[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Thu May 16 16:31:09 2019 +0200
+
+    Hidden filter fab for now
+
+[33mcommit 91c0e6eab8cfa17ac6d8b2c16b8e71fb2ce8a061[m
+Merge: 690af06 a36df29
+Author: Shailen Naidoo <naidooshailen648@gmail.com>
+Date:   Thu May 16 11:49:44 2019 +0200
+
+    Merge pull request #3 from ShailenNaidoo/feature/filter-fab
+    
+    Feature/filter fab
+
+[33mcommit a36df298d02734261f801a4aeaa95b79aa689b3f[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Thu May 16 11:24:50 2019 +0200
+
+    Added command signs
+
+[33mcommit b61b231a273fe091ee29aa408bd2c171da8edf69[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Wed May 15 20:57:49 2019 +0200
+
+    Aded filter fab
+
+[33mcommit 690af062f9d58b7822d811ec1b5493b9405108a8[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Wed May 15 20:18:05 2019 +0200
+
+    Changed size of flex
+
+[33mcommit 23cefdb737127fb0aa3f4b8a056a5212a44b5680[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Wed May 15 20:15:11 2019 +0200
+
+    Added new linting fixes
+
+[33mcommit e4477a8430b407b0129b089cf7170d34e5174a89[m
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Wed May 15 20:06:14 2019 +0200
+
+    Made minor changes
+
+[33mcommit f529883c29c5ecf83a6c8343fae2c344ebd5c0f4[m
+Merge: 10fac30 e0bd5a9
+Author: Shailen <shailen@gettruck.co.za>
+Date:   Wed May 15 20:03:18 2019 +0200
+
+    Merge branch 'master' of https://github.com/ShailenNaidoo/k53_learners_guide
