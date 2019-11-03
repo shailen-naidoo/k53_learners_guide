@@ -9,8 +9,8 @@ const getDirectories = path => fs.readdir(`${__dirname}/static/${path}`, 'utf-8'
 
 const createObject = files => files.map(file => ({
   name: '',
-  image: `/${ROAD_SIGNS_DIR}/regulatory-signs/comprehensive-signs/${file}`,
-  type: 'Comprehensive sign',
+  image: `/${ROAD_SIGNS_DIR}/regulatory-signs/${args.topic}/${file}`,
+  type: 'Reservation Signs',
   description: '',
 }));
 
