@@ -9,7 +9,7 @@
       justify-center
       align-center
     >
-      <v-flex md5>
+      <v-flex md4>
         <h1 class="body-2 mb-2">
           Road signs categories
         </h1>
