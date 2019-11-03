@@ -115,7 +115,7 @@ export default {
       }
     },
   },
-  async asyncData({ params: { index, }, $axios, },) {
+  async asyncData({ params: { index, }, },) {
     const { default: signs, } = await import(`@/static/data/pages/courses/road-signs/topic/${index}.json`);
     return {
       signs,
