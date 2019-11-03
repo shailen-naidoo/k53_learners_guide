@@ -14,7 +14,7 @@
     <v-content>
       <nuxt />
     </v-content>
-    <v-bottom-nav
+    <!-- <v-bottom-nav
       v-model="showBottomNav"
       app
       fixed
@@ -32,7 +32,7 @@
         <span>{{ title }}</span>
         <v-icon>{{ icon }}</v-icon>
       </v-btn>
-    </v-bottom-nav>
+    </v-bottom-nav> -->
     <no-ssr>
       <v-snackbar :value="offline && !dismiss" top :multi-line="$vuetify.breakpoint.smAndDown" :timeout="5000">
         You are offline ❌ No stress, you can still use the app

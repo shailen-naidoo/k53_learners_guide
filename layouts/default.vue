@@ -3,26 +3,7 @@
     <v-content>
       <nuxt />
     </v-content>
-    <v-bottom-nav
-      v-model="showBottomNav"
-      app
-      fixed
-      :color="offline ? 'black' : 'yellow'"
-      :dark="offline"
-      :active.sync="currentPage"
-    >
-      <v-btn
-        v-for="({ title, icon },i) in pageButtons"
-        :key="i"
-        :value="title.toLowerCase()"
-        :to="{ path: `/${title.toLowerCase()}` }"
-        nuxt
-      >
-        <span>{{ title }}</span>
-        <v-icon>{{ icon }}</v-icon>
-      </v-btn>
-    </v-bottom-nav>
-    <no-ssr>
+    <client-only>
       <v-snackbar v-model="showOffline" top :multi-line="$vuetify.breakpoint.smAndDown" :timeout="5000">
         You are offline ❌ No stress, you can still use the app
         <v-btn class="ml-1" flat color="yellow" @click="dismiss = true">
@@ -32,7 +13,7 @@
       <v-snackbar v-model="backOnline" top :timeout="5000">
         Woohoo! You are back online 🙌
       </v-snackbar>
-    </no-ssr>
+    </client-only>
   </v-app>
 </template>
 

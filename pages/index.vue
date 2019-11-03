@@ -1,7 +1,7 @@
 <template>
   <v-container fill-height>
     <v-layout justify-center align-center text-xs-center text-sm-center text-md-center>
-      <v-flex md5>
+      <v-flex md4>
         <v-img src="/icon.png" class="mt-5 mb-5" height="120px" contain />
         <h1 class="display-1">
           K53 learners guide
