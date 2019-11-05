@@ -12,7 +12,7 @@
           K53 learners guide
         </h1>
         <p class="px-5 mt-3 body-2 font-weight-light">
-          An online K53 learners guide that looks modern and is fully accessible offline
+          An online K53 learners guide that looks modern
         </p>
         <v-btn
           color="yellow"
