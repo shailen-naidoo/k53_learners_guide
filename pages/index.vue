@@ -2,7 +2,12 @@
   <v-container fill-height>
     <v-layout justify-center align-center text-xs-center text-sm-center text-md-center>
       <v-flex md4>
-        <v-img src="/icon.png" class="mt-5 mb-5" height="120px" contain />
+        <v-img
+          src="/home.svg"
+          class="mt-5 mb-5"
+          height="160px"
+          contain
+        />
         <h1 class="display-1">
           K53 learners guide
         </h1>
@@ -70,7 +75,7 @@ export default {
       this.redirecting = true;
       setTimeout(() => {
         this.$router.replace('/courses');
-      }, 2000);
+      }, 3000);
     } catch (e) {
 
     }

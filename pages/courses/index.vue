@@ -11,68 +11,30 @@
               Available
             </h1>
             <v-divider class="mb-3" />
-            <v-card class="border-radius">
-              <v-card-text @click="show = !show">
-                <h1 class="title mt-3">
-                  ⛔ Road signs
-                </h1>
-                <p class="mt-3">
-                  Road signs are these weird things you see on the road and they tell you what to do
-                </p>
-              </v-card-text>
-              <v-divider />
-              <div v-show="show">
-                <v-card-text>
-                  <v-subheader>Categories</v-subheader>
-                  <v-list>
-                    <v-list-tile v-for="({ name, icon, color }, i) in roadSignCategories" :key="i">
-                      <v-list-tile-content>
-                        {{ name }}
-                      </v-list-tile-content>
-                      <v-list-tile-action>
-                        <v-icon :color="color">
-                          {{ icon }}
-                        </v-icon>
-                      </v-list-tile-action>
-                    </v-list-tile>
-                  </v-list>
-                </v-card-text>
-                <v-card-actions>
-                  <v-spacer />
-                  <v-btn flat small :to="{ name: 'courses-road-signs-overview' }" nuxt class="border-radius-btn">
-                    View Course
-                  </v-btn>
-                </v-card-actions>
-              </div>
-            </v-card>
+            <CourseCard
+              title="⛔ Road signs"
+              description="Road signs are these weird things you see on the road and they tell you what to do"
+              :categories="roadSignCategories"
+              :to="{ name: 'courses-road-signs-overview' }"
+            />
           </v-flex>
           <v-flex xs12 md12>
             <h1 class="body-2 mb-2">
               Coming soon
             </h1>
             <v-divider class="mb-3" />
-            <v-card color="grey lighten-3" class="border-radius" flat>
-              <v-card-text text>
-                <h1 class="title mt-3">
-                  🤚 Rules of the road
-                </h1>
-                <p class="mt-3">
-                  Rules of the road is the rules that everyone should know when driving on the road
-                </p>
-              </v-card-text>
-            </v-card>
+            <CourseCard
+              title="🤚 Rules of the road"
+              description="Rules of the road is the rules that everyone should know when driving on the road"
+              coming-soon
+            />
           </v-flex>
           <v-flex xs12 md12>
-            <v-card color="grey lighten-3" class="border-radius" flat>
-              <v-card-text>
-                <h1 class="title mt-3">
-                  🚗 Controls
-                </h1>
-                <p class="mt-3">
-                  Controls are the things you should be familiar with when driving a car
-                </p>
-              </v-card-text>
-            </v-card>
+            <CourseCard
+              title="🚗 Controls"
+              description="Controls are the things you should be familiar with when driving a car"
+              coming-soon
+            />
           </v-flex>
         </v-layout>
       </v-flex>
@@ -81,7 +43,12 @@
 </template>
 
 <script>
+import CourseCard from '@/components/CourseCard.vue';
+
 export default {
+  components: {
+    CourseCard,
+  },
   head: {
     title: '📄 Courses | K53 Learners Guide',
     meta: [
