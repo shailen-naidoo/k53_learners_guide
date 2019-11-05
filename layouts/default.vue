@@ -3,7 +3,7 @@
     <v-content>
       <nuxt />
     </v-content>
-    <client-only>
+    <no-ssr>
       <v-snackbar v-model="showOffline" top :multi-line="$vuetify.breakpoint.smAndDown" :timeout="5000">
         You are offline ❌ No stress, you can still use the app
         <v-btn class="ml-1" flat color="yellow" @click="dismiss = true">
@@ -13,7 +13,7 @@
       <v-snackbar v-model="backOnline" top :timeout="5000">
         Woohoo! You are back online 🙌
       </v-snackbar>
-    </client-only>
+    </no-ssr>
   </v-app>
 </template>
 
