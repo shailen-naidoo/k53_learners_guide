@@ -11,8 +11,8 @@
         <h1 class="display-1">
           K53 learners guide
         </h1>
-        <p class="px-5 mt-3 body-2 font-weight-light">
-          An online K53 learners guide that looks modern
+        <p class="px-5 mt-4 mb-4 body-2 font-weight-light">
+          An online K53 learners guide built for the community, by the community!
         </p>
         <v-btn
           color="yellow"
