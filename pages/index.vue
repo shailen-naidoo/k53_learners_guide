@@ -61,7 +61,7 @@ export default {
   },
   mounted() {
     try {
-      const { usedApp = null, } = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
+      const { usedApp = null } = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
 
       if (!usedApp) {
         return false;

@@ -21,31 +21,29 @@
                 </p>
               </v-card-text>
               <v-divider />
-              <v-slide-y-transition hide-on-leave>
-                <div v-show="show">
-                  <v-card-text>
-                    <v-subheader>Categories</v-subheader>
-                    <v-list>
-                      <v-list-tile v-for="({ name, icon, color }, i) in roadSignCategories" :key="i">
-                        <v-list-tile-content>
-                          {{ name }}
-                        </v-list-tile-content>
-                        <v-list-tile-action>
-                          <v-icon :color="color">
-                            {{ icon }}
-                          </v-icon>
-                        </v-list-tile-action>
-                      </v-list-tile>
-                    </v-list>
-                  </v-card-text>
-                  <v-card-actions>
-                    <v-spacer />
-                    <v-btn flat small :to="{ name: 'courses-road-signs-overview' }" nuxt class="border-radius-btn">
-                      View Course
-                    </v-btn>
-                  </v-card-actions>
-                </div>
-              </v-slide-y-transition>
+              <div v-show="show">
+                <v-card-text>
+                  <v-subheader>Categories</v-subheader>
+                  <v-list>
+                    <v-list-tile v-for="({ name, icon, color }, i) in roadSignCategories" :key="i">
+                      <v-list-tile-content>
+                        {{ name }}
+                      </v-list-tile-content>
+                      <v-list-tile-action>
+                        <v-icon :color="color">
+                          {{ icon }}
+                        </v-icon>
+                      </v-list-tile-action>
+                    </v-list-tile>
+                  </v-list>
+                </v-card-text>
+                <v-card-actions>
+                  <v-spacer />
+                  <v-btn flat small :to="{ name: 'courses-road-signs-overview' }" nuxt class="border-radius-btn">
+                    View Course
+                  </v-btn>
+                </v-card-actions>
+              </div>
             </v-card>
           </v-flex>
           <v-flex xs12 md12>
@@ -111,8 +109,8 @@ export default {
       show: false,
     };
   },
-  async asyncData({ $axios, }) {
-    const { default: data, } = await import('@/static/data/pages/courses/index.json');
+  async asyncData({ $axios }) {
+    const { default: data } = await import('@/static/data/pages/courses/index.json');
 
     return {
       ...data,
