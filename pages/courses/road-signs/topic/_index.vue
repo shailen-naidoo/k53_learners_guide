@@ -38,7 +38,6 @@
 
 <script>
 export default {
-  layout: 'toolbar',
   head() {
     const [
       ,,,,
