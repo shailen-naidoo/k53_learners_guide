@@ -72,7 +72,10 @@ export default {
     ],
   },
   async asyncData({ $axios }) {
-    const { default: data } = await import('@/static/data/pages/courses/index.json');
+    // const { default: data } = await import('@/static/data/pages/courses/index.json');
+
+    // eslint-disable-next-line no-console
+    const { data } = await $axios.get('/data/pages/courses/index.json');
 
     return {
       ...data,
