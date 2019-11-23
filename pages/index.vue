@@ -64,11 +64,7 @@ export default {
   setup(props, ctx) {
     const redirecting = ref(false);
 
-    const checkFirstTimeUsage = () => {
-      localStorage.setItem('k53-learners-guide-app', JSON.stringify({
-        usedApp: true,
-      }));
-    };
+    const checkFirstTimeUsage = () => localStorage.setItem('k53-learners-guide-app', JSON.stringify({ usedApp: true }));
 
     const getUsedAppState = () => {
       const data = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
