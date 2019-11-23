@@ -71,13 +71,13 @@ export default {
     };
 
     const getUsedAppState = () => {
-      try {
-        const { usedApp = null } = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
+      const data = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
 
-        return [!usedApp, false];
-      } catch (e) {
-        return [true, e];
+      if (data === null) {
+        return true;
       }
+
+      return !data.usedApp;
     };
 
     const redirectToHomepage = () => {
@@ -89,7 +89,7 @@ export default {
     };
 
     onMounted(() => {
-      const [usedApp] = getUsedAppState();
+      const usedApp = getUsedAppState();
 
       if (usedApp) {
         return;
