@@ -70,22 +70,32 @@ export default {
       }));
     };
 
-    onMounted(() => {
-      const data = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
+    const getUsedAppState = () => {
+      try {
+        const { usedApp = null } = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
 
-      if (data === null) {
-        return;
+        return [!usedApp, false];
+      } catch (e) {
+        return [true, e];
       }
+    };
 
-      if (!data.usedApp) {
-        return;
-      }
-
+    const redirectToHomepage = () => {
       redirecting.value = true;
 
       setTimeout(() => {
         ctx.root.$router.replace('/courses');
       }, 3000);
+    };
+
+    onMounted(() => {
+      const [usedApp] = getUsedAppState();
+
+      if (usedApp) {
+        return;
+      }
+
+      redirectToHomepage();
     });
 
     return {
