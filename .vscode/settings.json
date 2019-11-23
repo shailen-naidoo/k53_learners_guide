@@ -3,5 +3,6 @@
     "javascript",
     { "language": "vue", "autoFix": true }
   ],
-  "vetur.validation.template": false
+  "vetur.validation.template": false,
+  "netlify.site_id": "k53-learners-guide.netlify.com"
 }
