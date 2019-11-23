@@ -53,10 +53,11 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '@/plugins/composition',
     '@/plugins/vuetify',
     '@/plugins/staticData',
-    { src: '@plugins/offline', ssr: false, },
-    { src: '@/plugins/scroll', ssr: false, },
+    { src: '@plugins/offline', ssr: false },
+    { src: '@/plugins/scroll', ssr: false },
   ],
 
   /*

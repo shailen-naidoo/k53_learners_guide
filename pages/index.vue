@@ -31,6 +31,8 @@
 </template>
 
 <script>
+import { onMounted, ref } from '@vue/composition-api';
+
 export default {
   layout: 'home',
   head: {
@@ -59,33 +61,37 @@ export default {
       },
     ],
   },
-  data() {
-    return {
-      redirecting: false,
-    };
-  },
-  mounted() {
-    try {
-      const { usedApp = null } = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
+  setup(props, ctx) {
+    const redirecting = ref(false);
 
-      if (!usedApp) {
-        return false;
-      }
-
-      this.redirecting = true;
-      setTimeout(() => {
-        this.$router.replace('/courses');
-      }, 3000);
-    } catch (e) {
-
-    }
-  },
-  methods: {
-    checkFirstTimeUsage() {
+    const checkFirstTimeUsage = () => {
       localStorage.setItem('k53-learners-guide-app', JSON.stringify({
         usedApp: true,
       }));
-    },
+    };
+
+    onMounted(() => {
+      const data = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
+
+      if (data === null) {
+        return;
+      }
+
+      if (!data.usedApp) {
+        return;
+      }
+
+      redirecting.value = true;
+
+      setTimeout(() => {
+        ctx.root.$router.replace('/courses');
+      }, 3000);
+    });
+
+    return {
+      redirecting,
+      checkFirstTimeUsage,
+    };
   },
 };
 </script>
