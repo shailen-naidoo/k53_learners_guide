@@ -31,6 +31,8 @@
 </template>
 
 <script>
+import { onMounted, ref } from '@vue/composition-api';
+
 export default {
   layout: 'home',
   head: {
@@ -59,33 +61,43 @@ export default {
       },
     ],
   },
-  data() {
-    return {
-      redirecting: false,
-    };
-  },
-  mounted() {
-    try {
-      const { usedApp = null } = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
+  setup(props, ctx) {
+    const redirecting = ref(false);
 
-      if (!usedApp) {
-        return false;
+    const checkFirstTimeUsage = () => localStorage.setItem('k53-learners-guide-app', JSON.stringify({ usedApp: true }));
+
+    const getUsedAppState = () => {
+      const data = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
+
+      if (data === null) {
+        return true;
       }
 
-      this.redirecting = true;
-      setTimeout(() => {
-        this.$router.replace('/courses');
-      }, 3000);
-    } catch (e) {
+      return !data.usedApp;
+    };
 
-    }
-  },
-  methods: {
-    checkFirstTimeUsage() {
-      localStorage.setItem('k53-learners-guide-app', JSON.stringify({
-        usedApp: true,
-      }));
-    },
+    const redirectToHomepage = () => {
+      redirecting.value = true;
+
+      setTimeout(() => {
+        ctx.root.$router.replace('/courses');
+      }, 3000);
+    };
+
+    onMounted(() => {
+      const usedApp = getUsedAppState();
+
+      if (usedApp) {
+        return;
+      }
+
+      redirectToHomepage();
+    });
+
+    return {
+      redirecting,
+      checkFirstTimeUsage,
+    };
   },
 };
 </script>
