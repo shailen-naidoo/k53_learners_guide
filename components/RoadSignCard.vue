@@ -7,7 +7,7 @@
         {{ props.type }}
       </v-chip>
     </v-card-title>
-    <v-img :src="props.image" class="ma-2" contain height="200px" />
+    <v-img :src="props.setImage" class="ma-2" contain height="200px" />
     <v-card-text>
       {{ props.description }}
     </v-card-text>
