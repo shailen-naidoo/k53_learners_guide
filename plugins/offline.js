@@ -1,4 +1,4 @@
-export default ({ app, }) => {
+export default ({ app }) => {
   // eslint-disable-next-line no-console
   console.log('Offline/online pluging loaded');
 

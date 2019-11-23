@@ -2,12 +2,17 @@
   <v-container fill-height>
     <v-layout justify-center align-center text-xs-center text-sm-center text-md-center>
       <v-flex md4>
-        <v-img src="/icon.png" class="mt-5 mb-5" height="120px" contain />
+        <v-img
+          src="/home.svg"
+          class="mt-5 mb-5"
+          height="160px"
+          contain
+        />
         <h1 class="display-1">
           K53 learners guide
         </h1>
-        <p class="px-5 mt-3 body-2 font-weight-light">
-          An online K53 learners guide that looks modern and is fully accessible offline
+        <p class="px-5 mt-4 mb-4 body-2 font-weight-light">
+          An online K53 learners guide built for the community, by the community!
         </p>
         <v-btn
           color="yellow"
@@ -61,7 +66,7 @@ export default {
   },
   mounted() {
     try {
-      const { usedApp = null, } = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
+      const { usedApp = null } = JSON.parse(localStorage.getItem('k53-learners-guide-app'));
 
       if (!usedApp) {
         return false;
@@ -70,7 +75,7 @@ export default {
       this.redirecting = true;
       setTimeout(() => {
         this.$router.replace('/courses');
-      }, 2000);
+      }, 3000);
     } catch (e) {
 
     }

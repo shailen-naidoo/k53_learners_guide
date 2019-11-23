@@ -50,7 +50,6 @@
 
 <script>
 export default {
-  layout: 'toolbar',
   head: {
     title: '📃 Road Sign Categories | K53 Learners Guide',
     meta: [
@@ -72,8 +71,8 @@ export default {
       },
     ],
   },
-  async asyncData({ $axios, }) {
-    const { default: data, } = await import('@/static/data/pages/courses/road-signs/overview/index.json');
+  async asyncData({ $axios }) {
+    const { default: data } = await import('@/static/data/pages/courses/road-signs/overview/index.json');
 
     return {
       ...data,
