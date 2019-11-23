@@ -80,13 +80,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.border-radius {
-  border-radius: 5px;
-}
-
-.border-radius-btn {
-  border-radius: 2px;
-}
-</style>
