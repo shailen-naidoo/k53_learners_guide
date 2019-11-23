@@ -759,7 +759,7 @@
     "name": "High occupancy vehicle reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/320.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for High occupancy vehicles to use"
   },
   {
     "name": "High occupancy vehicle parking",
@@ -771,7 +771,7 @@
     "name": "Emergency vehicle reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/321.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Emergency vehicles to use"
   },
   {
     "name": "Emergency vehicle parking",
@@ -780,14 +780,14 @@
     "description": ""
   },
   {
-    "name": "",
+    "name": "Police vehicle reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/322.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Police vehicles to use"
   },
   {
-    "name": "",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/322.jpg",
+    "name": "Police vehicle parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/322-p.jpg",
     "type": "Reservation sign",
     "description": ""
   },
@@ -795,7 +795,7 @@
     "name": "Disabled persons vehicle reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/323.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Disabled persons vehicles to use"
   },
   {
     "name": "Disabled persons vehicle parking",
@@ -807,7 +807,7 @@
     "name": "Authorised vehicle reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/324.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Authorised vehicles to use"
   },
   {
     "name": "Authorised vehicle parking",
@@ -831,7 +831,7 @@
     "name": "Bus and minibus reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/327.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Bus and minibus's to use"
   },
   {
     "name": "Bus and minibus parking",
@@ -843,19 +843,19 @@
     "name": "Bus and minibus lane reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/328.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The lanes concerned are reserved for Bus and minibus's to use"
   },
   {
     "name": "Bus and minibus lane reservation begins",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/329.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The lanes concerned are reserved for Bus and minibus's to use and are about to begin"
   },
   {
     "name": "Bus and midi bus reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/330.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Bus and midibus's to use"
   },
   {
     "name": "Bus and midi bus parking",
@@ -867,19 +867,19 @@
     "name": "Bus and midi bus lane reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/331.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The lanes concerned are reserved for Bus and midibus's to use"
   },
   {
     "name": "Bus and midi bus lane reservation begins",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/332.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The lanes concerned are reserved for Bus and midibus's to use and are about to begin"
   },
   {
     "name": "Bus, midi bus and minibus reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/333.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Bus, midibus and minibus's to use"
   },
   {
     "name": "Bus, midi bus and minibus parking",
@@ -891,13 +891,13 @@
     "name": "Bus, midi bus and minibus lane reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/334.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The lanes concerned are reserved for Bus, midibus and minibus's to use"
   },
   {
     "name": "Bus, midi bus and minibus lane reservation begins",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/335.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The lanes concerned are reserved for Bus, midibus and minibus's to use and are about to begin"
   },
   {
     "name": "Dual-carriageway freeway begins",
