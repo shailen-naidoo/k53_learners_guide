@@ -651,7 +651,7 @@
     "name": "Midibus parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/311-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Midibus's to park"
   },
   {
     "name": "Midibus reservation",
@@ -669,7 +669,7 @@
     "name": "Delivery vehicle parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/312.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Delivery Vehicles to park"
   },
   {
     "name": "Goods vehicle reservation",
@@ -681,7 +681,7 @@
     "name": "Goods vehicle parking", 
     "image": "/images/road-signs/regulatory-signs/reservation-signs/313.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Goods vehicles to park"
   },
   {
     "name": "Goods vehicles over the indicated gross vehicle mass reservation",
@@ -693,7 +693,7 @@
     "name": "Goods vehicles over the indicated gross vehicle mass parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/314.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Goods vehicles over the indicated gross vehicle mass to park"
   },
   {
     "name": "Construction vehicle reservation",
@@ -705,7 +705,7 @@
     "name": "Construction vehicle parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/315.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Construction vehicles to park"
   },
   {
     "name": "Vehicles conveying hazardous substances reservation",
@@ -717,7 +717,7 @@
     "name": "Vehicles conveying hazardous substances parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/316.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Vehicles conveying hazardous substances to park"
   },
   {
     "name": "Abnormal vehicle reservation",
@@ -729,7 +729,7 @@
     "name": "Abnormal vehicle parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/317.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Abnormal vehicles to park"
   },
   {
     "name": "Rickshaw reservation",
@@ -741,7 +741,7 @@
     "name": "Rickshaw parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/318.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Rickshaw's to park"
   },
   {
     "name": "Tour bus reservation",
@@ -753,7 +753,7 @@
     "name": "Tour bus parking",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/319.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Tour busses to park"
   },
   {
     "name": "High occupancy vehicle reservation",
@@ -877,13 +877,13 @@
   },
   {
     "name": "Bus, midi bus and minibus reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/333-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/333.jpg",
     "type": "Reservation sign",
     "description": ""
   },
   {
     "name": "Bus, midi bus and minibus parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/333.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/333-p.jpg",
     "type": "Reservation sign",
     "description": ""
   },
