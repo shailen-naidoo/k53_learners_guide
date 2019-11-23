@@ -15,7 +15,11 @@
         </h1>
         <v-divider class="mb-3" />
         <v-layout column>
-          <v-flex v-for="(roadSign, i) in signs" :key="i" v-observe-visibility="{ callback: (...args) => visibility(...args, roadSign), once: true }">
+          <v-flex
+            v-for="(roadSign, i) in signs"
+            :key="i"
+            v-observe-visibility="{ callback: (...args) => visibility(...args, roadSign), once: true }"
+          >
             <RoadSignCard v-bind="roadSign" />
           </v-flex>
         </v-layout>
