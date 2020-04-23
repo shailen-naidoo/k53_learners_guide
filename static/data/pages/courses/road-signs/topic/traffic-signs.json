@@ -1,33 +1,33 @@
 [
   {
-    "name": "Flag signals - Warning flag signal",
+    "name": "Flag signals - Warning of slow moving vehicle",
     "image": "/images/road-signs/traffic-signs/flag-signals/10.jpg",
     "type": "Flag Signal",
-    "description": "Warns a road user to proceed slowly and be alert."
+    "description": "Warns a road user to proceed slowly and be alert due to a slow moving vehicle."
   },
   {
-    "name": "",
+    "name": "Flag signals – Slow Down",
     "image": "/images/road-signs/traffic-signs/flag-signals/20.jpg",
     "type": "Flag Signal",
-    "description": ""
+    "description": "Flag signal to warn motorists to slow down."
   },
   {
-    "name": "",
+    "name": "Flag signals – Proceed",
     "image": "/images/road-signs/traffic-signs/flag-signals/30.jpg",
     "type": "Flag Signal",
-    "description": ""
+    "description": "Flag signal to proceed - indicating to the driver that he or she shall proceed when the flag signal is displayed."
   },
   {
-    "name": "",
+    "name": "Flag signals – Stop",
     "image": "/images/road-signs/traffic-signs/flag-signals/40.jpg",
     "type": "Flag Signal",
-    "description": ""
+    "description": "Flag signal to stop - indicating to the driver of a vehicle that he or she shall stop until the proceed flag signal is displayed"
   },
   {
-    "name": "",
+    "name": "Flag signals - Warning flag signal",
     "image": "/images/road-signs/traffic-signs/flag-signals/50.jpg",
     "type": "Flag Signal",
-    "description": ""
+    "description": "Warns a road user to proceed slowly and be alert."
   },
   {
     "name": "",
