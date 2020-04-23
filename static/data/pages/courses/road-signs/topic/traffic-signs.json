@@ -30,34 +30,34 @@
     "description": "Warns a road user to proceed slowly and be alert."
   },
   {
-    "name": "",
+    "name": "Control handsignals for use by traffic officers",
     "image": "/images/road-signs/traffic-signs/hand-signals/10.jpg",
     "type": "Hand Signal",
-    "description": ""
+    "description": "Go/Proceed - Indicates to the driver that he/she may proceed"
   },
   {
-    "name": "",
+    "name": "Control handsignals for use by traffic officers",
     "image": "/images/road-signs/traffic-signs/hand-signals/20.jpg",
     "type": "Hand Signal",
-    "description": ""
+    "description": "Go/Proceed - Indicates to the driver that he/she may proceed"
   },
   {
-    "name": "",
+    "name": "Control handsignals for use by traffic officers",
     "image": "/images/road-signs/traffic-signs/hand-signals/30.jpg",
     "type": "Hand Signal",
-    "description": ""
+    "description": "Stop – Stop traffic approaching from the front and rear"
   },
   {
-    "name": "",
+    "name": "Control handsignals for use by traffic officers",
     "image": "/images/road-signs/traffic-signs/hand-signals/40.jpg",
     "type": "Hand Signal",
-    "description": ""
+    "description": "Stop – Stop traffic approaching from the rear"
   },
   {
-    "name": "",
+    "name": "Control handsignals for use by traffic officers",
     "image": "/images/road-signs/traffic-signs/hand-signals/50.jpg",
     "type": "Hand Signal",
-    "description": ""
+    "description": "Stop – Stop traffic approaching from the front"
   },
   {
     "name": "",
