@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
+import { VCard, VCardTitle, VCardText, VImg, VSpacer, VChip } from 'vuetify/es5/components';
 import colors from 'vuetify/es5/util/colors';
 
 Vue.use(Vuetify, {
@@ -11,5 +12,13 @@ Vue.use(Vuetify, {
     warning: colors.amber.base,
     error: colors.deepOrange.accent4,
     success: colors.green.accent3,
+  },
+  components: {
+    VCard,
+    VCardTitle,
+    VCardText,
+    VImg,
+    VSpacer,
+    VChip,
   },
 });

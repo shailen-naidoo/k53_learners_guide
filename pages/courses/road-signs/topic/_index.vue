@@ -15,20 +15,12 @@
         </h1>
         <v-divider class="mb-3" />
         <v-layout column>
-          <v-flex v-for="({ image, name, description, type }, i) in signs" :key="i">
-            <v-card :id="`${type.toLowerCase().replace(' ','-')}-${i}`" class="border-radius">
-              <v-card-title class="subheading">
-                {{ name }}
-                <v-spacer />
-                <v-chip label small color="grey lighten-4" class="border-radius">
-                  {{ type }}
-                </v-chip>
-              </v-card-title>
-              <v-img :src="image" class="ma-2" contain height="200px" />
-              <v-card-text>
-                {{ description }}
-              </v-card-text>
-            </v-card>
+          <v-flex
+            v-for="(roadSign, i) in signs"
+            :key="i"
+            v-observe-visibility="{ callback: (...args) => visibility(...args, roadSign), once: true }"
+          >
+            <RoadSignCard v-bind="roadSign" />
           </v-flex>
         </v-layout>
       </v-flex>
@@ -37,7 +29,12 @@
 </template>
 
 <script>
+import RoadSignCard from '@/components/RoadSignCard.vue';
+
 export default {
+  components: {
+    RoadSignCard,
+  },
   head() {
     const [
       ,,,,
@@ -67,27 +64,18 @@ export default {
       ],
     };
   },
-  data() {
-    return {
-      showFilter: false,
-      signFilters: [],
-    };
-  },
   async asyncData({ params: { index } }) {
     const { default: signs } = await import(`@/static/data/pages/courses/road-signs/topic/${index}.json`);
     return {
-      signs,
+      signs: signs.map(sign => ({ ...sign, setImage: '' })),
     };
+  },
+  methods: {
+    visibility(isVisible, entry, roadSign) {
+      if (isVisible) {
+        roadSign.setImage = roadSign.image;
+      }
+    },
   },
 };
 </script>
-
-<style scoped>
-.border-radius {
-  border-radius: 5px;
-}
-
-.border-radius-btn {
-  border-radius: 2px;
-}
-</style>

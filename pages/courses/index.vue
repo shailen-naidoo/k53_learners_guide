@@ -71,11 +71,6 @@ export default {
       },
     ],
   },
-  data() {
-    return {
-      show: false,
-    };
-  },
   async asyncData({ $axios }) {
     const { default: data } = await import('@/static/data/pages/courses/index.json');
 
@@ -85,13 +80,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.border-radius {
-  border-radius: 5px;
-}
-
-.border-radius-btn {
-  border-radius: 2px;
-}
-</style>
