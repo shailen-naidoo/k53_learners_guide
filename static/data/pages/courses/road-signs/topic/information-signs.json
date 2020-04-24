@@ -1,21 +1,21 @@
 [
   {
-    "name": "",
+    "name": "Countdown sign",
     "image": "/images/road-signs/information-signs/001.jpg",
     "type": "Information Sign",
-    "description": ""
+    "description": "To indicate that there is an exit about 100m"
   },
   {
-    "name": "",
+    "name": "Countdown sign",
     "image": "/images/road-signs/information-signs/002.jpg",
     "type": "Information Sign",
-    "description": ""
+    "description": "To indicate that there is an exit about 200m"
   },
   {
-    "name": "",
+    "name": "Countdown sign",
     "image": "/images/road-signs/information-signs/003.jpg",
     "type": "Information Sign",
-    "description": ""
+    "description": "To indicate that there is an exit about 300m"
   },
   {
     "name": "",
