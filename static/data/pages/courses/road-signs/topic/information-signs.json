@@ -36,39 +36,39 @@
     "description": "To inform you that the road to the left"
   },
   {
-    "name": "",
+    "name": "Right-of-way",
     "image": "/images/road-signs/information-signs/007.jpg",
     "type": "Information Sign",
-    "description": ""
+    "description": "To inform you that you have the right of way at the intersection ahead."
   },
   {
-    "name": "",
+    "name": "Park and ride",
     "image": "/images/road-signs/information-signs/010.jpg",
     "type": "Information Sign",
-    "description": ""
+    "description": "To inform you of the existence of a park-and-ride terminus that has a bus or train service"
   },
   {
-    "name": "",
+    "name": "Information centre",
     "image": "/images/road-signs/information-signs/012.jpg",
     "type": "Information Sign",
-    "description": ""
+    "description": "To inform you of the existence of an information office or notice board"
   },
   {
-    "name": "",
+    "name": "Co-ordinated traffic signals",
     "image": "/images/road-signs/information-signs/014.jpg",
     "type": "Information Sign",
-    "description": ""
+    "description": "To inform you that the traffic signals on this route are co-ordinated and that the signals will be green at all the subsequent intersections if you maintain the indicated speed"
   },
   {
-    "name": "",
+    "name": "Multi-phase traffic signals",
     "image": "/images/road-signs/information-signs/015.jpg",
     "type": "Information Sign",
-    "description": ""
+    "description": "To point out that the signals at this intersection does not follow the normal sequence. At a normal intersection you would expect that the signal in your direction will change to green after the signal for cross traffic was yellow. At this intersection your signal may remain red whilst the signal in the opposite direction changes to green"
   },
   {
-    "name": "",
+    "name": "Modal transfer",
     "image": "/images/road-signs/information-signs/019.jpg",
     "type": "Information Sign",
-    "description": ""
+    "description": "To show that there is a transport modal transfer point or terminus nearby where passengers may change their mode of transport"
   }
 ]
