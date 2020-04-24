@@ -18,22 +18,22 @@
     "description": "To indicate that there is an exit about 300m"
   },
   {
-    "name": "",
+    "name": "Cul-de-sac",
     "image": "/images/road-signs/information-signs/004.jpg",
     "type": "Information Sign",
-    "description": ""
+    "description": "To inform you that the road ahead ends"
   },
   {
-    "name": "",
+    "name": "Cul-de-sac",
     "image": "/images/road-signs/information-signs/005.jpg",
     "type": "Information Sign",
-    "description": ""
+    "description": "To inform you that the road to the right ends"
   },
   {
-    "name": "",
+    "name": "Cul-de-sac",
     "image": "/images/road-signs/information-signs/006.jpg",
     "type": "Information Sign",
-    "description": ""
+    "description": "To inform you that the road to the left"
   },
   {
     "name": "",
