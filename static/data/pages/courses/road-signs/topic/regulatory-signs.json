@@ -375,13 +375,13 @@
     "name": "Left turn prohibited",
     "image": "/images/road-signs/regulatory-signs/prohibition-signs/211.jpg",
     "type": "Prohibition sign",
-    "description": ""
+    "description": "To prohibit traffic from turning left"
   },
   {
     "name": "Right turn",
     "image": "/images/road-signs/regulatory-signs/prohibition-signs/212.jpg",
     "type": "Prohibition sign",
-    "description": "To prohibit traffic from turning left or right"
+    "description": "To prohibit traffic from turning right"
   },
   {
     "name": "U-turn prohibited",
@@ -553,13 +553,13 @@
   },
   {
     "name": "Bus reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/301-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/301.jpg",
     "type": "Reservation sign",
     "description": "To indicate that the road or part of the carriageway is reserved for buses only"
   },
   {
     "name": "Bus parking reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/301.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/301-p.jpg",
     "type": "Reservation sign",
     "description": "To indicate that the road or part of the carriageway is reserved for buses to park only"
   },
@@ -577,13 +577,13 @@
   },
   {
     "name": "Pedal cycle lane reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/304-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/304.jpg",
     "type": "Reservation sign",
-    "description": "To inform you that a parking area is reserved for bicycles only"
+    "description": "To inform you that that the lane is for bicycles only"
   },
   {
     "name": "Pedal cycle parking reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/304.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/304-p.jpg",
     "type": "Reservation sign",
     "description": "To inform you that a parking area is reserved for bicycles only"
   },
@@ -601,219 +601,219 @@
   },
   {
     "name": "Motorcycle reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/307-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/307.jpg",
     "type": "Reservation sign",
-    "description": "To reserve a portion of a road or a parking area for use by motorcycles only"
+    "description": "To reserve a portion of a road for use by motorcycles only"
   },
   {
     "name": "Motor cycle parking reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/307.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/307-p.jpg",
     "type": "Reservation sign",
-    "description": "To reserve a portion of a road or a parking area for use by motorcycles only"
+    "description": "To reserve a portion of a parking area for use by motorcycles only"
   },
   {
     "name": "Motor car reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/308-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/308.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for motor cars to use"
   },
   {
     "name": "Motor car parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/308.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/308-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for motor cars to park"
   },
   {
     "name": "Taxi reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/309-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/309.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for taxi's to use"
   },
   {
     "name": "Taxi parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/309.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/309-p.jpg",
     "type": "Reservation sign",
-    "description": ""
-  },
-  {
-    "name": "Minibus reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/310-p.jpg",
-    "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for taxi's to park"
   },
   {
     "name": "Minibus parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/310.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/310-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Minibus's to park"
   },
   {
-    "name": "Midibus reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/311-p.jpg",
+    "name": "Minibus reservation",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/310.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Minibus to use"
   },
   {
     "name": "Midibus parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/311-p.jpg",
+    "type": "Reservation sign",
+    "description": "The areas concerned are reserved for Midibus's to park"
+  },
+  {
+    "name": "Midibus reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/311.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Midibus to use"
   },
   {
     "name": "Delivery vehicle reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/312-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/312.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Delivery vehicles to use"
   },
   {
     "name": "Delivery vehicle parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/312.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/312-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Delivery Vehicles to park"
   },
   {
     "name": "Goods vehicle reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/313-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/313.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Goods vehicles to use"
   },
   {
     "name": "Goods vehicle parking", 
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/313.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/313-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Goods vehicles to park"
   },
   {
     "name": "Goods vehicles over the indicated gross vehicle mass reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/314-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/314.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Goods vehicles over the indicated gross vehicle mass to use"
   },
   {
     "name": "Goods vehicles over the indicated gross vehicle mass parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/314.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/314-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Goods vehicles over the indicated gross vehicle mass to park"
   },
   {
     "name": "Construction vehicle reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/315-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/315.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Construction vehicles to use"
   },
   {
     "name": "Construction vehicle parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/315.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/315-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Construction vehicles to park"
   },
   {
     "name": "Vehicles conveying hazardous substances reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/316-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/316.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Vehicles conveying hazardous substances to use"
   },
   {
     "name": "Vehicles conveying hazardous substances parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/316.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/316-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Vehicles conveying hazardous substances to park"
   },
   {
     "name": "Abnormal vehicle reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/317-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/317.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Abnormal vehicles to use"
   },
   {
     "name": "Abnormal vehicle parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/317.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/317-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Abnormal vehicles to park"
   },
   {
     "name": "Rickshaw reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/318-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/318.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Rickshaws to use"
   },
   {
     "name": "Rickshaw parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/318.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/318-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Rickshaw's to park"
   },
   {
     "name": "Tour bus reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/319-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/319.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Tour busses to use"
   },
   {
     "name": "Tour bus parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/319.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/319-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Tour busses to park"
   },
   {
     "name": "High occupancy vehicle reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/320-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/320.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for High occupancy vehicles to use"
   },
   {
     "name": "High occupancy vehicle parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/320.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/320-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for High occupancy vehicles to park"
   },
   {
     "name": "Emergency vehicle reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/321-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/321.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Emergency vehicles to use"
   },
   {
     "name": "Emergency vehicle parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/321.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/321-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Emergency vehicles to park"
   },
   {
-    "name": "",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/322-p.jpg",
-    "type": "Reservation sign",
-    "description": ""
-  },
-  {
-    "name": "",
+    "name": "Police vehicle reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/322.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Police vehicles to use"
+  },
+  {
+    "name": "Police vehicle parking",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/322-p.jpg",
+    "type": "Reservation sign",
+    "description": "The areas concerned are reserved for Police vehicles to park"
   },
   {
     "name": "Disabled persons vehicle reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/323-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/323.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Disabled persons vehicles to use"
   },
   {
     "name": "Disabled persons vehicle parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/323.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/323-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Disabled persons vehicles to park"
   },
   {
     "name": "Authorised vehicle reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/324-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/324.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Authorised vehicles to use"
   },
   {
     "name": "Authorised vehicle parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/324.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/324-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Authorised vehicles to park"
   },
   {
     "name": "Bus Stop Reservation",
@@ -829,75 +829,75 @@
   },
   {
     "name": "Bus and minibus reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/327-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/327.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Bus and minibus's to use"
   },
   {
     "name": "Bus and minibus parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/327.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/327-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Bus and minibus's to park"
   },
   {
     "name": "Bus and minibus lane reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/328.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The lanes concerned are reserved for Bus and minibus's to use"
   },
   {
     "name": "Bus and minibus lane reservation begins",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/329.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The lanes concerned are reserved for Bus and minibus's to use and are about to begin"
   },
   {
     "name": "Bus and midi bus reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/330-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/330.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Bus and midibus's to use"
   },
   {
     "name": "Bus and midi bus parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/330.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/330-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Bus and midi bus's to park"
   },
   {
     "name": "Bus and midi bus lane reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/331.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The lanes concerned are reserved for Bus and midibus's to use"
   },
   {
     "name": "Bus and midi bus lane reservation begins",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/332.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The lanes concerned are reserved for Bus and midibus's to use and are about to begin"
   },
   {
     "name": "Bus, midi bus and minibus reservation",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/333-p.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/333.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Bus, midibus and minibus's to use"
   },
   {
     "name": "Bus, midi bus and minibus parking",
-    "image": "/images/road-signs/regulatory-signs/reservation-signs/333.jpg",
+    "image": "/images/road-signs/regulatory-signs/reservation-signs/333-p.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The areas concerned are reserved for Bus, midi bus and minibus's to park"
   },
   {
     "name": "Bus, midi bus and minibus lane reservation",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/334.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The lanes concerned are reserved for Bus, midibus and minibus's to use"
   },
   {
     "name": "Bus, midi bus and minibus lane reservation begins",
     "image": "/images/road-signs/regulatory-signs/reservation-signs/335.jpg",
     "type": "Reservation sign",
-    "description": ""
+    "description": "The lanes concerned are reserved for Bus, midibus and minibus's to use and are about to begin"
   },
   {
     "name": "Dual-carriageway freeway begins",
@@ -918,261 +918,261 @@
     "description": "To prohibit the entry of all vehicles with a mass exceeding 3 500 kg, or vehicles, which have more than 10 seats, except for local access or delivery"
   },
   {
-    "name": "",
+    "name": "Single-time limit sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/501.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To indicate that the regulatory sign applies only for the period(s) or during conditions indicated on this sign."
   },
   {
-    "name": "",
+    "name": "Two-time limit sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/502.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To indicate that the regulatory sign applies only for the period(s) or during conditions indicated on this sign."
   },
   {
-    "name": "",
+    "name": "Two-time periods/days limit sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/503.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To indicate that the regulatory sign applies only for the period(s) or during conditions indicated on this sign."
   },
   {
-    "name": "",
+    "name": "Three-time periods/days limit sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/504.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To indicate that the regulatory sign applies only for the period(s) or during conditions indicated on this sign."
   },
   {
-    "name": "",
+    "name": "Maximum stay during two periods/days",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/505.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To limit the times and periods of stopping."
   },
   {
-    "name": "",
+    "name": "Maximum stay during two periods/days",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/506.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To limit the times and periods of stopping."
   },
   {
-    "name": "",
+    "name": "Day time sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/511.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To inform you that the regulatory sign applies during daytime"
   },
   {
-    "name": "",
+    "name": "Night time sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/512.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To inform you that the regulatory sign applies during night time"
   },
   {
-    "name": "",
+    "name": "Reserved movement left by vehicles",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/520.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To indicate that the restriction indicated on the regulatory sign applies in the direction of the arrow"
   },
   {
-    "name": "",
+    "name": "Reserved movement right by vehicles",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/521.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To indicate that the restriction indicated on the regulatory sign applies in the direction of the arrow"
   },
   {
-    "name": "",
+    "name": "Reserved movement right and left by vehicles",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/522.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To indicate that the restriction indicated on the regulatory sign applies in the direction of the arrow"
   },
   {
-    "name": "",
+    "name": "Pay and display sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/523.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To indicate that parking fees must be paid in the parking area"
   },
   {
-    "name": "",
+    "name": "Operator identifying sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/530.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To indicate that the sign applies to drivers of vehicles operated by the company, owner or organisation indicated by the logo or words."
   },
   {
-    "name": "",
+    "name": "Operator identifying sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/531.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To indicate that the sign applies to drivers of vehicles operated by the company, owner or organisation indicated by the logo or words."
   },
   {
-    "name": "",
+    "name": "Weight restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/532.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Restricts the maximum weight of vehicles for this area/road"
   },
   {
-    "name": "",
+    "name": "Engine power restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/533.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Restricst the maximum engine size that is allowed for this area/road"
   },
   {
-    "name": "",
+    "name": "Local access only",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/534.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Indicates that this road is not a through road and only leads into the area and out"
   },
   {
-    "name": "",
+    "name": "For distance sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/535.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Indicates that the above instructions is only applicable for a certain distance"
   },
   {
-    "name": "",
+    "name": "Maximum number of vehicles sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/540.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "To indicate to the driver that the reservation indicated on the regulatory sign is further restricted by a maximum number of vehicles"
   },
   {
-    "name": "",
+    "name": "Bus restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/560.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign only meant for busses"
   },
   {
-    "name": "",
+    "name": "Bicycle restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/561.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for bicycles"
   },
   {
-    "name": "",
+    "name": "Motorcycle restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/562.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for motorcycles"
   },
   {
-    "name": "",
+    "name": "Motor car restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/563.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for motor cars"
   },
   {
-    "name": "",
+    "name": "Taxi cab restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/564.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for taxi cabs"
   },
   {
-    "name": "",
+    "name": "Minibus restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/565.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for minibusses"
   },
   {
-    "name": "",
+    "name": "Midibus restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/566.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for Midibusses"
   },
   {
-    "name": "",
+    "name": "Pickup restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/567.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for Pickup vehicles"
   },
   {
-    "name": "",
+    "name": "Truck restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/568.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for Trucks"
   },
   {
-    "name": "",
+    "name": "Trucks exceeding 10 Tons sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/569.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for Trucks exceeding 10 Tons"
   },
   {
-    "name": "",
+    "name": "Roadwork vehicle restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/570.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for roadwork vehicles"
   },
   {
-    "name": "",
+    "name": "Fuel transport vehicle restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/571.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for Fuel transport vehicles"
   },
   {
-    "name": "",
+    "name": "Abnormal vehicle restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/572.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for Abnormal vehicles"
   },
   {
-    "name": "",
+    "name": "Rickshaw restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/573.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for Rickshaws"
   },
   {
-    "name": "",
+    "name": "Tourbus restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/574.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for Tourbusses"
   },
   {
-    "name": "",
+    "name": "High occupancy vehicles restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/575.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "Above sign meant for High occupancy vehicles"
   },
   {
-    "name": "",
+    "name": "Ambulance restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/576.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "The primary sign applies to ambulances / emergency vehicles"
   },
   {
-    "name": "",
+    "name": "Police restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/577.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "The primary sign applies to police vehicles"
   },
   {
-    "name": "",
+    "name": "Disabled passanger vehicles restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/578.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "The primary sign applies to vehicles carrying disabled passengers."
   },
   {
-    "name": "",
+    "name": "Diplomatic vehicles restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/579.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "The primary sign applies to diplomatic vehicles."
   },
   {
-    "name": "",
+    "name": "Agricultural vehicle restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/580.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "The primary sign applies to agricultural vehicles."
   },
   {
-    "name": "",
+    "name": "Annimal-drawn vehicle restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/581.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "The primary sign applies to animal-drawn vehicles."
   },
   {
-    "name": "",
+    "name": "Towed vehicle restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/582.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "The primary sign applies to towed vehicles."
   },
   {
-    "name": "",
+    "name": "Trams restriction sign",
     "image": "/images/road-signs/regulatory-signs/secondary-signs/583.jpg",
     "type": "Secondary Sign",
-    "description": ""
+    "description": "The primary sign applies to trams."
   }
 ]
