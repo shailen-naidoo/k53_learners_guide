@@ -1,170 +1,170 @@
 [
   {
-    "name": "",
+    "name": "Flag signals - Warning of slow moving vehicle",
     "image": "/images/road-signs/traffic-signs/flag-signals/10.jpg",
     "type": "Flag Signal",
-    "description": ""
+    "description": "Warns a road user to proceed slowly and be alert due to a slow moving vehicle."
   },
   {
-    "name": "",
+    "name": "Flag signals – Slow Down",
     "image": "/images/road-signs/traffic-signs/flag-signals/20.jpg",
     "type": "Flag Signal",
-    "description": ""
+    "description": "Flag signal to warn motorists to slow down."
   },
   {
-    "name": "",
+    "name": "Flag signals – Proceed",
     "image": "/images/road-signs/traffic-signs/flag-signals/30.jpg",
     "type": "Flag Signal",
-    "description": ""
+    "description": "Flag signal to proceed - indicating to the driver that he or she shall proceed when the flag signal is displayed."
   },
   {
-    "name": "",
+    "name": "Flag signals – Stop",
     "image": "/images/road-signs/traffic-signs/flag-signals/40.jpg",
     "type": "Flag Signal",
-    "description": ""
+    "description": "Flag signal to stop - indicating to the driver of a vehicle that he or she shall stop until the proceed flag signal is displayed"
   },
   {
-    "name": "",
+    "name": "Flag signals - Warning flag signal",
     "image": "/images/road-signs/traffic-signs/flag-signals/50.jpg",
     "type": "Flag Signal",
-    "description": ""
+    "description": "Warns a road user to proceed slowly and be alert."
   },
   {
-    "name": "",
+    "name": "Control handsignals for use by traffic officers",
     "image": "/images/road-signs/traffic-signs/hand-signals/10.jpg",
     "type": "Hand Signal",
-    "description": ""
+    "description": "Go/Proceed - Indicates to the driver that he/she may proceed"
   },
   {
-    "name": "",
+    "name": "Control handsignals for use by traffic officers",
     "image": "/images/road-signs/traffic-signs/hand-signals/20.jpg",
     "type": "Hand Signal",
-    "description": ""
+    "description": "Go/Proceed - Indicates to the driver that he/she may proceed"
   },
   {
-    "name": "",
+    "name": "Control handsignals for use by traffic officers",
     "image": "/images/road-signs/traffic-signs/hand-signals/30.jpg",
     "type": "Hand Signal",
-    "description": ""
+    "description": "Stop – Stop traffic approaching from the front and rear"
   },
   {
-    "name": "",
+    "name": "Control handsignals for use by traffic officers",
     "image": "/images/road-signs/traffic-signs/hand-signals/40.jpg",
     "type": "Hand Signal",
-    "description": ""
+    "description": "Stop – Stop traffic approaching from the rear"
   },
   {
-    "name": "",
+    "name": "Control handsignals for use by traffic officers",
     "image": "/images/road-signs/traffic-signs/hand-signals/50.jpg",
     "type": "Hand Signal",
-    "description": ""
+    "description": "Stop – Stop traffic approaching from the front"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/100.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Act as for 4-way stop & yield right of way to pedestrians"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/101.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Indicates to pedestrians to remain stationary on the sidewalk until a green man signal is displayed"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/110.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Indicates to pedestrians that they may cross junction within markings. Drivers of vehicles must yield right of way to such pedestrians"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/120.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "1 Persons that have not yet started to cross road to remain stationary 2 who are within a pedestrian crossing that a steady red man signal will follow soon"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/130.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Stop vehicle behind line until green signal is displayed, then proceed with caution"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/140.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Indicates to the driver of a vehicle that the lane ahead is closed & that he/she shall leave the lane in the direction of the arrow when it is safe to do so"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/150.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Vehicles shall not be driven in a lane over which a red cross is displayed"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/160.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Vehicles may be driven in a lane over which a green arrow is displayed"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/170.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Indicates the approach of a train & the driver of a vehicle shall stop his/her vehicle & shall not proceed until the signals cease to flash, & it is safe to do so"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/180.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Drivers must stop before signal & not proceed until it is safe to do so"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/210.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Proceed in direction of arrow which is displayed together with a steady red disc signal for traffic travelling in the opposite direction"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/310.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Proceed only in direction of arrow, subject to restricting road signs & yield right of way to other traffic & pedestrians who are lawfully within junction"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/410.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Proceed through junction in any direction, subject to restricting road signs & yield right of way to other traffic & pedestrians who are lawfully within junction"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/510.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Prepare to stop vehicle behind line, if it is intended to turn in the direction of the arrow, & remain stationary until a green signal is displayed"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/610.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Proceed with caution & yield right of way to pedestrians"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/710.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Prepare to stop vehicle behind line & remain stationary until a green signal is displayed"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/810.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Stop vehicle behind line, if it is intended to turn left at the junction he/she may do so even though red disc signal is displayed, & shall yield right of way to all vehicles & pedestrians for whom a green light signal is displayed"
   },
   {
-    "name": "",
+    "name": "Traffic lights",
     "image": "/images/road-signs/traffic-signs/traffic-signals/910.jpg",
     "type": "Traffic Signal",
-    "description": ""
+    "description": "Stop vehicle behind line, turn left only if it is safe to do so & yield to traffic & pedestrians for whom a green signal is displayed"
   }
 ]
