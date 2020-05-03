@@ -108,88 +108,88 @@
       "description": "To warn that one or more concealed driveways enter the road you are driving on from the left or right in such a way that you cannot easily see the road or traffic travelling on that road."
     },
     {
-        "name": "",
+        "name": "Danger plates",
         "image": "/images/road-signs/warning-signs/hazard-signs/401.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To warn that there is an obstruction or temporary obstruction next to the road and that the road alignment to the left or right hand side is altered."
       },
       {
-        "name": "",
+        "name": "Danger plates",
         "image": "/images/road-signs/warning-signs/hazard-signs/402.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To warn that there is an obstruction or temporary obstruction next to the road and that the road alignment to the left or right hand side is altered."
       },
       {
-        "name": "",
+        "name": "Railway crossing",
         "image": "/images/road-signs/warning-signs/hazard-signs/403.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To that there is a railway crossing with one track ahead."
       },
       {
-        "name": "",
+        "name": "Railway crossing",
         "image": "/images/road-signs/warning-signs/hazard-signs/404.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To that there is a railway crossing with more than one track ahead."
       },
       {
-        "name": "",
+        "name": "Sharp curve chevron",
         "image": "/images/road-signs/warning-signs/hazard-signs/405.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To warn that the road ahead curves suddenly to the right."
       },
       {
-        "name": "",
+        "name": "Sharp curve chevron",
         "image": "/images/road-signs/warning-signs/hazard-signs/406.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To warn that the road ahead curves suddenly to the left."
       },
       {
-        "name": "",
+        "name": "Sharp curve chevron",
         "image": "/images/road-signs/warning-signs/hazard-signs/407.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To warn that the road ahead curves suddenly to the right."
       },
       {
-        "name": "",
+        "name": "Sharp curve chevron",
         "image": "/images/road-signs/warning-signs/hazard-signs/408.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To warn that the road ahead curves suddenly to the left."
       },
       {
-        "name": "",
+        "name": "T-junction chevron",
         "image": "/images/road-signs/warning-signs/hazard-signs/409.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To warn that the road ahead does not carry on straight, but merges with another road."
       },
       {
-        "name": "",
+        "name": "Dead-end",
         "image": "/images/road-signs/warning-signs/hazard-signs/410.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To warn that the road does not continue beyond the sign and that a turn either to the left or to the right must be made."
       },
       {
-        "name": "",
+        "name": "Temporary barricade",
         "image": "/images/road-signs/warning-signs/hazard-signs/411.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To warn that part of the road is temporarily closed to traffic."
       },
       {
-        "name": "",
+        "name": "Gore plate sign",
         "image": "/images/road-signs/warning-signs/hazard-signs/413.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To warn that the road ahead does not carry on straight, but splits in two."
       },
       {
-        "name": "",
+        "name": "Gore chevron sign",
         "image": "/images/road-signs/warning-signs/hazard-signs/414.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To warn that the road ahead does not carry on straight, but splits in two."
       },
       {
-        "name": "",
+        "name": "Overhead danger plate sign",
         "image": "/images/road-signs/warning-signs/hazard-signs/415.jpg",
         "type": "hazard-signs",
-        "description": ""
+        "description": "To indicate that there is an obstacle overhead."
       },
       {
         "name": "",
