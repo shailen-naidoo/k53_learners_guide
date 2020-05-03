@@ -192,118 +192,118 @@
         "description": "To indicate that there is an obstacle overhead."
       },
       {
-        "name": "",
+        "name": "Crossroad",
         "image": "/images/road-signs/warning-signs/layout-signs/101.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that a hazard in the form of a crossroad is ahead"
       },
       {
-        "name": "",
+        "name": "Priority crossroad",
         "image": "/images/road-signs/warning-signs/layout-signs/102.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that you are approaching an intersection where you have right of way. (The thicker leg of the cross on the signs indicates which road has priority.)"
       },
       {
-        "name": "",
+        "name": "Secondary crossroad",
         "image": "/images/road-signs/warning-signs/layout-signs/103.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that you are approaching an intersection where you have to yield to cross-traffic. (The thicker leg of the cross on the sign indicates which road has priority.)"
       },
       {
-        "name": "",
+        "name": "T-junction",
         "image": "/images/road-signs/warning-signs/layout-signs/104.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that you are approaching an intersection where you have to turn sharp to the right or left."
       },
       {
-        "name": "",
+        "name": "Skew T-junction",
         "image": "/images/road-signs/warning-signs/layout-signs/105.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that you are approaching an intersection where another road meet yours at an angle."
       },
       {
-        "name": "",
+        "name": "Skew T-junction",
         "image": "/images/road-signs/warning-signs/layout-signs/106.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that you are approaching an intersection where another road meet yours at an angle."
       },
       {
-        "name": "",
+        "name": "Side road junction from the left",
         "image": "/images/road-signs/warning-signs/layout-signs/107.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that traffic may be approaching you from the left-hand side."
       },
       {
-        "name": "",
+        "name": "Side road junction from the right",
         "image": "/images/road-signs/warning-signs/layout-signs/108.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that traffic may be approaching you from the right-hand side."
       },
       {
-        "name": "",
+        "name": "Staggered junctions",
         "image": "/images/road-signs/warning-signs/layout-signs/109.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that your road is first joined by another road from the left hand side first and within a short distance by another from the right hand side"
       },
       {
-        "name": "",
+        "name": "Staggered junctions",
         "image": "/images/road-signs/warning-signs/layout-signs/110.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that your road is first joined by another road from the left hand side first and within a short distance by another from the right first and then from the left"
       },
       {
-        "name": "",
+        "name": "Sharp junctions",
         "image": "/images/road-signs/warning-signs/layout-signs/111.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that the road you are travelling on will soon split in two and you will have to make a choice which road to take."
       },
       {
-        "name": "",
+        "name": "Sharp junctions",
         "image": "/images/road-signs/warning-signs/layout-signs/112.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that traffic could merge from the left"
       },
       {
-        "name": "",
+        "name": "Sharp junctions",
         "image": "/images/road-signs/warning-signs/layout-signs/113.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that the road you are travelling on will soon split in two and you will have to make a choice which road to take."
       },
       {
-        "name": "",
+        "name": "Sharp junctions",
         "image": "/images/road-signs/warning-signs/layout-signs/114.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that traffic could merge from the right"
       },
       {
-        "name": "",
+        "name": "Y-junction",
         "image": "/images/road-signs/warning-signs/layout-signs/115.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that the road forks into two roads."
       },
       {
-        "name": "",
+        "name": "End of dual roadway",
         "image": "/images/road-signs/warning-signs/layout-signs/116.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that the one-way roadway is ending soon and that approaching vehicles will use the same carriageway as you."
       },
       {
-        "name": "",
+        "name": "End of dual roadway",
         "image": "/images/road-signs/warning-signs/layout-signs/117.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that the one-way roadway is ending soon and that approaching vehicles will use the same carriageway as you."
       },
       {
-        "name": "",
+        "name": "Beginning of dual roadway",
         "image": "/images/road-signs/warning-signs/layout-signs/118.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that the single carriageway is ending and that you will soon enter a one-way road."
       },
       {
-        "name": "",
+        "name": "Beginning of dual roadway",
         "image": "/images/road-signs/warning-signs/layout-signs/119.jpg",
         "type": "layout-signs",
-        "description": ""
+        "description": "To warn that the single carriageway is ending and that you will soon enter a one-way road."
       },
       {
         "name": "",
