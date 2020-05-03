@@ -288,87 +288,87 @@
     "description": "To supply you with additional information"
   },
   {
-    "name": "",
+    "name": "Road marking symbols",
     "image": "/images/road-signs/traverse-markings/049.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "As additional markings with standard signs and markings to inform you that an area is reserved for a specific group or that a road is leading to a specific destination."
   },
   {
-    "name": "",
+    "name": "Road marking symbols",
     "image": "/images/road-signs/traverse-markings/050.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "As additional markings with standard signs and markings to inform you that an area is reserved for a specific group or that a road is leading to a specific destination."
   },
   {
-    "name": "",
+    "name": "Road marking symbols",
     "image": "/images/road-signs/traverse-markings/051.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "As additional markings with standard signs and markings to inform you that an area is reserved for a specific group or that a road is leading to a specific destination."
   },
   {
-    "name": "",
+    "name": "Road marking symbols",
     "image": "/images/road-signs/traverse-markings/052.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "As additional markings with standard signs and markings to inform you that an area is reserved for a specific group or that a road is leading to a specific destination."
   },
   {
-    "name": "",
+    "name": "Bicycle crossing lines",
     "image": "/images/road-signs/traverse-markings/053.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate a section of the road to be used by cyclists to cross the road."
   },
   {
-    "name": "",
+    "name": "Information arrows",
     "image": "/images/road-signs/traverse-markings/054.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate the direction you may drive in a lane or on a road."
   },
   {
-    "name": "",
+    "name": "Information arrows",
     "image": "/images/road-signs/traverse-markings/055.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate the direction you may drive in a lane or on a road."
   },
   {
-    "name": "",
+    "name": "Bifurcation arrows",
     "image": "/images/road-signs/traverse-markings/056.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate an increase in the number of lanes ahead."
   },
   {
-    "name": "",
+    "name": "Bifurcation arrows",
     "image": "/images/road-signs/traverse-markings/057.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate an increase in the number of lanes ahead."
   },
   {
-    "name": "",
+    "name": "Bifurcation arrows",
     "image": "/images/road-signs/traverse-markings/058.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate an increase in the number of lanes ahead."
   },
   {
-    "name": "",
+    "name": "Guide lines",
     "image": "/images/road-signs/traverse-markings/059.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To guide you to follow the correct route in the intersection."
   },
   {
-    "name": "",
+    "name": "Lane lines",
     "image": "/images/road-signs/traverse-markings/060.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To show that you are using a part of the road with traffic in the same direction."
   },
   {
-    "name": "",
+    "name": "Lane lines",
     "image": "/images/road-signs/traverse-markings/061.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To show that you are using a part of the road with traffic in the same direction."
   },
   {
-    "name": "",
+    "name": "Lane lines",
     "image": "/images/road-signs/traverse-markings/062.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To show that you are using a part of the road with traffic in the same direction."
   }
 ]

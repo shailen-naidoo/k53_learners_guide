@@ -1,6 +1,8 @@
 /* eslint-disable no-console */
+// Requires two Node Packages nl. args-parser & fs-extra
 const args = require('args-parser')(process.argv);
 const fs = require('fs-extra');
+
 
 const ROOT_DIR = 'images';
 const ROAD_SIGNS_DIR = `${ROOT_DIR}/road-signs`;
