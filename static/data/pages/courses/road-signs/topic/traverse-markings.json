@@ -1,93 +1,93 @@
 [
   {
-    "name": "",
+    "name": "Arrestor bed ahead",
     "image": "/images/road-signs/traverse-markings/001.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate where especially drivers of heavy vehicles who become aware that a vehicle’s brakes became defective, can drive such a vehicle of the road and it will be stopped by the gravel section ahead."
   },
   {
-    "name": "",
+    "name": "Arrestor bed ahead",
     "image": "/images/road-signs/traverse-markings/002.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate where especially drivers of heavy vehicles who become aware that a vehicle’s brakes became defective, can drive such a vehicle of the road and it will be stopped by the gravel section ahead."
   },
   {
-    "name": "",
+    "name": "No overtaking or no crossing line ahead",
     "image": "/images/road-signs/traverse-markings/003.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To warn you that there is a no-overtaking line or no-crossing line ahead."
   },
   {
-    "name": "",
+    "name": "Mandatory direction arrow ahead",
     "image": "/images/road-signs/traverse-markings/004.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To warn in time that you will be obliged to follow a certain direction at the first intersection."
   },
   {
-    "name": "",
+    "name": "Lane reduction arrows",
     "image": "/images/road-signs/traverse-markings/005.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To warn that the traffic lanes are reduced from the left or right or from both sides."
   },
   {
-    "name": "",
+    "name": "Yield control ahead",
     "image": "/images/road-signs/traverse-markings/006.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To warn that there is a yield sign ahead."
   },
   {
-    "name": "",
+    "name": "Reversible lane lines",
     "image": "/images/road-signs/traverse-markings/007.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To warn drivers that the lane indicated by this marking can be used for traffic from the opposite direction at various times of day or night."
   },
   {
-    "name": "",
+    "name": "Dividing lines",
     "image": "/images/road-signs/traverse-markings/008.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To warn that vehicles on the other side of the road marking are moving in the opposite direction."
   },
   {
-    "name": "",
+    "name": "Dividing lines",
     "image": "/images/road-signs/traverse-markings/009.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To warn that vehicles on the other side of the road marking are moving in the opposite direction."
   },
   {
-    "name": "",
+    "name": "Continuity lines",
     "image": "/images/road-signs/traverse-markings/010.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To warn you that there is a break (intersection or off ramp) in the continuing part of the roadway and to inform you that if you are in a lane that has a line on one side, that lane will soon turn off from the road which you are now travelling."
   },
   {
-    "name": "",
+    "name": "Continuity lines",
     "image": "/images/road-signs/traverse-markings/011.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To warn you that there is a break (intersection or off ramp) in the continuing part of the roadway and to inform you that if you are in a lane that has a line on one side, that lane will soon turn off from the road which you are now travelling."
   },
   {
-    "name": "",
+    "name": "Continuity lines",
     "image": "/images/road-signs/traverse-markings/012.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To warn you that there is a break (intersection or off ramp) in the continuing part of the roadway and to inform you that if you are in a lane that has a line on one side, that lane will soon turn off from the road which you are now travelling."
   },
   {
-    "name": "",
+    "name": "End of exclusive use lane arrows marking",
     "image": "/images/road-signs/traverse-markings/013.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "Indicates that the exclusive use of the lane is about to come to an end."
   },
   {
-    "name": "",
+    "name": "End of exclusive use lane arrows marking",
     "image": "/images/road-signs/traverse-markings/014.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "Indicates that the exclusive use of the lane is about to come to an end."
   },
   {
-    "name": "",
+    "name": "Speed hump",
     "image": "/images/road-signs/traverse-markings/015.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To warn that there is a speed hump in the road."
   },
   {
     "name": "",
