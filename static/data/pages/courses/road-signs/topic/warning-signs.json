@@ -6,106 +6,106 @@
       "description": "To warn that there is a traffic circle ahead where you may need to yield to other traffic."
     },
     {
-      "name": "",
+      "name": "Gentle curve",
       "image": "/images/road-signs/warning-signs/direction-signs/202.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that there is a gentle curve ahead to the right."
     },
     {
-      "name": "",
+      "name": "Gentle curve",
       "image": "/images/road-signs/warning-signs/direction-signs/203.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that there is a gentle curve ahead to the left."
     },
     {
-      "name": "",
+      "name": "Sharp curve",
       "image": "/images/road-signs/warning-signs/direction-signs/204.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that there is a sharp curve ahead to the right."
     },
     {
-      "name": "",
+      "name": "Sharp curve",
       "image": "/images/road-signs/warning-signs/direction-signs/205.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that there is a sharp curve ahead to the left."
     },
     {
-      "name": "",
+      "name": "Hairpin bend",
       "image": "/images/road-signs/warning-signs/direction-signs/206.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that there is a very sharp, U-shaped curve ahead to the right."
     },
     {
-      "name": "",
+      "name": "Hairpin bend",
       "image": "/images/road-signs/warning-signs/direction-signs/207.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that there is a very sharp, U-shaped curve ahead to the left."
     },
     {
-      "name": "",
+      "name": "Winding road",
       "image": "/images/road-signs/warning-signs/direction-signs/208.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn of a series of curves ahead."
     },
     {
-      "name": "",
+      "name": "Winding road",
       "image": "/images/road-signs/warning-signs/direction-signs/209.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn of a series of curves ahead."
     },
     {
-      "name": "",
+      "name": "Combined curves",
       "image": "/images/road-signs/warning-signs/direction-signs/210.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that there are two sharp curves ahead in opposite directions."
     },
     {
-      "name": "",
+      "name": "Combined curves",
       "image": "/images/road-signs/warning-signs/direction-signs/211.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that there are two sharp curves ahead in opposite directions."
     },
     {
-      "name": "",
+      "name": "Two-way traffic",
       "image": "/images/road-signs/warning-signs/direction-signs/212.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that the one-way roadway you are travelling on will soon become a two-way roadway."
     },
     {
-      "name": "",
+      "name": "Two-way traffic crossroad",
       "image": "/images/road-signs/warning-signs/direction-signs/213.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that one-way street you are driving on will soon be crossed by a street that carries two-way traffic."
     },
     {
-      "name": "",
+      "name": "Lane ends",
       "image": "/images/road-signs/warning-signs/direction-signs/214.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that the double-lane road you are driving on narrows by a full lane from the right."
     },
     {
-      "name": "",
+      "name": "Lane ends",
       "image": "/images/road-signs/warning-signs/direction-signs/215.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that the double-lane road you are driving on narrows by a full lane from the left."
     },
     {
-      "name": "",
+      "name": "Concealed driveway",
       "image": "/images/road-signs/warning-signs/direction-signs/216.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that one or more concealed driveways enter the road you are driving on from the left or right in such a way that you cannot easily see the road or traffic travelling on that road."
     },
     {
-      "name": "",
+      "name": "Concealed driveway",
       "image": "/images/road-signs/warning-signs/direction-signs/217.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that one or more concealed driveways enter the road you are driving on from the left or right in such a way that you cannot easily see the road or traffic travelling on that road."
     },
     {
-      "name": "",
+      "name": "Concealed driveway",
       "image": "/images/road-signs/warning-signs/direction-signs/218.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that one or more concealed driveways enter the road you are driving on from the left or right in such a way that you cannot easily see the road or traffic travelling on that road."
     },
     {
         "name": "",
