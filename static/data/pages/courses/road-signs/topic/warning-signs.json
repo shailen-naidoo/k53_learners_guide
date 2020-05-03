@@ -1,9 +1,9 @@
 [
     {
-      "name": "",
+      "name": "Traffic circle",
       "image": "/images/road-signs/warning-signs/direction-signs/201.jpg",
       "type": "direction-signs",
-      "description": ""
+      "description": "To warn that there is a traffic circle ahead where you may need to yield to other traffic."
     },
     {
       "name": "",
