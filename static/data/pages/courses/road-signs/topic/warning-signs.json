@@ -534,76 +534,76 @@
         "description": "To warn the driver that there is a drift ahead and that the road could be flooded."
       },
       {
-        "name": "",
+        "name": "Low-flying aircraft",
         "image": "/images/road-signs/warning-signs/symbolic-signs/351.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn of the possibility of low-flying aircraft and sudden aircraft noise near the road."
       },
       {
-        "name": "",
+        "name": "Agricultural vehicles",
         "image": "/images/road-signs/warning-signs/symbolic-signs/352.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that tractors or other slow-moving agricultural vehicles could cross or enter the road ahead."
       },
       {
-        "name": "",
+        "name": "Reduced visibility",
         "image": "/images/road-signs/warning-signs/symbolic-signs/354.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a possibility reduced visibility on the road ahead that might cause a hazard to road users."
       },
       {
-        "name": "",
+        "name": "Congestion",
         "image": "/images/road-signs/warning-signs/symbolic-signs/355.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a possibility of congested traffic."
       },
       {
-        "name": "",
+        "name": "Horses and riders",
         "image": "/images/road-signs/warning-signs/symbolic-signs/356.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a possibility of horses and riders being present on the road ahead."
       },
       {
-        "name": "",
+        "name": "Elephant",
         "image": "/images/road-signs/warning-signs/symbolic-signs/357.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a possibility of elephants being present on the road ahead."
       },
       {
-        "name": "",
+        "name": "Warthog",
         "image": "/images/road-signs/warning-signs/symbolic-signs/358.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a possibility of warthogs being present on the road ahead."
       },
       {
-        "name": "",
+        "name": "Hippo",
         "image": "/images/road-signs/warning-signs/symbolic-signs/359.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a possibility of hippos being present on the road ahead."
       },
       {
-        "name": "",
+        "name": "Width",
         "image": "/images/road-signs/warning-signs/symbolic-signs/360.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is overall width of vehicles restriction as indicated in metres on the road ahead."
       },
       {
-        "name": "",
+        "name": "Electrical shock",
         "image": "/images/road-signs/warning-signs/symbolic-signs/361.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a possibility of electrical shock from the overhead electrical power cables on the road ahead."
       },
       {
-        "name": "",
+        "name": "Tram sign",
         "image": "/images/road-signs/warning-signs/symbolic-signs/362.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a tram ahead."
       },
       {
-        "name": "",
+        "name": "Gravel road ends",
         "image": "/images/road-signs/warning-signs/symbolic-signs/363.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that the gravel road you are travelling on will end ahead."
       }
   ]
 
