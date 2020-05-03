@@ -306,112 +306,112 @@
         "description": "To warn that the single carriageway is ending and that you will soon enter a one-way road."
       },
       {
-        "name": "",
+        "name": "Traffic signals ahead",
         "image": "/images/road-signs/warning-signs/symbolic-signs/301.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there are isolated and particularly new traffic lights or traffic lights near an isolated traffic light at a pedestrian crossing ahead."
       },
       {
-        "name": "",
+        "name": "Traffic control “STOP” ahead",
         "image": "/images/road-signs/warning-signs/symbolic-signs/302.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a stop sign ahead, which cannot be seen in time."
       },
       {
-        "name": "",
+        "name": "Traffic control “YIELD” ahead",
         "image": "/images/road-signs/warning-signs/symbolic-signs/303.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a yield sign ahead, which you may not be able to see in time without a warning."
       },
       {
-        "name": "",
+        "name": "Pedestrian crossing",
         "image": "/images/road-signs/warning-signs/symbolic-signs/306.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a demarcated pedestrian crossing ahead."
       },
       {
-        "name": "",
+        "name": "Pedestrians",
         "image": "/images/road-signs/warning-signs/symbolic-signs/307.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that pedestrians may be crossing the road for the next 2 km."
       },
       {
-        "name": "",
+        "name": "Children",
         "image": "/images/road-signs/warning-signs/symbolic-signs/308.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that children might be crossing the road."
       },
       {
-        "name": "",
+        "name": "Pedal cyclists",
         "image": "/images/road-signs/warning-signs/symbolic-signs/309.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn the driver that there can be cyclists ahead."
       },
       {
-        "name": "",
+        "name": "Domestic animals",
         "image": "/images/road-signs/warning-signs/symbolic-signs/310.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there may be free ranging animals such as cattle, horses or sheep on the road."
       },
       {
-        "name": "",
+        "name": "Domestic animals",
         "image": "/images/road-signs/warning-signs/symbolic-signs/311.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there may be free ranging animals such as cattle, horses or sheep on the road."
       },
       {
-        "name": "",
+        "name": "Domestic animals",
         "image": "/images/road-signs/warning-signs/symbolic-signs/312.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there may be free ranging animals such as cattle, horses or sheep on the road."
       },
       {
-        "name": "",
+        "name": "Wild animals",
         "image": "/images/road-signs/warning-signs/symbolic-signs/313.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there may be wild animals on the road or crossing the road."
       },
       {
-        "name": "",
+        "name": "Gate",
         "image": "/images/road-signs/warning-signs/symbolic-signs/314.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a gate or boom across the road ahead."
       },
       {
-        "name": "",
+        "name": "Motor gate",
         "image": "/images/road-signs/warning-signs/symbolic-signs/315.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a motor gate to the left"
       },
       {
-        "name": "",
+        "name": "Motor gate",
         "image": "/images/road-signs/warning-signs/symbolic-signs/316.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a motor gate to the right"
       },
       {
-        "name": "",
+        "name": "Motor gate",
         "image": "/images/road-signs/warning-signs/symbolic-signs/317.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a motor gate in the middle of the road"
       },
       {
-        "name": "",
+        "name": "Railway crossing",
         "image": "/images/road-signs/warning-signs/symbolic-signs/318.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a railway crossing ahead."
       },
       {
-        "name": "",
+        "name": "Tunnel",
         "image": "/images/road-signs/warning-signs/symbolic-signs/319.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a tunnel ahead."
       },
       {
-        "name": "",
+        "name": "Height restricted",
         "image": "/images/road-signs/warning-signs/symbolic-signs/320.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a structure ahead of which the height is indicated on the road traffic sign."
       },
       {
         "name": "",
