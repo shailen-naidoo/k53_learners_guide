@@ -414,124 +414,124 @@
         "description": "To warn that there is a structure ahead of which the height is indicated on the road traffic sign."
       },
       {
-        "name": "",
+        "name": "Length restricted",
         "image": "/images/road-signs/warning-signs/symbolic-signs/321.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that curves in the road or other structures on the side of the road make it impossible for vehicles longer than the length indicated on this road sign."
       },
       {
-        "name": "",
+        "name": "Steep ascend and steep descend",
         "image": "/images/road-signs/warning-signs/symbolic-signs/322.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that the road will climb or descend steeply."
       },
       {
-        "name": "",
+        "name": "Steep ascend and steep descend",
         "image": "/images/road-signs/warning-signs/symbolic-signs/323.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that the road will climb or descend steeply."
       },
       {
-        "name": "",
+        "name": "Slow-moving heavy vehicles",
         "image": "/images/road-signs/warning-signs/symbolic-signs/324.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that heavy vehicles travel slowly down a descent."
       },
       {
-        "name": "",
+        "name": "Gravel road begins",
         "image": "/images/road-signs/warning-signs/symbolic-signs/325.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that the tarred road you are driving on will end soon and will have a gravel surface ahead."
       },
       {
-        "name": "",
+        "name": "Narrow bridge",
         "image": "/images/road-signs/warning-signs/symbolic-signs/326.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that the road narrows when crossing a bridge."
       },
       {
-        "name": "",
+        "name": "One vehicle width structure",
         "image": "/images/road-signs/warning-signs/symbolic-signs/327.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that the carriageway ahead narrows to a width that will make it possible for only one vehicle at a time to pass."
       },
       {
-        "name": "",
+        "name": "Road narrows from both sides",
         "image": "/images/road-signs/warning-signs/symbolic-signs/328.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that the road ahead narrows from both sides."
       },
       {
-        "name": "",
+        "name": "Road narrows from one side only",
         "image": "/images/road-signs/warning-signs/symbolic-signs/329.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that the road ahead narrows from the left"
       },
       {
-        "name": "",
+        "name": "Road narrows from one side only",
         "image": "/images/road-signs/warning-signs/symbolic-signs/330.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that the road ahead narrows from the right"
       },
       {
-        "name": "",
+        "name": "Uneven roadway",
         "image": "/images/road-signs/warning-signs/symbolic-signs/331.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is a depression or a ridge in the road, or that the road in general is uneven and potholed."
       },
       {
-        "name": "",
+        "name": "Speed humps",
         "image": "/images/road-signs/warning-signs/symbolic-signs/332.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there are speed humps on the carriageway ahead which require a reduction of speed."
       },
       {
-        "name": "",
+        "name": "Slippery road",
         "image": "/images/road-signs/warning-signs/symbolic-signs/333.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn about unusually slippery conditions on the road ahead."
       },
       {
-        "name": "",
+        "name": "Falling rocks",
         "image": "/images/road-signs/warning-signs/symbolic-signs/334.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that rocks could fall on the carriageway from the right"
       },
       {
-        "name": "",
+        "name": "Falling rocks",
         "image": "/images/road-signs/warning-signs/symbolic-signs/335.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that rocks could fall on the carriageway from the left"
       },
       {
-        "name": "",
+        "name": "General warning",
         "image": "/images/road-signs/warning-signs/symbolic-signs/339.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that there is danger of some kind ahead."
       },
       {
-        "name": "",
+        "name": "Emergency flashing light",
         "image": "/images/road-signs/warning-signs/symbolic-signs/346.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn of a hazard ahead."
       },
       {
-        "name": "",
+        "name": "Jetty edge or river bank",
         "image": "/images/road-signs/warning-signs/symbolic-signs/348.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn that the road leads to a jetty edge or riverbank."
       },
       {
-        "name": "",
+        "name": "Crosswinds",
         "image": "/images/road-signs/warning-signs/symbolic-signs/349.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn about strong crosswinds that could force your vehicles off course."
       },
       {
-        "name": "",
+        "name": "Drift",
         "image": "/images/road-signs/warning-signs/symbolic-signs/350.jpg",
         "type": "symbolic-signs",
-        "description": ""
+        "description": "To warn the driver that there is a drift ahead and that the road could be flooded."
       },
       {
         "name": "",
