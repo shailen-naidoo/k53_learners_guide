@@ -9,14 +9,17 @@ const getDirectories = path => fs.readdir(`${__dirname}/static/${path}`, 'utf-8'
 
 const createObject = files => files.map(file => ({
   name: '',
-  image: `/${ROAD_SIGNS_DIR}/traffic-signs/${args.topic}/${file}`,
-  type: 'Traffic Signal',
+  image: `/${ROAD_SIGNS_DIR}/${args.args}/${file}`,
+  type: 'Traverse Markings',
   description: '',
 }));
 
+
+console.log(args.args);
+
 const main = async () => {
-  const saveJSONToFile = data => fs.writeFile(`./static/data/pages/courses/road-signs/topic/${args.topic}.json`, JSON.stringify(data, null, 2));
-  const roadSignsFolders = await getDirectories(`${ROAD_SIGNS_DIR}/traffic-signs/${args.topic}`);
+  const saveJSONToFile = data => fs.writeFile(`./static/data/pages/courses/road-signs/topic/${args.args}.json`, JSON.stringify(data, null, 2));
+  const roadSignsFolders = await getDirectories(`${ROAD_SIGNS_DIR}/${args.args}`);
   const JSONData = createObject(roadSignsFolders);
 
   await saveJSONToFile(JSONData);
