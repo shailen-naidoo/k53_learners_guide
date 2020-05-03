@@ -90,88 +90,88 @@
     "description": "To warn that there is a speed hump in the road."
   },
   {
-    "name": "",
+    "name": "Railway crossing ahead",
     "image": "/images/road-signs/traverse-markings/016.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To warn that there is a railway crossing ahead."
   },
   {
-    "name": "",
+    "name": "Block pedestrian crossing",
     "image": "/images/road-signs/traverse-markings/017.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To inform you that priority must be given to pedestrians crossing or wanting to cross the road at these places."
   },
   {
-    "name": "",
+    "name": "Pedestrian crossing lines",
     "image": "/images/road-signs/traverse-markings/018.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To inform you that priority must be given to pedestrians crossing or wanting to cross the road at these places."
   },
   {
-    "name": "",
+    "name": "Yield line",
     "image": "/images/road-signs/traverse-markings/019.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate that you must give priority to all who cross in front of you at this point."
   },
   {
-    "name": "",
+    "name": "Stop line",
     "image": "/images/road-signs/traverse-markings/020.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate where you must bring your vehicle to a standstill."
   },
   {
-    "name": "",
+    "name": "Bus lane marking",
     "image": "/images/road-signs/traverse-markings/021.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To identify that part of the carriageway which is reserved for buses only during the periods indicated on the sign."
   },
   {
-    "name": "",
+    "name": "Mandatory direction arrows",
     "image": "/images/road-signs/traverse-markings/022.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To show that you may only proceed in the direction indicated by the arrow in your lane."
   },
   {
-    "name": "",
+    "name": "Exclusive parking bay",
     "image": "/images/road-signs/traverse-markings/023.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To identify parking only for road users identified by the symbol."
   },
   {
-    "name": "",
+    "name": "Parking bay",
     "image": "/images/road-signs/traverse-markings/024.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate where you may park."
   },
   {
-    "name": "",
+    "name": "Painted island",
     "image": "/images/road-signs/traverse-markings/025.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To prohibit drivers from driving in this area."
   },
   {
-    "name": "",
+    "name": "Painted island",
     "image": "/images/road-signs/traverse-markings/026.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To prohibit drivers from driving in this area."
   },
   {
-    "name": "",
+    "name": "Painted island",
     "image": "/images/road-signs/traverse-markings/027.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To prohibit drivers from driving in this area."
   },
   {
-    "name": "",
+    "name": "Right-edge line marking",
     "image": "/images/road-signs/traverse-markings/028.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate where the right-edge of the road is."
   },
   {
-    "name": "",
+    "name": "Left-edge line marking",
     "image": "/images/road-signs/traverse-markings/029.jpg",
     "type": "Traverse Markings",
-    "description": ""
+    "description": "To indicate where the left-edge of the road is."
   },
   {
     "name": "",
