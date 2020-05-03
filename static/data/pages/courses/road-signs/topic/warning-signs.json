@@ -1,0 +1,609 @@
+[
+    {
+      "name": "Traffic circle",
+      "image": "/images/road-signs/warning-signs/direction-signs/201.jpg",
+      "type": "direction-signs",
+      "description": "To warn that there is a traffic circle ahead where you may need to yield to other traffic."
+    },
+    {
+      "name": "Gentle curve",
+      "image": "/images/road-signs/warning-signs/direction-signs/202.jpg",
+      "type": "direction-signs",
+      "description": "To warn that there is a gentle curve ahead to the right."
+    },
+    {
+      "name": "Gentle curve",
+      "image": "/images/road-signs/warning-signs/direction-signs/203.jpg",
+      "type": "direction-signs",
+      "description": "To warn that there is a gentle curve ahead to the left."
+    },
+    {
+      "name": "Sharp curve",
+      "image": "/images/road-signs/warning-signs/direction-signs/204.jpg",
+      "type": "direction-signs",
+      "description": "To warn that there is a sharp curve ahead to the right."
+    },
+    {
+      "name": "Sharp curve",
+      "image": "/images/road-signs/warning-signs/direction-signs/205.jpg",
+      "type": "direction-signs",
+      "description": "To warn that there is a sharp curve ahead to the left."
+    },
+    {
+      "name": "Hairpin bend",
+      "image": "/images/road-signs/warning-signs/direction-signs/206.jpg",
+      "type": "direction-signs",
+      "description": "To warn that there is a very sharp, U-shaped curve ahead to the right."
+    },
+    {
+      "name": "Hairpin bend",
+      "image": "/images/road-signs/warning-signs/direction-signs/207.jpg",
+      "type": "direction-signs",
+      "description": "To warn that there is a very sharp, U-shaped curve ahead to the left."
+    },
+    {
+      "name": "Winding road",
+      "image": "/images/road-signs/warning-signs/direction-signs/208.jpg",
+      "type": "direction-signs",
+      "description": "To warn of a series of curves ahead."
+    },
+    {
+      "name": "Winding road",
+      "image": "/images/road-signs/warning-signs/direction-signs/209.jpg",
+      "type": "direction-signs",
+      "description": "To warn of a series of curves ahead."
+    },
+    {
+      "name": "Combined curves",
+      "image": "/images/road-signs/warning-signs/direction-signs/210.jpg",
+      "type": "direction-signs",
+      "description": "To warn that there are two sharp curves ahead in opposite directions."
+    },
+    {
+      "name": "Combined curves",
+      "image": "/images/road-signs/warning-signs/direction-signs/211.jpg",
+      "type": "direction-signs",
+      "description": "To warn that there are two sharp curves ahead in opposite directions."
+    },
+    {
+      "name": "Two-way traffic",
+      "image": "/images/road-signs/warning-signs/direction-signs/212.jpg",
+      "type": "direction-signs",
+      "description": "To warn that the one-way roadway you are travelling on will soon become a two-way roadway."
+    },
+    {
+      "name": "Two-way traffic crossroad",
+      "image": "/images/road-signs/warning-signs/direction-signs/213.jpg",
+      "type": "direction-signs",
+      "description": "To warn that one-way street you are driving on will soon be crossed by a street that carries two-way traffic."
+    },
+    {
+      "name": "Lane ends",
+      "image": "/images/road-signs/warning-signs/direction-signs/214.jpg",
+      "type": "direction-signs",
+      "description": "To warn that the double-lane road you are driving on narrows by a full lane from the right."
+    },
+    {
+      "name": "Lane ends",
+      "image": "/images/road-signs/warning-signs/direction-signs/215.jpg",
+      "type": "direction-signs",
+      "description": "To warn that the double-lane road you are driving on narrows by a full lane from the left."
+    },
+    {
+      "name": "Concealed driveway",
+      "image": "/images/road-signs/warning-signs/direction-signs/216.jpg",
+      "type": "direction-signs",
+      "description": "To warn that one or more concealed driveways enter the road you are driving on from the left or right in such a way that you cannot easily see the road or traffic travelling on that road."
+    },
+    {
+      "name": "Concealed driveway",
+      "image": "/images/road-signs/warning-signs/direction-signs/217.jpg",
+      "type": "direction-signs",
+      "description": "To warn that one or more concealed driveways enter the road you are driving on from the left or right in such a way that you cannot easily see the road or traffic travelling on that road."
+    },
+    {
+      "name": "Concealed driveway",
+      "image": "/images/road-signs/warning-signs/direction-signs/218.jpg",
+      "type": "direction-signs",
+      "description": "To warn that one or more concealed driveways enter the road you are driving on from the left or right in such a way that you cannot easily see the road or traffic travelling on that road."
+    },
+    {
+        "name": "Danger plates",
+        "image": "/images/road-signs/warning-signs/hazard-signs/401.jpg",
+        "type": "hazard-signs",
+        "description": "To warn that there is an obstruction or temporary obstruction next to the road and that the road alignment to the left or right hand side is altered."
+      },
+      {
+        "name": "Danger plates",
+        "image": "/images/road-signs/warning-signs/hazard-signs/402.jpg",
+        "type": "hazard-signs",
+        "description": "To warn that there is an obstruction or temporary obstruction next to the road and that the road alignment to the left or right hand side is altered."
+      },
+      {
+        "name": "Railway crossing",
+        "image": "/images/road-signs/warning-signs/hazard-signs/403.jpg",
+        "type": "hazard-signs",
+        "description": "To that there is a railway crossing with one track ahead."
+      },
+      {
+        "name": "Railway crossing",
+        "image": "/images/road-signs/warning-signs/hazard-signs/404.jpg",
+        "type": "hazard-signs",
+        "description": "To that there is a railway crossing with more than one track ahead."
+      },
+      {
+        "name": "Sharp curve chevron",
+        "image": "/images/road-signs/warning-signs/hazard-signs/405.jpg",
+        "type": "hazard-signs",
+        "description": "To warn that the road ahead curves suddenly to the right."
+      },
+      {
+        "name": "Sharp curve chevron",
+        "image": "/images/road-signs/warning-signs/hazard-signs/406.jpg",
+        "type": "hazard-signs",
+        "description": "To warn that the road ahead curves suddenly to the left."
+      },
+      {
+        "name": "Sharp curve chevron",
+        "image": "/images/road-signs/warning-signs/hazard-signs/407.jpg",
+        "type": "hazard-signs",
+        "description": "To warn that the road ahead curves suddenly to the right."
+      },
+      {
+        "name": "Sharp curve chevron",
+        "image": "/images/road-signs/warning-signs/hazard-signs/408.jpg",
+        "type": "hazard-signs",
+        "description": "To warn that the road ahead curves suddenly to the left."
+      },
+      {
+        "name": "T-junction chevron",
+        "image": "/images/road-signs/warning-signs/hazard-signs/409.jpg",
+        "type": "hazard-signs",
+        "description": "To warn that the road ahead does not carry on straight, but merges with another road."
+      },
+      {
+        "name": "Dead-end",
+        "image": "/images/road-signs/warning-signs/hazard-signs/410.jpg",
+        "type": "hazard-signs",
+        "description": "To warn that the road does not continue beyond the sign and that a turn either to the left or to the right must be made."
+      },
+      {
+        "name": "Temporary barricade",
+        "image": "/images/road-signs/warning-signs/hazard-signs/411.jpg",
+        "type": "hazard-signs",
+        "description": "To warn that part of the road is temporarily closed to traffic."
+      },
+      {
+        "name": "Gore plate sign",
+        "image": "/images/road-signs/warning-signs/hazard-signs/413.jpg",
+        "type": "hazard-signs",
+        "description": "To warn that the road ahead does not carry on straight, but splits in two."
+      },
+      {
+        "name": "Gore chevron sign",
+        "image": "/images/road-signs/warning-signs/hazard-signs/414.jpg",
+        "type": "hazard-signs",
+        "description": "To warn that the road ahead does not carry on straight, but splits in two."
+      },
+      {
+        "name": "Overhead danger plate sign",
+        "image": "/images/road-signs/warning-signs/hazard-signs/415.jpg",
+        "type": "hazard-signs",
+        "description": "To indicate that there is an obstacle overhead."
+      },
+      {
+        "name": "Crossroad",
+        "image": "/images/road-signs/warning-signs/layout-signs/101.jpg",
+        "type": "layout-signs",
+        "description": "To warn that a hazard in the form of a crossroad is ahead"
+      },
+      {
+        "name": "Priority crossroad",
+        "image": "/images/road-signs/warning-signs/layout-signs/102.jpg",
+        "type": "layout-signs",
+        "description": "To warn that you are approaching an intersection where you have right of way. (The thicker leg of the cross on the signs indicates which road has priority.)"
+      },
+      {
+        "name": "Secondary crossroad",
+        "image": "/images/road-signs/warning-signs/layout-signs/103.jpg",
+        "type": "layout-signs",
+        "description": "To warn that you are approaching an intersection where you have to yield to cross-traffic. (The thicker leg of the cross on the sign indicates which road has priority.)"
+      },
+      {
+        "name": "T-junction",
+        "image": "/images/road-signs/warning-signs/layout-signs/104.jpg",
+        "type": "layout-signs",
+        "description": "To warn that you are approaching an intersection where you have to turn sharp to the right or left."
+      },
+      {
+        "name": "Skew T-junction",
+        "image": "/images/road-signs/warning-signs/layout-signs/105.jpg",
+        "type": "layout-signs",
+        "description": "To warn that you are approaching an intersection where another road meet yours at an angle."
+      },
+      {
+        "name": "Skew T-junction",
+        "image": "/images/road-signs/warning-signs/layout-signs/106.jpg",
+        "type": "layout-signs",
+        "description": "To warn that you are approaching an intersection where another road meet yours at an angle."
+      },
+      {
+        "name": "Side road junction from the left",
+        "image": "/images/road-signs/warning-signs/layout-signs/107.jpg",
+        "type": "layout-signs",
+        "description": "To warn that traffic may be approaching you from the left-hand side."
+      },
+      {
+        "name": "Side road junction from the right",
+        "image": "/images/road-signs/warning-signs/layout-signs/108.jpg",
+        "type": "layout-signs",
+        "description": "To warn that traffic may be approaching you from the right-hand side."
+      },
+      {
+        "name": "Staggered junctions",
+        "image": "/images/road-signs/warning-signs/layout-signs/109.jpg",
+        "type": "layout-signs",
+        "description": "To warn that your road is first joined by another road from the left hand side first and within a short distance by another from the right hand side"
+      },
+      {
+        "name": "Staggered junctions",
+        "image": "/images/road-signs/warning-signs/layout-signs/110.jpg",
+        "type": "layout-signs",
+        "description": "To warn that your road is first joined by another road from the left hand side first and within a short distance by another from the right first and then from the left"
+      },
+      {
+        "name": "Sharp junctions",
+        "image": "/images/road-signs/warning-signs/layout-signs/111.jpg",
+        "type": "layout-signs",
+        "description": "To warn that the road you are travelling on will soon split in two and you will have to make a choice which road to take."
+      },
+      {
+        "name": "Sharp junctions",
+        "image": "/images/road-signs/warning-signs/layout-signs/112.jpg",
+        "type": "layout-signs",
+        "description": "To warn that traffic could merge from the left"
+      },
+      {
+        "name": "Sharp junctions",
+        "image": "/images/road-signs/warning-signs/layout-signs/113.jpg",
+        "type": "layout-signs",
+        "description": "To warn that the road you are travelling on will soon split in two and you will have to make a choice which road to take."
+      },
+      {
+        "name": "Sharp junctions",
+        "image": "/images/road-signs/warning-signs/layout-signs/114.jpg",
+        "type": "layout-signs",
+        "description": "To warn that traffic could merge from the right"
+      },
+      {
+        "name": "Y-junction",
+        "image": "/images/road-signs/warning-signs/layout-signs/115.jpg",
+        "type": "layout-signs",
+        "description": "To warn that the road forks into two roads."
+      },
+      {
+        "name": "End of dual roadway",
+        "image": "/images/road-signs/warning-signs/layout-signs/116.jpg",
+        "type": "layout-signs",
+        "description": "To warn that the one-way roadway is ending soon and that approaching vehicles will use the same carriageway as you."
+      },
+      {
+        "name": "End of dual roadway",
+        "image": "/images/road-signs/warning-signs/layout-signs/117.jpg",
+        "type": "layout-signs",
+        "description": "To warn that the one-way roadway is ending soon and that approaching vehicles will use the same carriageway as you."
+      },
+      {
+        "name": "Beginning of dual roadway",
+        "image": "/images/road-signs/warning-signs/layout-signs/118.jpg",
+        "type": "layout-signs",
+        "description": "To warn that the single carriageway is ending and that you will soon enter a one-way road."
+      },
+      {
+        "name": "Beginning of dual roadway",
+        "image": "/images/road-signs/warning-signs/layout-signs/119.jpg",
+        "type": "layout-signs",
+        "description": "To warn that the single carriageway is ending and that you will soon enter a one-way road."
+      },
+      {
+        "name": "Traffic signals ahead",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/301.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there are isolated and particularly new traffic lights or traffic lights near an isolated traffic light at a pedestrian crossing ahead."
+      },
+      {
+        "name": "Traffic control “STOP” ahead",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/302.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a stop sign ahead, which cannot be seen in time."
+      },
+      {
+        "name": "Traffic control “YIELD” ahead",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/303.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a yield sign ahead, which you may not be able to see in time without a warning."
+      },
+      {
+        "name": "Pedestrian crossing",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/306.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a demarcated pedestrian crossing ahead."
+      },
+      {
+        "name": "Pedestrians",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/307.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that pedestrians may be crossing the road for the next 2 km."
+      },
+      {
+        "name": "Children",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/308.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that children might be crossing the road."
+      },
+      {
+        "name": "Pedal cyclists",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/309.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn the driver that there can be cyclists ahead."
+      },
+      {
+        "name": "Domestic animals",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/310.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there may be free ranging animals such as cattle, horses or sheep on the road."
+      },
+      {
+        "name": "Domestic animals",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/311.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there may be free ranging animals such as cattle, horses or sheep on the road."
+      },
+      {
+        "name": "Domestic animals",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/312.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there may be free ranging animals such as cattle, horses or sheep on the road."
+      },
+      {
+        "name": "Wild animals",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/313.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there may be wild animals on the road or crossing the road."
+      },
+      {
+        "name": "Gate",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/314.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a gate or boom across the road ahead."
+      },
+      {
+        "name": "Motor gate",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/315.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a motor gate to the left"
+      },
+      {
+        "name": "Motor gate",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/316.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a motor gate to the right"
+      },
+      {
+        "name": "Motor gate",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/317.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a motor gate in the middle of the road"
+      },
+      {
+        "name": "Railway crossing",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/318.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a railway crossing ahead."
+      },
+      {
+        "name": "Tunnel",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/319.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a tunnel ahead."
+      },
+      {
+        "name": "Height restricted",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/320.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a structure ahead of which the height is indicated on the road traffic sign."
+      },
+      {
+        "name": "Length restricted",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/321.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that curves in the road or other structures on the side of the road make it impossible for vehicles longer than the length indicated on this road sign."
+      },
+      {
+        "name": "Steep ascend and steep descend",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/322.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that the road will climb or descend steeply."
+      },
+      {
+        "name": "Steep ascend and steep descend",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/323.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that the road will climb or descend steeply."
+      },
+      {
+        "name": "Slow-moving heavy vehicles",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/324.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that heavy vehicles travel slowly down a descent."
+      },
+      {
+        "name": "Gravel road begins",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/325.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that the tarred road you are driving on will end soon and will have a gravel surface ahead."
+      },
+      {
+        "name": "Narrow bridge",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/326.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that the road narrows when crossing a bridge."
+      },
+      {
+        "name": "One vehicle width structure",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/327.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that the carriageway ahead narrows to a width that will make it possible for only one vehicle at a time to pass."
+      },
+      {
+        "name": "Road narrows from both sides",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/328.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that the road ahead narrows from both sides."
+      },
+      {
+        "name": "Road narrows from one side only",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/329.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that the road ahead narrows from the left"
+      },
+      {
+        "name": "Road narrows from one side only",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/330.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that the road ahead narrows from the right"
+      },
+      {
+        "name": "Uneven roadway",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/331.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a depression or a ridge in the road, or that the road in general is uneven and potholed."
+      },
+      {
+        "name": "Speed humps",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/332.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there are speed humps on the carriageway ahead which require a reduction of speed."
+      },
+      {
+        "name": "Slippery road",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/333.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn about unusually slippery conditions on the road ahead."
+      },
+      {
+        "name": "Falling rocks",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/334.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that rocks could fall on the carriageway from the right"
+      },
+      {
+        "name": "Falling rocks",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/335.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that rocks could fall on the carriageway from the left"
+      },
+      {
+        "name": "General warning",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/339.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is danger of some kind ahead."
+      },
+      {
+        "name": "Emergency flashing light",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/346.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn of a hazard ahead."
+      },
+      {
+        "name": "Jetty edge or river bank",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/348.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that the road leads to a jetty edge or riverbank."
+      },
+      {
+        "name": "Crosswinds",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/349.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn about strong crosswinds that could force your vehicles off course."
+      },
+      {
+        "name": "Drift",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/350.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn the driver that there is a drift ahead and that the road could be flooded."
+      },
+      {
+        "name": "Low-flying aircraft",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/351.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn of the possibility of low-flying aircraft and sudden aircraft noise near the road."
+      },
+      {
+        "name": "Agricultural vehicles",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/352.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that tractors or other slow-moving agricultural vehicles could cross or enter the road ahead."
+      },
+      {
+        "name": "Reduced visibility",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/354.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a possibility reduced visibility on the road ahead that might cause a hazard to road users."
+      },
+      {
+        "name": "Congestion",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/355.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a possibility of congested traffic."
+      },
+      {
+        "name": "Horses and riders",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/356.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a possibility of horses and riders being present on the road ahead."
+      },
+      {
+        "name": "Elephant",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/357.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a possibility of elephants being present on the road ahead."
+      },
+      {
+        "name": "Warthog",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/358.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a possibility of warthogs being present on the road ahead."
+      },
+      {
+        "name": "Hippo",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/359.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a possibility of hippos being present on the road ahead."
+      },
+      {
+        "name": "Width",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/360.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is overall width of vehicles restriction as indicated in metres on the road ahead."
+      },
+      {
+        "name": "Electrical shock",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/361.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a possibility of electrical shock from the overhead electrical power cables on the road ahead."
+      },
+      {
+        "name": "Tram sign",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/362.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that there is a tram ahead."
+      },
+      {
+        "name": "Gravel road ends",
+        "image": "/images/road-signs/warning-signs/symbolic-signs/363.jpg",
+        "type": "symbolic-signs",
+        "description": "To warn that the gravel road you are travelling on will end ahead."
+      }
+  ]
+

@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Arrestor bed ahead",
+    "image": "/images/road-signs/traverse-markings/001.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate where especially drivers of heavy vehicles who become aware that a vehicle’s brakes became defective, can drive such a vehicle of the road and it will be stopped by the gravel section ahead."
+  },
+  {
+    "name": "Arrestor bed ahead",
+    "image": "/images/road-signs/traverse-markings/002.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate where especially drivers of heavy vehicles who become aware that a vehicle’s brakes became defective, can drive such a vehicle of the road and it will be stopped by the gravel section ahead."
+  },
+  {
+    "name": "No overtaking or no crossing line ahead",
+    "image": "/images/road-signs/traverse-markings/003.jpg",
+    "type": "Traverse Markings",
+    "description": "To warn you that there is a no-overtaking line or no-crossing line ahead."
+  },
+  {
+    "name": "Mandatory direction arrow ahead",
+    "image": "/images/road-signs/traverse-markings/004.jpg",
+    "type": "Traverse Markings",
+    "description": "To warn in time that you will be obliged to follow a certain direction at the first intersection."
+  },
+  {
+    "name": "Lane reduction arrows",
+    "image": "/images/road-signs/traverse-markings/005.jpg",
+    "type": "Traverse Markings",
+    "description": "To warn that the traffic lanes are reduced from the left or right or from both sides."
+  },
+  {
+    "name": "Yield control ahead",
+    "image": "/images/road-signs/traverse-markings/006.jpg",
+    "type": "Traverse Markings",
+    "description": "To warn that there is a yield sign ahead."
+  },
+  {
+    "name": "Reversible lane lines",
+    "image": "/images/road-signs/traverse-markings/007.jpg",
+    "type": "Traverse Markings",
+    "description": "To warn drivers that the lane indicated by this marking can be used for traffic from the opposite direction at various times of day or night."
+  },
+  {
+    "name": "Dividing lines",
+    "image": "/images/road-signs/traverse-markings/008.jpg",
+    "type": "Traverse Markings",
+    "description": "To warn that vehicles on the other side of the road marking are moving in the opposite direction."
+  },
+  {
+    "name": "Dividing lines",
+    "image": "/images/road-signs/traverse-markings/009.jpg",
+    "type": "Traverse Markings",
+    "description": "To warn that vehicles on the other side of the road marking are moving in the opposite direction."
+  },
+  {
+    "name": "Continuity lines",
+    "image": "/images/road-signs/traverse-markings/010.jpg",
+    "type": "Traverse Markings",
+    "description": "To warn you that there is a break (intersection or off ramp) in the continuing part of the roadway and to inform you that if you are in a lane that has a line on one side, that lane will soon turn off from the road which you are now travelling."
+  },
+  {
+    "name": "Continuity lines",
+    "image": "/images/road-signs/traverse-markings/011.jpg",
+    "type": "Traverse Markings",
+    "description": "To warn you that there is a break (intersection or off ramp) in the continuing part of the roadway and to inform you that if you are in a lane that has a line on one side, that lane will soon turn off from the road which you are now travelling."
+  },
+  {
+    "name": "Continuity lines",
+    "image": "/images/road-signs/traverse-markings/012.jpg",
+    "type": "Traverse Markings",
+    "description": "To warn you that there is a break (intersection or off ramp) in the continuing part of the roadway and to inform you that if you are in a lane that has a line on one side, that lane will soon turn off from the road which you are now travelling."
+  },
+  {
+    "name": "End of exclusive use lane arrows marking",
+    "image": "/images/road-signs/traverse-markings/013.jpg",
+    "type": "Traverse Markings",
+    "description": "Indicates that the exclusive use of the lane is about to come to an end."
+  },
+  {
+    "name": "End of exclusive use lane arrows marking",
+    "image": "/images/road-signs/traverse-markings/014.jpg",
+    "type": "Traverse Markings",
+    "description": "Indicates that the exclusive use of the lane is about to come to an end."
+  },
+  {
+    "name": "Speed hump",
+    "image": "/images/road-signs/traverse-markings/015.jpg",
+    "type": "Traverse Markings",
+    "description": "To warn that there is a speed hump in the road."
+  },
+  {
+    "name": "Railway crossing ahead",
+    "image": "/images/road-signs/traverse-markings/016.jpg",
+    "type": "Traverse Markings",
+    "description": "To warn that there is a railway crossing ahead."
+  },
+  {
+    "name": "Block pedestrian crossing",
+    "image": "/images/road-signs/traverse-markings/017.jpg",
+    "type": "Traverse Markings",
+    "description": "To inform you that priority must be given to pedestrians crossing or wanting to cross the road at these places."
+  },
+  {
+    "name": "Pedestrian crossing lines",
+    "image": "/images/road-signs/traverse-markings/018.jpg",
+    "type": "Traverse Markings",
+    "description": "To inform you that priority must be given to pedestrians crossing or wanting to cross the road at these places."
+  },
+  {
+    "name": "Yield line",
+    "image": "/images/road-signs/traverse-markings/019.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate that you must give priority to all who cross in front of you at this point."
+  },
+  {
+    "name": "Stop line",
+    "image": "/images/road-signs/traverse-markings/020.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate where you must bring your vehicle to a standstill."
+  },
+  {
+    "name": "Bus lane marking",
+    "image": "/images/road-signs/traverse-markings/021.jpg",
+    "type": "Traverse Markings",
+    "description": "To identify that part of the carriageway which is reserved for buses only during the periods indicated on the sign."
+  },
+  {
+    "name": "Mandatory direction arrows",
+    "image": "/images/road-signs/traverse-markings/022.jpg",
+    "type": "Traverse Markings",
+    "description": "To show that you may only proceed in the direction indicated by the arrow in your lane."
+  },
+  {
+    "name": "Exclusive parking bay",
+    "image": "/images/road-signs/traverse-markings/023.jpg",
+    "type": "Traverse Markings",
+    "description": "To identify parking only for road users identified by the symbol."
+  },
+  {
+    "name": "Parking bay",
+    "image": "/images/road-signs/traverse-markings/024.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate where you may park."
+  },
+  {
+    "name": "Painted island",
+    "image": "/images/road-signs/traverse-markings/025.jpg",
+    "type": "Traverse Markings",
+    "description": "To prohibit drivers from driving in this area."
+  },
+  {
+    "name": "Painted island",
+    "image": "/images/road-signs/traverse-markings/026.jpg",
+    "type": "Traverse Markings",
+    "description": "To prohibit drivers from driving in this area."
+  },
+  {
+    "name": "Painted island",
+    "image": "/images/road-signs/traverse-markings/027.jpg",
+    "type": "Traverse Markings",
+    "description": "To prohibit drivers from driving in this area."
+  },
+  {
+    "name": "Right-edge line marking",
+    "image": "/images/road-signs/traverse-markings/028.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate where the right-edge of the road is."
+  },
+  {
+    "name": "Left-edge line marking",
+    "image": "/images/road-signs/traverse-markings/029.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate where the left-edge of the road is."
+  },
+  {
+    "name": "Channelizing line",
+    "image": "/images/road-signs/traverse-markings/030.jpg",
+    "type": "Traverse Markings",
+    "description": "To prohibit you from crossing the line."
+  },
+  {
+    "name": "No crossing Lines",
+    "image": "/images/road-signs/traverse-markings/031.jpg",
+    "type": "Traverse Markings",
+    "description": "To inform you that you may not cross this line."
+  },
+  {
+    "name": "Exclusive use lane symbol marking",
+    "image": "/images/road-signs/traverse-markings/032.jpg",
+    "type": "Traverse Markings",
+    "description": "That that lane is for exclusive use of allowed vehicles as indicated by the symbol."
+  },
+  {
+    "name": "Exclusive use lane symbol marking",
+    "image": "/images/road-signs/traverse-markings/033.jpg",
+    "type": "Traverse Markings",
+    "description": "That that lane is for exclusive use of allowed vehicles as indicated by the symbol."
+  },
+  {
+    "name": "Exclusive use lane symbol marking",
+    "image": "/images/road-signs/traverse-markings/034.jpg",
+    "type": "Traverse Markings",
+    "description": "That that lane is for exclusive use of allowed vehicles as indicated by the symbol."
+  },
+  {
+    "name": "Exclusive use lane symbol marking",
+    "image": "/images/road-signs/traverse-markings/035.jpg",
+    "type": "Traverse Markings",
+    "description": "That that lane is for exclusive use of allowed vehicles as indicated by the symbol."
+  },
+  {
+    "name": "Exclusive use lane symbol marking",
+    "image": "/images/road-signs/traverse-markings/036.jpg",
+    "type": "Traverse Markings",
+    "description": "That that lane is for exclusive use of allowed vehicles as indicated by the symbol."
+  },
+  {
+    "name": "Disabled persons parking marking",
+    "image": "/images/road-signs/traverse-markings/037.jpg",
+    "type": "Traverse Markings",
+    "description": "Parking is reserved for disabled persons only."
+  },
+  {
+    "name": "Traffic circle mandatory directional arrows",
+    "image": "/images/road-signs/traverse-markings/038.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate the direction you must follow around the circle or mini-circle."
+  },
+  {
+    "name": "Bicycle lane lines",
+    "image": "/images/road-signs/traverse-markings/039.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate the limits within which only cyclists may travel."
+  },
+  {
+    "name": "No parking line",
+    "image": "/images/road-signs/traverse-markings/040.jpg",
+    "type": "Traverse Markings",
+    "description": "To prevent drivers from stopping where stationary vehicles may disrupt the traffic, or where the environment obstructs the view and such vehicles obstruct the view more."
+  },
+  {
+    "name": "No stopping lines",
+    "image": "/images/road-signs/traverse-markings/041.jpg",
+    "type": "Traverse Markings",
+    "description": "To prohibit drivers from stopping where stationary vehicles may disrupt the traffic or where the environment obstructs the view and such vehicles may obstruct the view more."
+  },
+  {
+    "name": "No stopping lines",
+    "image": "/images/road-signs/traverse-markings/042.jpg",
+    "type": "Traverse Markings",
+    "description": "To prohibit drivers from stopping where stationary vehicles may disrupt the traffic or where the environment obstructs the view and such vehicles may obstruct the view more."
+  },
+  {
+    "name": "Pedestrian crossing ahead lines",
+    "image": "/images/road-signs/traverse-markings/043.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate an area where you may not stop except for pedestrians crossing or wanting to cross the road or for a vehicle that has already stopped."
+  },
+  {
+    "name": "Box junction",
+    "image": "/images/road-signs/traverse-markings/044.jpg",
+    "type": "Traverse Markings",
+    "description": "To prohibit drivers from stopping in the demarcated area because this could prevent other traffic from turning or driving further forward."
+  },
+  {
+    "name": "No overtaking lines",
+    "image": "/images/road-signs/traverse-markings/045.jpg",
+    "type": "Traverse Markings",
+    "description": "To inform that it is prohibited to drive with any part of your vehicle on the right-hand side of this line."
+  },
+  {
+    "name": "Kerbing marking",
+    "image": "/images/road-signs/traverse-markings/046.jpg",
+    "type": "Traverse Markings",
+    "description": "Indicating the edge of the road."
+  },
+  {
+    "name": "Word markings",
+    "image": "/images/road-signs/traverse-markings/047.jpg",
+    "type": "Traverse Markings",
+    "description": "To supply you with additional information"
+  },
+  {
+    "name": "Word markings",
+    "image": "/images/road-signs/traverse-markings/048.jpg",
+    "type": "Traverse Markings",
+    "description": "To supply you with additional information"
+  },
+  {
+    "name": "Road marking symbols",
+    "image": "/images/road-signs/traverse-markings/049.jpg",
+    "type": "Traverse Markings",
+    "description": "As additional markings with standard signs and markings to inform you that an area is reserved for a specific group or that a road is leading to a specific destination."
+  },
+  {
+    "name": "Road marking symbols",
+    "image": "/images/road-signs/traverse-markings/050.jpg",
+    "type": "Traverse Markings",
+    "description": "As additional markings with standard signs and markings to inform you that an area is reserved for a specific group or that a road is leading to a specific destination."
+  },
+  {
+    "name": "Road marking symbols",
+    "image": "/images/road-signs/traverse-markings/051.jpg",
+    "type": "Traverse Markings",
+    "description": "As additional markings with standard signs and markings to inform you that an area is reserved for a specific group or that a road is leading to a specific destination."
+  },
+  {
+    "name": "Road marking symbols",
+    "image": "/images/road-signs/traverse-markings/052.jpg",
+    "type": "Traverse Markings",
+    "description": "As additional markings with standard signs and markings to inform you that an area is reserved for a specific group or that a road is leading to a specific destination."
+  },
+  {
+    "name": "Bicycle crossing lines",
+    "image": "/images/road-signs/traverse-markings/053.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate a section of the road to be used by cyclists to cross the road."
+  },
+  {
+    "name": "Information arrows",
+    "image": "/images/road-signs/traverse-markings/054.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate the direction you may drive in a lane or on a road."
+  },
+  {
+    "name": "Information arrows",
+    "image": "/images/road-signs/traverse-markings/055.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate the direction you may drive in a lane or on a road."
+  },
+  {
+    "name": "Bifurcation arrows",
+    "image": "/images/road-signs/traverse-markings/056.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate an increase in the number of lanes ahead."
+  },
+  {
+    "name": "Bifurcation arrows",
+    "image": "/images/road-signs/traverse-markings/057.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate an increase in the number of lanes ahead."
+  },
+  {
+    "name": "Bifurcation arrows",
+    "image": "/images/road-signs/traverse-markings/058.jpg",
+    "type": "Traverse Markings",
+    "description": "To indicate an increase in the number of lanes ahead."
+  },
+  {
+    "name": "Guide lines",
+    "image": "/images/road-signs/traverse-markings/059.jpg",
+    "type": "Traverse Markings",
+    "description": "To guide you to follow the correct route in the intersection."
+  },
+  {
+    "name": "Lane lines",
+    "image": "/images/road-signs/traverse-markings/060.jpg",
+    "type": "Traverse Markings",
+    "description": "To show that you are using a part of the road with traffic in the same direction."
+  },
+  {
+    "name": "Lane lines",
+    "image": "/images/road-signs/traverse-markings/061.jpg",
+    "type": "Traverse Markings",
+    "description": "To show that you are using a part of the road with traffic in the same direction."
+  },
+  {
+    "name": "Lane lines",
+    "image": "/images/road-signs/traverse-markings/062.jpg",
+    "type": "Traverse Markings",
+    "description": "To show that you are using a part of the road with traffic in the same direction."
+  }
+]
