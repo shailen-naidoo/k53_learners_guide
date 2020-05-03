@@ -4,5 +4,6 @@
     { "language": "vue", "autoFix": true }
   ],
   "vetur.validation.template": false,
-  "netlify.site_id": "k53-learners-guide.netlify.com"
+  "netlify.site_id": "k53-learners-guide.netlify.com",
+  "netlify.build_hook": "https://api.netlify.com/build_hooks/5eaecab97feab72e94354b74"
 }
